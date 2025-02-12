@@ -23,6 +23,11 @@ export default defineConfig({
     },
   },
   css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@use '@/assets/scss/mixins';`,
+      },
+    },
     postcss: {
       plugins: [tailwindcss(), autoprefixer()],
     },
