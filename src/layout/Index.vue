@@ -25,14 +25,23 @@ defineComponent({
 
 <style lang="scss" scoped>
 .layout-wrapper {
-  padding: 0 var(--padding-40) var(--padding-40);
+  height: 100%;
+  // padding: 0 var(--padding-40) var(--padding-40);
 
   .layout-header {
-    margin-bottom: 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    // margin-bottom: 8px;
+    padding: 0 var(--padding-40);
   }
 
-  // .layout-main {
-  // }
+  .layout-main {
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+  }
 
   .layout-footer {
     margin: 32px calc(var(--padding-40) * -1) 0;

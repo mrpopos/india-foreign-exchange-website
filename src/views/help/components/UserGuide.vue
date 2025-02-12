@@ -52,11 +52,11 @@ function handleGuideItem(item: ICategoryItem) {
   .list {
     display: grid;
     gap: 16px;
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    // grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) and (max-width: 1023px) {
   .user-guide {
     .list {
       grid-template-columns: repeat(4, 1fr);

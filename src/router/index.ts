@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-// import HomeView from '../views/HomeView.vue'
 import Layout from '../layout/Index.vue'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
@@ -7,7 +6,19 @@ import 'nprogress/nprogress.css'
 const routes = [
   {
     path: '/',
-    redirect: '/help/center',
+    redirect: '/home/index',
+  },
+  {
+    path: '/home',
+    name: 'Home',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        name: 'Index',
+        component: () => import('../views/home/Index.vue'),
+      },
+    ],
   },
   {
     path: '/help',

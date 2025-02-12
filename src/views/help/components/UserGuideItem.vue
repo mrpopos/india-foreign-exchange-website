@@ -38,6 +38,7 @@ defineProps<{ data: IPropsData }>()
 
 <style lang="scss" scoped>
 .user-guide-item {
+  min-width: 10rem;
   height: 168px;
   @include mixins.flex-container(column, nowrap, space-between, flex-start);
   padding: var(--padding-16);
@@ -45,7 +46,6 @@ defineProps<{ data: IPropsData }>()
   cursor: pointer;
   background-color: var(--c-white-2);
   border-radius: var(--padding-8);
-  // color: red;
 
   .svg {
     width: 24px;
