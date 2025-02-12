@@ -91,7 +91,7 @@ import { defineComponent, ref, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { specificCateData, articleData } from '@/data/index.ts'
 import type { ISpecificCateDataItem, IPlaylistsItem, IArticleDataRecord } from '@/data/types.ts'
-import { useAppStore } from '@/store/modules/app.ts'
+import { useAppStore } from '@/stores/modules/app.ts'
 import ArticlePage from './components/Article.vue'
 import { useWindowSize } from '@/hooks/useWindowSize.ts'
 

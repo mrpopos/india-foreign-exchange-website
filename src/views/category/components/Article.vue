@@ -27,7 +27,7 @@
 <script setup lang="ts">
 import { defineComponent, onMounted, ref, watch } from 'vue'
 import type { IArticleDataRecord } from '../../../data/types'
-import { useAppStore } from '@/store/modules/app'
+import { useAppStore } from '@/stores/modules/app'
 import { articleData } from '@/data/index.ts'
 
 defineComponent({
