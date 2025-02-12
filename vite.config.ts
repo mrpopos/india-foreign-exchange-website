@@ -29,7 +29,12 @@ export default defineConfig({
       },
     },
     postcss: {
-      plugins: [tailwindcss(), autoprefixer()],
+      plugins: [
+        // 然后应用TailwindCSS
+        tailwindcss(),
+        // 最后添加autoprefixer进行兼容性处理
+        autoprefixer(),
+      ],
     },
   },
 })

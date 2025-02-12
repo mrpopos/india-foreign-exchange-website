@@ -5,8 +5,12 @@ import LogoIcon from '../../assets/svg/logo.svg'
 <template>
   <div class="header-wrapper">
     <div class="header-container">
-      <div class="logo">
+      <div class="logo flex justify-start items-center gap-4">
         <img :src="LogoIcon" alt="logo" />
+        <span
+          class="text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-blue-800 via-20% to-green-700"
+          >ForeignExchange</span
+        >
       </div>
       <div class="title">
         <span>Help Center</span>
@@ -18,7 +22,7 @@ import LogoIcon from '../../assets/svg/logo.svg'
 <style lang="scss" scoped>
 .header-wrapper {
   width: 100%;
-  max-width: var(--w-max-content);
+  // max-width: var(--w-max-content);
   height: 80px;
   margin: auto;
 
