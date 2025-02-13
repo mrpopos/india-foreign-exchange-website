@@ -4,7 +4,15 @@ export default {
   darkMode: 'media', // or 'media' or 'class' 设置暗黑模式
   theme: {
     //自定义或扩展Tailwind CSS的主题
-    extend: {},
+    extend: {
+      colors: {
+        'bg-color': '#131A21',
+        'btn-color': '#013FC2',
+      },
+      screens: {
+        melg: '1200px',
+      },
+    },
   },
   plugins: [],
 }

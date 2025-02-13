@@ -13,7 +13,8 @@ import { RouterView } from 'vue-router'
 <style lang="scss" scoped>
 .main-wrapper {
   width: 100%;
-  max-width: var(--w-max-content);
+  height: 100%;
+  // max-width: var(--w-max-content);
   margin: auto;
 
   .main-container {

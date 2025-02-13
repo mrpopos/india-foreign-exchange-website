@@ -33,6 +33,7 @@ defineComponent({
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10;
     // margin-bottom: 8px;
     padding: 0 var(--padding-40);
   }
@@ -40,7 +41,7 @@ defineComponent({
   .layout-main {
     width: 100%;
     height: 100%;
-    padding-top: 80px;
+    // padding-top: 80px;
   }
 
   .layout-footer {
