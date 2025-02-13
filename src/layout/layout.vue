@@ -51,9 +51,9 @@ defineComponent({
   }
 }
 
-@media screen and (max-width: 767px) {
-  .layout-wrapper {
-    padding: 0 var(--padding-24) var(--padding-24);
-  }
-}
+// @media screen and (max-width: 767px) {
+//   .layout-wrapper {
+//     padding: 0 var(--padding-24) var(--padding-24);
+//   }
+// }
 </style>

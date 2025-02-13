@@ -11,9 +11,13 @@ defineComponent({
 </script>
 
 <template>
-  <HowHelpYou />
-  <div class="user-guide-p" v-for="item in cateData" :key="item.id" :item="item">
-    <UserGuide :data="item" />
+  <div class="w-full py-20">
+    <div class="w-full melg:max-w-[1200px] px-6 mx-auto">
+      <HowHelpYou />
+      <div class="user-guide-p" v-for="item in cateData" :key="item.id" :item="item">
+        <UserGuide :data="item" />
+      </div>
+    </div>
   </div>
 </template>
 
