@@ -1,6 +1,89 @@
 <script setup lang="ts">
 import router from '@/router'
 import LogoIcon from '../../assets/svg/logo.svg'
+import Menu from '../menu/menu.vue'
+import { ref } from 'vue'
+
+const menuData = ref([
+  {
+    label: 'Quick Start',
+    to: '/quick-start',
+    icon: 'IconQuickStart',
+    index: '1',
+    children: null,
+  },
+  {
+    label: 'Company',
+    to: '/company',
+    icon: 'IconCompany',
+    index: '2',
+    children: [
+      {
+        label: 'About Us',
+        to: '/company/about-us',
+        index: '2-1',
+        children: null,
+      },
+      {
+        label: 'legal',
+        to: '/company/legal',
+        index: '2-2',
+        children: null,
+      },
+      {
+        label: 'Fund Safety',
+        to: '/company/fund-safety',
+        index: '2-3',
+        children: null,
+      },
+      {
+        label: 'Responsibility',
+        to: '/company/responsibility',
+        index: '2-4',
+        children: null,
+      },
+    ],
+  },
+  {
+    label: 'Learn',
+    to: '/learn',
+    icon: 'IconLearn',
+    index: '3',
+    children: [
+      {
+        label: 'Guides',
+        to: '/learn/guides',
+        index: '3-1',
+        children: null,
+      },
+      {
+        label: 'What is CFD?',
+        to: '/learn/what-is-cfd',
+        index: '3-2',
+        children: null,
+      },
+      {
+        label: 'Deposits & Withdrawals',
+        to: '/learn/deposits-withdrawals',
+        index: '3-3',
+        children: null,
+      },
+      {
+        label: 'Glossary',
+        to: '/learn/glossary',
+        index: '3-4',
+        children: null,
+      },
+    ],
+  },
+  {
+    label: 'Help',
+    to: '/help/center',
+    icon: 'IconHelp',
+    index: '4',
+    children: null,
+  },
+])
 
 function activeTab(path: string) {
   router.push(path)
@@ -17,12 +100,9 @@ function activeTab(path: string) {
           >ForeignExchange</span
         >
       </div>
-      <ul class="top-tab-menu">
-        <li class="menu-li">Quick start</li>
-        <li class="menu-li">Company</li>
-        <li class="menu-li">Learn</li>
-        <li class="menu-li" @click="activeTab('/help/center')">Help Center</li>
-      </ul>
+      <div class="menu">
+        <Menu :menu-data="menuData" direction="horizontal" submenu-direction="bottom" />
+      </div>
       <div class="title">
         <svg
           t="1739382053306"

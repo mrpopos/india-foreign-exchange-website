@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Header from './components/Header.vue'
-import Main from './components/Main.vue'
+import Header from './components/header.vue'
+import Main from './components/main.vue'
 // import Footer from './components/Footer.vue'
 import { defineComponent } from 'vue'
 
