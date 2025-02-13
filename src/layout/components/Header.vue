@@ -13,7 +13,7 @@ function activeTab(path: string) {
       <div class="logo" @click="activeTab('/')">
         <img :src="LogoIcon" alt="logo" />
         <span
-          class="text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-blue-800 via-20% to-green-700"
+          class="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-blue-800 via-20% to-green-700"
           >ForeignExchange</span
         >
       </div>

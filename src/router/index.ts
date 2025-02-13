@@ -1,22 +1,22 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Layout from '../layout/Index.vue'
+import Layout from '../layout/layout.vue'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 
 const routes = [
   {
-    path: '/',
-    redirect: '/home/index',
+    path: '',
+    redirect: '/home',
   },
   {
-    path: '/home',
-    name: 'Home',
+    path: '/',
+    name: 'Layout',
     component: Layout,
     children: [
       {
-        path: 'index',
-        name: 'Index',
-        component: () => import('../views/home/Index.vue'),
+        path: 'home',
+        name: 'Home',
+        component: () => import('../views/home/home.vue'),
       },
     ],
   },
@@ -28,22 +28,22 @@ const routes = [
       {
         path: 'center',
         name: 'Center',
-        component: () => import('../views/help/Index.vue'),
+        component: () => import('../views/help/help.vue'),
       },
       {
         path: 'category/:name',
         name: 'HelpCategory',
-        component: () => import('../views/category/Index.vue'),
+        component: () => import('../views/category/category.vue'),
         children: [
           {
             path: '',
             name: 'ArticlePage',
-            component: () => import('../views/category/components/Article.vue'),
+            component: () => import('../views/category/components/article.vue'),
           },
           {
             path: ':url_alias',
             name: 'ArticlePage',
-            component: () => import('../views/category/components/Article.vue'),
+            component: () => import('../views/category/components/article.vue'),
           },
         ],
       },

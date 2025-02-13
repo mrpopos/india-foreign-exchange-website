@@ -22,6 +22,16 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  build: {
+    // Rollup打包配置
+    rollupOptions: {
+      output: {
+        entryFileNames: 'js/[name]-[hash:8].js',
+        chunkFileNames: 'js/[name]-[hash:8].js',
+        assetFileNames: `[ext]/[name]-[hash:8][extname]`,
+      },
+    },
+  },
   css: {
     preprocessorOptions: {
       scss: {

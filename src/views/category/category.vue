@@ -92,7 +92,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { specificCateData, articleData } from '@/data/index.ts'
 import type { ISpecificCateDataItem, IPlaylistsItem, IArticleDataRecord } from '@/data/types.ts'
 import { useAppStore } from '@/stores/modules/app.ts'
-import ArticlePage from './components/Article.vue'
+import ArticlePage from './components/article.vue'
 import { useWindowSize } from '@/hooks/useWindowSize.ts'
 
 const windowSize = useWindowSize()
