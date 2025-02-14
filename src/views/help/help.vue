@@ -12,7 +12,7 @@ defineComponent({
 
 <template>
   <div class="w-full py-20">
-    <div class="w-full melg:max-w-[1200px] px-6 mx-auto">
+    <div class="w-full px-4 mx-auto melg:max-w-[1200px] melg:px-24">
       <HowHelpYou />
       <div class="user-guide-p" v-for="item in cateData" :key="item.id" :item="item">
         <UserGuide :data="item" />

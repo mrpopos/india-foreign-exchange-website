@@ -1,6 +1,6 @@
 <template>
   <div
-    class="menu-container"
+    class="menu-container bg-primary-color"
     :class="{
       'vertical-menu': direction === 'vertical',
       'horizontal-menu': direction === 'horizontal',
@@ -26,7 +26,7 @@
         <Transition name="fade">
           <ul
             v-if="item.children && subMenuVisibleIndex === index"
-            class="sub-menu"
+            class="sub-menu bg-primary-color"
             :class="submenuDirectionClass"
           >
             <li
@@ -131,7 +131,7 @@ const menuJump = (item: MenuItem) => {
 <style lang="scss" scoped>
 /* 主菜单样式 */
 .menu-container {
-  border-radius: 4px;
+  border-radius: 16px;
   box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.5);
 
   /* 水平菜单样式 */

@@ -1,6 +1,6 @@
 <template>
   <div class="w-full py-20">
-    <div class="w-full melg:max-w-[1200px] px-6 mx-auto">
+    <div class="w-full px-4 mx-auto melg:max-w-[1200px] melg:px-24">
       <div class="help-category">
         <!-- <div class="help-category">HelpCategory： {{ route.path }}</div> -->
         <div class="back" @click="goBack">
