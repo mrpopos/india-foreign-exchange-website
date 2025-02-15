@@ -1,84 +1,105 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="footer-wrapper">
+  <div class="footer-wrapper px-12 text-gray-400 font-semibold">
     <div class="footer-container">
-      <div class="language">
-        <div class="selector">
-          <div class="title">
-            <span>English</span>
+      <div class="w-full py-20">
+        <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
+          <div class="content grid grid-cols-1 gap-6 md:grid-cols-3">
+            <div class="cols-item flex flex-col justify-start items-start gap-4">
+              <div class="line-box no-children-menu flex flex-col justify-start items-start gap-1">
+                <div
+                  class="menu-item leading-7 underline underline-offset-2 hover:text-text-hover-colo-1 hover:cursor-pointer"
+                >
+                  Quick Start
+                </div>
+                <div
+                  class="menu-item leading-7 underline underline-offset-2 hover:text-text-hover-colo-1 hover:cursor-pointer"
+                >
+                  Help
+                </div>
+              </div>
+              <div class="line-box">
+                <h2 class="text-white text-xl font-semibold pb-4">Follow us on social media</h2>
+                <div
+                  class="social-media flex flex-row flex-wrap justify-start items-center gap-x-4"
+                >
+                  <div
+                    class="social-item leading-7 hover:cursor-pointer hover:text-text-hover-colo-1 facebook"
+                  >
+                    facebook
+                  </div>
+                  <div
+                    class="social-item leading-7 hover:cursor-pointer hover:text-text-hover-colo-1 twitter"
+                  >
+                    twitter
+                  </div>
+                  <div
+                    class="social-item leading-7 hover:cursor-pointer hover:text-text-hover-colo-1 instagram"
+                  >
+                    instagram
+                  </div>
+                  <div
+                    class="social-item leading-7 hover:cursor-pointer hover:text-text-hover-colo-1 telegram"
+                  >
+                    telegram
+                  </div>
+                  <div
+                    class="social-item leading-7 hover:cursor-pointer hover:text-text-hover-colo-1 youtube"
+                  >
+                    youtube
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cols-item">
+              <h2 class="title text-white text-xl font-semibold pb-4">Company</h2>
+              <div
+                class="menu-item leading-7 underline underline-offset-2 hover:text-text-hover-colo-1 hover:cursor-pointer"
+              >
+                About Us
+              </div>
+              <div
+                class="menu-item leading-7 underline underline-offset-2 hover:text-text-hover-colo-1 hover:cursor-pointer"
+              >
+                Legal
+              </div>
+              <div
+                class="menu-item leading-7 underline underline-offset-2 hover:text-text-hover-colo-1 hover:cursor-pointer"
+              >
+                Fund Safety
+              </div>
+              <div
+                class="menu-item leading-7 underline underline-offset-2 hover:text-text-hover-colo-1 hover:cursor-pointer"
+              >
+                Responsibility
+              </div>
+            </div>
+            <div class="cols-item">
+              <h2 class="title text-white text-xl font-semibold pb-4">Learn</h2>
+              <div
+                class="menu-item leading-7 underline underline-offset-2 hover:text-text-hover-colo-1 hover:cursor-pointer"
+              >
+                Guides
+              </div>
+              <div
+                class="menu-item leading-7 underline underline-offset-2 hover:text-text-hover-colo-1 hover:cursor-pointer"
+              >
+                Whats is CFD?
+              </div>
+              <div
+                class="menu-item leading-7 underline underline-offset-2 hover:text-text-hover-colo-1 hover:cursor-pointer"
+              >
+                Deposits & Withdrawal2
+              </div>
+              <div
+                class="menu-item leading-7 underline underline-offset-2 hover:text-text-hover-colo-1 hover:cursor-pointer"
+              >
+                Glossary
+              </div>
+            </div>
           </div>
-          <svg
-            t="1735899009993"
-            class="icon"
-            viewBox="0 0 1024 1024"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            p-id="7163"
-            width="18"
-            height="18"
-          >
-            <path
-              d="M930.666 323.731c0 14.331-5.512 27.677-15.529 37.657l-365.99 365.34c-1.306 1.336-2.417 2.379-3.607 3.234l-2.723 2.16c-10.703 10.653-23.296 15.887-36.627 15.887-13.571 0-26.26-5.351-35.729-15.053l-363.953-367.853c-9.813-9.951-15.222-23.238-15.222-37.401 0-13.849 5.25-26.931 14.769-36.832 9.549-9.841 22.867-15.506 36.518-15.506 13.484 0 26.259 5.365 35.969 15.134l328.283 331.846 336.964-336.081c9.666-9.607 22.296-14.915 35.619-14.915 13.958 0 27.055 5.673 36.876 15.937 9.271 9.768 14.381 22.734 14.381 36.444z"
-              fill="#e5ffff8f"
-              p-id="7164"
-            ></path>
-          </svg>
         </div>
-        <ul class="list">
-          <li class="item">English</li>
-          <li class="item">English</li>
-          <li class="item">English</li>
-          <li class="item">English</li>
-          <li class="item">English dfasdf</li>
-          <li class="item">English</li>
-          <li class="item">English</li>
-          <li class="item">English</li>
-          <li class="item">English</li>
-          <li class="item">English</li>
-          <li class="item">English</li>
-          <li class="item">English</li>
-          <li class="item">English</li>
-          <li class="item">English</li>
-        </ul>
-      </div>
-      <div class="theme">
-        <span class="icon dark">
-          <svg
-            t="1735902664423"
-            class="icon"
-            viewBox="0 0 1024 1024"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            p-id="13561"
-            width="24"
-            height="24"
-          >
-            <path
-              d="M676.64 72.373333a21.333333 21.333333 0 0 0-28.426667 24.96c7.733333 32 17.333333 77.973333 17.333334 108.64a407.36 407.36 0 0 1-585.173334 366.4 21.333333 21.333333 0 0 0-30.293333 23.04 469.333333 469.333333 0 0 0 485.333333 385.333334c243.84-11.84 439.413333-212.16 445.76-456.213334a469.333333 469.333333 0 0 0-304.533333-452.16zM512 906.666667a395.306667 395.306667 0 0 1-357.333333-226.4 2.186667 2.186667 0 0 1 2.453333-3.04 480 480 0 0 0 100.96 10.666666 482.506667 482.506667 0 0 0 481.92-481.92v-11.68a2.186667 2.186667 0 0 1 3.466667-1.813333 395.52 395.52 0 0 1 81.44 78.986667A390.826667 390.826667 0 0 1 906.666667 512a395.146667 395.146667 0 0 1-394.666667 394.666667zM202.293333 262.72a8.96 8.96 0 0 0 2.88 0.426667 75.946667 75.946667 0 0 1 75.733334 75.733333 7.626667 7.626667 0 0 0 0.48 2.88 11.52 11.52 0 0 0 22.186666 0 8.746667 8.746667 0 0 0 0.426667-2.88 76 76 0 0 1 75.733333-75.733333 8.746667 8.746667 0 0 0 2.88-0.426667 11.573333 11.573333 0 0 0 0-22.24 8.746667 8.746667 0 0 0-2.88-0.426667A75.946667 75.946667 0 0 1 304 164.32a8.746667 8.746667 0 0 0-0.426667-2.88 11.52 11.52 0 0 0-22.186666 0 7.626667 7.626667 0 0 0-0.48 2.88A75.893333 75.893333 0 0 1 205.386667 240a8.96 8.96 0 0 0-2.88 0.426667 11.573333 11.573333 0 0 0 0 22.24z"
-              p-id="13562"
-              fill="#a0a1a1"
-            ></path>
-          </svg>
-        </span>
-        <span class="icon light">
-          <svg
-            t="1735902577894"
-            class="icon"
-            viewBox="0 0 1024 1024"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            p-id="12477"
-            width="24"
-            height="24"
-          >
-            <path
-              d="M512 256q69.674667 0 128.512 34.346667t93.184 93.184 34.346667 128.512-34.346667 128.512-93.184 93.184-128.512 34.346667-128.512-34.346667-93.184-93.184-34.346667-128.512 34.346667-128.512 93.184-93.184 128.512-34.346667zM240.682667 740.650667q17.664 0 30.165333 12.672t12.501333 30.336q0 17.322667-12.672 29.994667l-60.330667 60.330667q-12.672 12.672-29.994667 12.672-17.664 0-30.165333-12.501333t-12.501333-30.165333q0-18.005333 12.330667-30.336l60.330667-60.330667q12.672-12.672 30.336-12.672zM512 853.333333q17.664 0 30.165333 12.501333t12.501333 30.165333l0 85.333333q0 17.664-12.501333 30.165333t-30.165333 12.501333-30.165333-12.501333-12.501333-30.165333l0-85.333333q0-17.664 12.501333-30.165333t30.165333-12.501333zM42.666667 469.333333l85.333333 0q17.664 0 30.165333 12.501333t12.501333 30.165333-12.501333 30.165333-30.165333 12.501333l-85.333333 0q-17.664 0-30.165333-12.501333t-12.501333-30.165333 12.501333-30.165333 30.165333-12.501333zM512 341.333333q-70.656 0-120.661333 50.005333t-50.005333 120.661333 50.005333 120.661333 120.661333 50.005333 120.661333-50.005333 50.005333-120.661333-50.005333-120.661333-120.661333-50.005333zM783.658667 740.650667q17.322667 0 29.994667 12.672l60.330667 60.330667q12.672 12.672 12.672 30.336 0 17.322667-12.672 29.994667t-29.994667 12.672q-17.664 0-30.336-12.672l-60.330667-60.330667q-12.330667-12.330667-12.330667-29.994667t12.501333-30.336 30.165333-12.672zM180.352 137.344q17.322667 0 29.994667 12.672l60.330667 60.330667q12.672 12.672 12.672 29.994667 0 17.664-12.501333 30.165333t-30.165333 12.501333q-18.005333 0-30.336-12.330667l-60.330667-60.330667q-12.330667-12.330667-12.330667-30.336 0-17.664 12.501333-30.165333t30.165333-12.501333zM512 0q17.664 0 30.165333 12.501333t12.501333 30.165333l0 85.333333q0 17.664-12.501333 30.165333t-30.165333 12.501333-30.165333-12.501333-12.501333-30.165333l0-85.333333q0-17.664 12.501333-30.165333t30.165333-12.501333zM896 469.333333l85.333333 0q17.664 0 30.165333 12.501333t12.501333 30.165333-12.501333 30.165333-30.165333 12.501333l-85.333333 0q-17.664 0-30.165333-12.501333t-12.501333-30.165333 12.501333-30.165333 30.165333-12.501333zM843.989333 137.344q17.322667 0 29.994667 12.672t12.672 29.994667q0 17.664-12.672 30.336l-60.330667 60.330667q-12.330667 12.330667-29.994667 12.330667-18.346667 0-30.506667-12.16t-12.16-30.506667q0-17.664 12.330667-29.994667l60.330667-60.330667q12.672-12.672 30.336-12.672z"
-              fill="#a0a1a1"
-              p-id="12478"
-            ></path>
-          </svg>
-        </span>
       </div>
     </div>
   </div>
@@ -86,99 +107,9 @@
 
 <style lang="scss" scoped>
 .footer-wrapper {
-  width: 100%;
-  height: 80px;
-  margin: auto;
-  max-width: var(--w-max-content);
-
   .footer-container {
     height: 100%;
     @include mixins.flex-container();
-
-    .language {
-      position: relative;
-
-      .selector {
-        cursor: pointer;
-        @include mixins.flex-container();
-
-        .title {
-          margin-right: 12px;
-          color: var(--c-white-1);
-          font-size: var(--body-fz);
-          line-height: var(--tiny-text-lh);
-          transition: all 0.3s;
-        }
-
-        svg {
-          transform: rotateX(180deg);
-
-          path {
-            transition: all 0.3s;
-          }
-        }
-
-        &:hover {
-          .title {
-            color: var(--c-hover);
-          }
-
-          svg path {
-            fill: var(--c-hover);
-          }
-        }
-      }
-
-      .list {
-        min-width: 12.625rem;
-        padding: 8px 16px;
-        border-radius: var(--radius-8);
-        position: absolute;
-        bottom: calc(100% + 0.5rem);
-        left: 0;
-        z-index: -1;
-        background-color: #121212;
-        border: 0.0625rem solid #292929;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(5.25rem, 1fr));
-
-        .item {
-          min-height: 40px;
-          text-align: center;
-          cursor: pointer;
-          padding: 0 var(--padding-8);
-          font-size: var(--tiny-text-fz);
-          line-height: var(--tiny-text-lh);
-          border-radius: var(--radius-4);
-          @include mixins.flex-container(row, nowrap, center, center, 0);
-
-          &:hover {
-            background-color: #292929;
-          }
-        }
-      }
-    }
-
-    .theme {
-      .icon {
-        cursor: pointer;
-        color: transparent;
-
-        &.dark {
-          margin-right: 24px;
-        }
-
-        svg {
-          path {
-            transition: all 0.3s;
-          }
-
-          &:hover path {
-            fill: var(--c-hover);
-          }
-        }
-      }
-    }
   }
 }
 </style>

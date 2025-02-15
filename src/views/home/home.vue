@@ -7,6 +7,7 @@ import homeBg2 from '@/assets/images/homebg2.webp'
 import homeBg3 from '@/assets/images/homebg3.webp'
 import 'vue3-carousel/carousel.css'
 import { Carousel, Slide } from 'vue3-carousel'
+import Footer from '@/layout/components/footer.vue'
 
 const scrollContainer = ref<HTMLElement>()
 const { scrollTop } = useDomScroll(scrollContainer)
@@ -417,6 +418,10 @@ const peopleSays = [
             </Carousel>
           </div>
         </div>
+      </div>
+      <!-- footer -->
+      <div class="layout-footer">
+        <Footer />
       </div>
     </div>
   </div>
