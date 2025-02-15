@@ -16,12 +16,107 @@ watchEffect(() => {
 })
 
 const carouselConfig = {
+  dir: 'ltr',
   autoplay: 5000,
-  breakpointMode: 'carousel',
+  breakpointMode: 'viewport',
   itemsToShow: 1,
-  wrapAround: true,
-  transition: 300,
+  wrapAround: false,
+  transition: 500,
 }
+
+const peopleSays = [
+  {
+    datetime: '2025-02-14 21:06:22',
+    content: 'One of the best broker Fast withdrawal fast deposit And fast support chat Thank you',
+    name: 'Md Ali A.',
+    uid: '92871649',
+  },
+  {
+    datetime: '2025-02-06 16:02:41',
+    content: 'very good broker, good support and fast deposit and withdrawal',
+    name: 'Grace Bis. M.',
+    uid: '86806202',
+  },
+  {
+    datetime: '2025-02-06 04:10:04',
+    content:
+      'Pocket option is a very good broker, and good support and fast withdraw, thank you pocket option, I recommend everyone to trade with pocket option',
+    name: 'Buang Joh. L.',
+    uid: '76984067',
+  },
+  {
+    datetime: '2025-02-06 01:05:06',
+    content:
+      "This is the best binary broker I've ever used. Many features, very safe and incredibly easy to use. Just to focus on trading and that's it.",
+    name: 'Luis Enri. M.',
+    uid: '21797358',
+  },
+  {
+    datetime: '2025-02-03 14:31:00',
+    content: 'Pocket option is amazing platform I like it',
+    name: 'Ndilimeke. S.',
+    uid: '87145019',
+  },
+  {
+    datetime: '2025-02-02 10:53:20',
+    content:
+      'The platform is good and suitable for any trader be it a beginner or a pro . The withdrawal are done just as you won without commission ✅ great tradi',
+    name: 'Collins K. K.',
+    uid: '78591272',
+  },
+  {
+    datetime: '2025-01-29 02:14:11',
+    content:
+      'It is a nice platform. I like quick trades of lower time frames. This platform has given me this opportunity.',
+    name: 'Shabana D. K.',
+    uid: '85895057',
+  },
+  {
+    datetime: '2025-01-26 18:15:29',
+    content: 'This is one of the genuine app which pays after withdrawal request.',
+    name: 'Sai Radh. G.',
+    uid: '58113304',
+  },
+  {
+    datetime: '2025-01-16 10:51:24',
+    content:
+      "My friend recommended these platform, I'd tried and practice with him a week and i fell love in Pocket Option very good trading platform and very convinient for deposite and withdrawal.",
+    name: 'Nilesh As. S.',
+    uid: '90367596',
+  },
+  {
+    datetime: '2025-01-16 07:02:49',
+    content:
+      'best broker for binary trading ,you can earn whenever you want and fast withdrawal . i love pocket option',
+    name: 'Md Redwan A.',
+    uid: '85873415',
+  },
+  {
+    datetime: '2025-01-03 18:56:19',
+    content: 'The best broker ever batter market then every binary platform and even qoutex',
+    name: 'Saqib R.',
+    uid: '72274858',
+  },
+  {
+    datetime: '2025-01-03 08:44:14',
+    content:
+      'A convenient platform with its services, speed in depositing, copying services, trading bot, social copying, etc., which makes it distinct from others.',
+    name: 'Hesham A.',
+    uid: '74908520',
+  },
+  {
+    datetime: '2025-01-03 01:56:46',
+    content: "It's a best trading platform and accuracy is wonderful",
+    name: 'Irshad K.',
+    uid: '90008170',
+  },
+  {
+    datetime: '2025-01-02 07:17:59',
+    content: 'Best, beautiful and authentic platform for real trading!',
+    name: 'Amit K.',
+    uid: '76508845',
+  },
+]
 </script>
 
 <template>
@@ -52,7 +147,7 @@ const carouselConfig = {
             <div
               class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-start justify-center gap-12"
             >
-              <h1 class="text-white text-2xl font-bold sm:text-5xl">
+              <h1 class="text-white text-3xl font-bold mesm:text-5xl melg:text-6xl">
                 The right place<br />
                 for online trading<br />
                 on financial markets
@@ -279,17 +374,17 @@ const carouselConfig = {
             class="my-carousel shadow-lg shadow-indigo-500/40 rounded-xl boeder-4 border-indigo-500"
           >
             <Carousel v-bind="carouselConfig" class="px-8 py-6">
-              <Slide v-for="slide in 10" :key="slide">
-                <div class="carousel__item">
+              <Slide v-for="slide in peopleSays" :key="slide">
+                <div class="carousel__item w-full">
                   <div
-                    class="imgtxt flex flex-col justify-start items-center gap-6 mesm:flex-row mesm:gap-12"
+                    class="imgtxt w-full flex flex-col justify-start items-center gap-6 mesm:flex-row mesm:gap-12"
                   >
                     <div class="avator flex flex-col justify-center items-center gap-2">
                       <img src="@/assets/images/avator01.png" alt="" />
-                      <span class="name">Luis Enri. M.</span>
-                      <span class="text-nowrap text-sm text-gray-500">UID 84750593</span>
+                      <span class="name text-nowrap">{{ slide.name }}</span>
+                      <span class="text-nowrap text-sm text-gray-500">UID {{ slide.uid }}</span>
                     </div>
-                    <div class="right flex flex-col justify-start items-start gap-6">
+                    <div class="right w-full flex flex-col justify-start items-start gap-6">
                       <div
                         class="stardatetime w-full flex flex-row justify-between items-center gap-4"
                       >
@@ -305,22 +400,20 @@ const carouselConfig = {
                         <div
                           class="datetime text-gray-500 text-sm flex flex-row justify-start items-center gap-1 mesm:text-base"
                         >
-                          <span>2025-01-29 18:34:12</span>
+                          <span>{{ slide.datetime }}</span>
                         </div>
                       </div>
                       <div class="desc leading-7 text-sm text-gray-400 mesm:text-base">
-                        Trades putted very smoothly very fast. PnL after trade also quickly updated
-                        in fund balance. Also varieties of OTC pairs available for trade. Support
-                        specialist also very supportive and respond timely. Thankyou
+                        {{ slide.content }}
                       </div>
                     </div>
                   </div>
                 </div>
               </Slide>
-              <template #addons>
-                <!-- <Navigation /> -->
-                <!-- <Pagination /> -->
-              </template>
+              <!-- <template #addons>
+                <Navigation />
+                <Pagination />
+              </template> -->
             </Carousel>
           </div>
         </div>
