@@ -18,6 +18,11 @@ const routes = [
         name: 'Home',
         component: () => import('../views/home/home.vue'),
       },
+      {
+        path: 'quick-start',
+        name: 'QuickStart',
+        component: () => import('../views/quick-start/quickStart.vue'),
+      },
     ],
   },
   {

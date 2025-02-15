@@ -9,7 +9,7 @@ import 'vue3-carousel/carousel.css'
 import { Carousel, Slide } from 'vue3-carousel'
 import Footer from '@/layout/components/footer.vue'
 
-const scrollContainer = ref<HTMLElement>()
+const scrollContainer = ref()
 const { scrollTop } = useDomScroll(scrollContainer)
 
 watchEffect(() => {
@@ -21,14 +21,14 @@ const carouselConfig = {
   autoplay: 5000,
   breakpointMode: 'viewport',
   itemsToShow: 1,
-  wrapAround: false,
+  wrapAround: true,
   transition: 500,
 }
 
 const peopleSays = [
   {
     datetime: '2025-02-14 21:06:22',
-    content: 'One of the best broker Fast withdrawal fast deposit And fast support chat Thank you',
+    content: 'One of the best broker Fast withdrawal fast deposit And fast support chat Thank you.',
     name: 'Md Ali A.',
     uid: '92871649',
   },
@@ -375,7 +375,7 @@ const peopleSays = [
             class="my-carousel shadow-lg shadow-indigo-500/40 rounded-xl boeder-4 border-indigo-500"
           >
             <Carousel v-bind="carouselConfig" class="px-8 py-6">
-              <Slide v-for="slide in peopleSays" :key="slide">
+              <Slide v-for="(slide, index) in peopleSays" :key="index">
                 <div class="carousel__item w-full">
                   <div
                     class="imgtxt w-full flex flex-col justify-start items-center gap-6 mesm:flex-row mesm:gap-12"
