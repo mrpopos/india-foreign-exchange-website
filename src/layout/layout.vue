@@ -35,7 +35,7 @@ const windowSize = useWindowSize()
     right: 0;
     z-index: 10;
     // margin-bottom: 8px;
-    padding: 0 var(--padding-40);
+    // padding: 0 var(--padding-40);
   }
 
   .layout-main {

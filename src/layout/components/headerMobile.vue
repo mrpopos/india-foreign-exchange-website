@@ -3,6 +3,7 @@ import router from '@/router'
 import LogoIcon from '../../assets/svg/logo.svg'
 import MenuMobile from '../menu/menuMobile.vue'
 import { ref } from 'vue'
+import { useAppStore } from '@/stores/modules/app'
 
 const menuData = ref([
   {
@@ -97,9 +98,13 @@ const handleMenuIcoClick = () => {
 </script>
 
 <template>
-  <div class="header-mobile-wrapper">
+  <div class="header-mobile-wrapper px-8" :class="{ 'bg-white': useAppStore().scrollTop > 80 }">
     <div class="header-mobile-container">
-      <div class="menu-box flex flex-row justify-start items-center gap-2" @click="handleMenuIcoClick">
+      <div
+        class="menu-box flex flex-row justify-start items-center gap-2"
+        @click="handleMenuIcoClick"
+        :class="{ 'text-gray-800': useAppStore().scrollTop > 80 }"
+      >
         <svg
           t="1739507295412"
           class="icon"
@@ -125,7 +130,7 @@ const handleMenuIcoClick = () => {
           >ForeignExchange</span
         >
       </div>
-      <div class="title">
+      <div class="title" :class="{ 'text-gray-800': useAppStore().scrollTop > 80 }">
         <svg
           t="1739382053306"
           class="icon"

@@ -21,6 +21,7 @@ export default {
       screens: {
         mexs: '320px',
         mesm: '600px',
+        memd: '768px',
         melg: '1200px',
       },
     },

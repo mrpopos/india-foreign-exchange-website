@@ -35,7 +35,6 @@ defineProps<{ data: IPropsData }>()
 const router = useRouter()
 
 function handleGuideItem(item: ICategoryItem) {
-  // console.log('item', item)
   router.push({
     path: '/help/category/' + item.name,
   })

@@ -3,6 +3,9 @@ import router from '@/router'
 import LogoIcon from '../../assets/svg/logo.svg'
 import Menu from '../menu/menu.vue'
 import { ref } from 'vue'
+import { useAppStore } from '@/stores/modules/app'
+
+const appStore = useAppStore()
 
 const menuData = ref([
   {
@@ -91,7 +94,7 @@ function activeTab(path: string) {
 </script>
 
 <template>
-  <div class="header-wrapper">
+  <div class="header-wrapper px-12" :class="{ 'bg-white': appStore.scrollTop > 80 }">
     <div class="header-container">
       <div class="logo" @click="activeTab('/')">
         <img :src="LogoIcon" alt="logo" />
@@ -103,7 +106,7 @@ function activeTab(path: string) {
       <div class="menu">
         <Menu :menu-data="menuData" direction="horizontal" submenu-direction="bottom" />
       </div>
-      <div class="title">
+      <div class="title" :class="{ 'text-gray-800': appStore.scrollTop > 80 }">
         <svg
           t="1739382053306"
           class="icon"

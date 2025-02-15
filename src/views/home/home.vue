@@ -1,13 +1,17 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, watchEffect } from 'vue'
 import { useDomScroll } from '@/hooks/useDomScroll'
+import { useAppStore } from '@/stores/modules/app'
 import homeBg1 from '@/assets/images/homebg1.webp'
 import homeBg2 from '@/assets/images/homebg2.webp'
 import homeBg3 from '@/assets/images/homebg3.webp'
 
-const scrollContainer = ref()
-const { position } = useDomScroll(scrollContainer.value)
-console.log('position', position.value)
+const scrollContainer = ref<HTMLElement>()
+const { scrollTop } = useDomScroll(scrollContainer)
+
+watchEffect(() => {
+  useAppStore().setScrollTop(scrollTop.value)
+})
 </script>
 
 <template>
@@ -36,7 +40,7 @@ console.log('position', position.value)
         >
           <div class="w-full py-20">
             <div
-              class="w-full px-4 mx-auto melg:max-w-[1200px] melg:px-24 flex flex-col items-start justify-center gap-12"
+              class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-start justify-center gap-12"
             >
               <h1 class="text-white text-2xl font-bold sm:text-5xl">
                 The right place<br />
@@ -296,4 +300,8 @@ console.log('position', position.value)
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.home-container {
+  scrollbar-width: none;
+}
+</style>

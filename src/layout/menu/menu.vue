@@ -108,7 +108,6 @@ const isActive = (item: MenuItem) => {
 
 // 显示子菜单
 const showSubMenu = (index: number) => {
-  console.log('index', index)
   subMenuVisibleIndex.value = index
 }
 

@@ -1,23 +1,28 @@
-import { ref, onMounted, onUnmounted } from 'vue'
+import { type Ref, ref, onMounted, onBeforeUnmount } from 'vue'
+import { useAppStore } from '@/stores/modules/app'
 
-export function useDomScroll(dom: HTMLElement) {
-  console.log('dom', dom)
-  const position = ref({ x: 0, y: 0 })
+export function useDomScroll(targetRef: Ref<HTMLElement>) {
+  const scrollTop = ref(0)
+  const scrollLeft = ref(0)
+
+  const handleScroll = () => {
+    if (targetRef.value) {
+      scrollTop.value = targetRef.value.scrollTop
+      scrollLeft.value = targetRef.value.scrollLeft
+    }
+  }
 
   onMounted(() => {
-    dom.addEventListener('scroll', () => {
-      position.value = {
-        x: dom.scrollLeft,
-        y: dom.scrollTop,
-      }
-    })
+    targetRef.value.addEventListener('scroll', handleScroll)
   })
 
-  onUnmounted(() => {
-    dom.removeEventListener('scroll', () => {})
+  onBeforeUnmount(() => {
+    useAppStore().setScrollTop(0)
+    targetRef.value.removeEventListener('scroll', handleScroll)
   })
 
   return {
-    position,
+    scrollTop,
+    scrollLeft,
   }
 }

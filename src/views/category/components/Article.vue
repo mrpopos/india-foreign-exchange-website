@@ -34,14 +34,10 @@ const appStore = useAppStore()
 
 const articleDataRecord = ref<IArticleDataRecord>()
 
-// console.log('first', route.params)
 function initArticleData() {
   const article = articleData.find((item) => item.id === appStore.activePlaylistId)
   if (article) {
     articleDataRecord.value = article
-    console.log('first', articleDataRecord.value)
-  } else {
-    console.log('no article data')
   }
 }
 
@@ -49,7 +45,7 @@ function initArticleData() {
 watch(
   () => appStore.activePlaylistId,
   (newValue) => {
-    console.log('newValue', newValue)
+    if (!newValue) return
     initArticleData()
   },
   {
