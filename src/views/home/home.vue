@@ -5,6 +5,8 @@ import { useAppStore } from '@/stores/modules/app'
 import homeBg1 from '@/assets/images/homebg1.webp'
 import homeBg2 from '@/assets/images/homebg2.webp'
 import homeBg3 from '@/assets/images/homebg3.webp'
+import 'vue3-carousel/carousel.css'
+import { Carousel, Slide } from 'vue3-carousel'
 
 const scrollContainer = ref<HTMLElement>()
 const { scrollTop } = useDomScroll(scrollContainer)
@@ -12,6 +14,14 @@ const { scrollTop } = useDomScroll(scrollContainer)
 watchEffect(() => {
   useAppStore().setScrollTop(scrollTop.value)
 })
+
+const carouselConfig = {
+  autoplay: 5000,
+  breakpointMode: 'carousel',
+  itemsToShow: 1,
+  wrapAround: true,
+  transition: 300,
+}
 </script>
 
 <template>
@@ -251,6 +261,67 @@ watchEffect(() => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <!-- What people say about us -->
+      <div class="w-full py-20">
+        <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
+          <div class="">
+            <h2 class="text-3xl font-semibold mb-4 md:text-4xl xl:text-5xl">
+              What people say about us
+            </h2>
+            <p class="text-base mb-8 md:text-lg mesm:mb-16">
+              More than 10 million customers worldwide trust us and earn daily.
+            </p>
+          </div>
+          <div
+            class="my-carousel shadow-lg shadow-indigo-500/40 rounded-xl boeder-4 border-indigo-500"
+          >
+            <Carousel v-bind="carouselConfig" class="px-8 py-6">
+              <Slide v-for="slide in 10" :key="slide">
+                <div class="carousel__item">
+                  <div
+                    class="imgtxt flex flex-col justify-start items-center gap-6 mesm:flex-row mesm:gap-12"
+                  >
+                    <div class="avator flex flex-col justify-center items-center gap-2">
+                      <img src="@/assets/images/avator01.png" alt="" />
+                      <span class="name">Luis Enri. M.</span>
+                      <span class="text-nowrap text-sm text-gray-500">UID 84750593</span>
+                    </div>
+                    <div class="right flex flex-col justify-start items-start gap-6">
+                      <div
+                        class="stardatetime w-full flex flex-row justify-between items-center gap-4"
+                      >
+                        <div
+                          class="star text-xl flex flex-row justify-start items-center gap-1 text-blue-500 mesm:text-3xl"
+                        >
+                          <span>★</span>
+                          <span>★</span>
+                          <span>★</span>
+                          <span>★</span>
+                          <span>★</span>
+                        </div>
+                        <div
+                          class="datetime text-gray-500 text-sm flex flex-row justify-start items-center gap-1 mesm:text-base"
+                        >
+                          <span>2025-01-29 18:34:12</span>
+                        </div>
+                      </div>
+                      <div class="desc leading-7 text-sm text-gray-400 mesm:text-base">
+                        Trades putted very smoothly very fast. PnL after trade also quickly updated
+                        in fund balance. Also varieties of OTC pairs available for trade. Support
+                        specialist also very supportive and respond timely. Thankyou
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Slide>
+              <template #addons>
+                <!-- <Navigation /> -->
+                <!-- <Pagination /> -->
+              </template>
+            </Carousel>
           </div>
         </div>
       </div>
