@@ -91,7 +91,7 @@
 </template>
 
 <script lang="ts" setup>
-import { defineComponent, ref, onMounted, watch } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { specificCateData, articleData } from '@/data/index.ts'
 import type { ISpecificCateDataItem, IPlaylistsItem, IArticleDataRecord } from '@/data/types.ts'
@@ -104,10 +104,6 @@ const windowSize = useWindowSize()
 const route = useRoute()
 const router = useRouter()
 const appStore = useAppStore()
-
-defineComponent({
-  name: 'HelpCategory',
-})
 
 const specificCateList = ref<Array<ISpecificCateDataItem>>()
 const activePlaylistId = ref<number>()

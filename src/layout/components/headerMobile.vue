@@ -99,7 +99,7 @@ const handleMenuIcoClick = () => {
 <template>
   <div class="header-mobile-wrapper">
     <div class="header-mobile-container">
-      <div class="menu-box" @click="handleMenuIcoClick">
+      <div class="menu-box flex flex-row justify-start items-center gap-2" @click="handleMenuIcoClick">
         <svg
           t="1739507295412"
           class="icon"

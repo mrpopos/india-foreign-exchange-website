@@ -1,17 +1,18 @@
 <script setup lang="ts">
-import { defineComponent } from 'vue'
+import { ref } from 'vue'
+import { useDomScroll } from '@/hooks/useDomScroll'
 import homeBg1 from '@/assets/images/homebg1.webp'
 import homeBg2 from '@/assets/images/homebg2.webp'
 import homeBg3 from '@/assets/images/homebg3.webp'
 
-defineComponent({
-  name: 'HomeView',
-})
+const scrollContainer = ref()
+const { position } = useDomScroll(scrollContainer.value)
+console.log('position', position.value)
 </script>
 
 <template>
   <div class="home-wrapper h-full">
-    <div class="home-container h-full">
+    <div ref="scrollContainer" class="home-container h-full overflow-auto">
       <!-- first screen -->
       <div class="home-banner h-full relative overflow-hidden">
         <div class="home-banner-bg h-full relative">
@@ -52,6 +53,123 @@ defineComponent({
                 <a class="btn px-8 py-4 bg-btn-color rounded-lg text-lg hover:cursor-pointer"
                   >Start Trading Now</a
                 >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Place your trades on best conditions -->
+      <div class="w-full py-20 bg-white">
+        <div class="w-full px-4 mx-auto melg:max-w-[1200px] melg:px-24">
+          <div class="text-text-color-4 text-3xl font-semibold mb-16 md:text-4xl xl:text-5xl">
+            Why choose us?
+          </div>
+          <div class="grid-list grid grid-cols-1 gap-12 mesm:grid-cols-2 lg:grid-cols-4">
+            <div
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:rotate-[360deg] hover:scale-110 transition-all duration-300 ease-in-out"
+            >
+              <img src="@/assets/svg/why1.svg" alt="" class="p-1 shadow-xl" />
+              <div class="content flex flex-col justify-start items-center gap-2">
+                <div class="title text-text-color-5 text-xl font-semibold my-2">
+                  Flexible Trading
+                </div>
+                <div class="desc text-text-color-6">
+                  Latest trends: quick and digital trading, express trades, Forex MT5, pending
+                  orders, trades copying. Payouts up to 218%.
+                </div>
+              </div>
+            </div>
+            <div
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:rotate-[360deg] hover:scale-110 transition-all duration-300 ease-in-out"
+            >
+              <img src="@/assets/svg/why2.svg" alt="" class="p-1 shadow-xl" />
+              <div class="content flex flex-col justify-start items-center gap-2">
+                <div class="title text-text-color-5 text-xl font-semibold my-2">
+                  Comprehensive Education
+                </div>
+                <div class="desc text-text-color-6">
+                  Our help section contains tutorials, guides and various trading strategies.
+                </div>
+              </div>
+            </div>
+            <div
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:rotate-[360deg] hover:scale-110 transition-all duration-300 ease-in-out"
+            >
+              <img src="@/assets/svg/why3.svg" alt="" class="p-1 shadow-xl" />
+              <div class="content flex flex-col justify-start items-center gap-2">
+                <div class="title text-text-color-5 text-xl font-semibold my-2">
+                  Diverse Trading Instruments
+                </div>
+                <div class="desc text-text-color-6">
+                  Assets suitable for any trader: currency, commodities, stocks.
+                </div>
+              </div>
+            </div>
+            <div
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:rotate-[360deg] hover:scale-110 transition-all duration-300 ease-in-out"
+            >
+              <img src="@/assets/svg/why4.svg" alt="" class="p-1 shadow-xl" />
+              <div class="content flex flex-col justify-start items-center gap-2">
+                <div class="title text-text-color-5 text-xl font-semibold my-2">Demo Account</div>
+                <div class="desc text-text-color-6">
+                  Try all platform benefits on the Demo account using virtual money. No investment
+                  needed, no risks involved.
+                </div>
+              </div>
+            </div>
+            <div
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:rotate-[360deg] hover:scale-110 transition-all duration-300 ease-in-out"
+            >
+              <img src="@/assets/svg/why5.svg" alt="" class="p-1 shadow-xl" />
+              <div class="content flex flex-col justify-start items-center gap-2">
+                <div class="title text-text-color-5 text-xl font-semibold my-2">
+                  Easy Deposits and Withdrawals
+                </div>
+                <div class="desc text-text-color-6">
+                  Use the most convenient payment method for hassle-free deposits and withdrawals.
+                </div>
+              </div>
+            </div>
+            <div
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:rotate-[360deg] hover:scale-110 transition-all duration-300 ease-in-out"
+            >
+              <img src="@/assets/svg/why6.svg" alt="" class="p-1 shadow-xl" />
+              <div class="content flex flex-col justify-start items-center gap-2">
+                <div class="title text-text-color-5 text-xl font-semibold my-2">
+                  High Customer Loyalty
+                </div>
+                <div class="desc text-text-color-6">
+                  Trading tournaments, regular bonuses, gifts, promo codes and contests are
+                  available to any trader.
+                </div>
+              </div>
+            </div>
+            <div
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:rotate-[360deg] hover:scale-110 transition-all duration-300 ease-in-out"
+            >
+              <img src="@/assets/svg/why7.svg" alt="" class="p-1 shadow-xl" />
+              <div class="content flex flex-col justify-start items-center gap-2">
+                <div class="title text-text-color-5 text-xl font-semibold my-2">
+                  Trading Advantages
+                </div>
+                <div class="desc text-text-color-6">
+                  Use cashback and other advantages for a more comfortable trading experience with
+                  minimal risks.
+                </div>
+              </div>
+            </div>
+            <div
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:rotate-[360deg] hover:scale-110 transition-all duration-300 ease-in-out"
+            >
+              <img src="@/assets/svg/why8.svg" alt="" class="p-1 shadow-xl" />
+              <div class="content flex flex-col justify-start items-center gap-2">
+                <div class="title text-text-color-5 text-xl font-semibold my-2">
+                  Indicators and Signals
+                </div>
+                <div class="desc text-text-color-6">
+                  Everything you need for a top-tier trading experience including popular indicators
+                  and signals.
+                </div>
               </div>
             </div>
           </div>

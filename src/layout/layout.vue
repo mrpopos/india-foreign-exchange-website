@@ -3,14 +3,9 @@ import Header from './components/header.vue'
 import headerMobile from './components/headerMobile.vue'
 import Main from './components/main.vue'
 // import Footer from './components/Footer.vue'
-import { defineComponent } from 'vue'
 import { useWindowSize } from '@/hooks/useWindowSize'
 
 const windowSize = useWindowSize()
-
-defineComponent({
-  name: 'LayoutPage',
-})
 </script>
 
 <template>

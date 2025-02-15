@@ -25,14 +25,10 @@
 </template>
 
 <script setup lang="ts">
-import { defineComponent, onMounted, ref, watch } from 'vue'
+import { onMounted, ref, watch } from 'vue'
 import type { IArticleDataRecord } from '../../../data/types'
 import { useAppStore } from '@/stores/modules/app'
 import { articleData } from '@/data/index.ts'
-
-defineComponent({
-  name: 'ArticlePage',
-})
 
 const appStore = useAppStore()
 
