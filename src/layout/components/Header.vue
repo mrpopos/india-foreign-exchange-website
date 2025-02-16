@@ -17,7 +17,6 @@ const menuData = ref([
   },
   {
     label: 'Company',
-    to: '/company',
     icon: 'IconCompany',
     index: '2',
     children: [
@@ -49,7 +48,6 @@ const menuData = ref([
   },
   {
     label: 'Learn',
-    to: '/learn',
     icon: 'IconLearn',
     index: '3',
     children: [
