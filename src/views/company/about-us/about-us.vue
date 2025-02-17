@@ -331,6 +331,81 @@ watchEffect(() => {
           </div>
         </div>
       </section>
+      <!-- company / contact us -->
+      <section class="our-history w-full pb-20 bg-gray-50">
+        <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
+          <div class="c grid grid-cols-1 gap-4 mesm:grid-cols-2 memd:gap-12">
+            <div
+              class="company bg-gradient-to-b from-gray-200 to-gray-300 text-gray-900 p-12 rounded-xl shadow-md shadow-gray-700/50"
+            >
+              <div class="c-title flex justify-center items-center gap-4">
+                <span class="ico"
+                  ><svg
+                    t="1739786561442"
+                    class="icon"
+                    viewBox="0 0 1024 1024"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    p-id="4265"
+                    width="32"
+                    height="32"
+                  >
+                    <path
+                      d="M111.204731 957.99061l0-37.289278 801.644773 0 0 37.289278L111.204731 957.99061M689.13635 902.056694l-93.215008 0-0.38988-478.959489L484.065787 342.769714 223.062332 454.633455l0 447.423239-111.857601 0 0-37.284161 74.570369 0L185.7751 435.991886l298.290687-130.506333 149.143808 111.857601 0 447.428356 55.926754 0L689.13635 902.056694zM278.211373 512.629333l131.279952-57.995879 0 74.568323-130.500193 55.932893L278.211373 512.629333 278.211373 512.629333zM409.491325 622.417809l0 74.573439-130.500193 37.280068-0.779759-70.427002L409.491325 622.417809zM278.991132 808.848848l130.500193-37.289278 0 93.212962L278.991132 864.772532 278.991132 808.848848zM726.419488 156.343791l0 745.711879 55.930847 0 0-679.710676L726.419488 156.343791zM484.065787 398.704654l0 503.352039 55.926754 0 0-466.064808L484.065787 398.704654zM912.849504 902.056694l-93.215008 0L819.634496 212.272591 726.419488 100.411921 372.20614 249.556753l0 55.9288-37.288255 37.284161L334.917886 230.912114 745.06515 63.127759l111.857601 149.145855 0 652.498918 55.926754 0L912.849504 902.056694z"
+                      fill="#707070"
+                      p-id="4266"
+                    ></path></svg
+                ></span>
+                <span class="text-2xl font-semibold">Company</span>
+              </div>
+              <div class="c-name text-base font-semibold text-center text-gray-700 pt-4">
+                GURU TRADE7 LIMITED
+              </div>
+              <div class="office text-base font-semibold text-center text-gray-700 pt-4">
+                Office Location:
+              </div>
+              <div class="desc text-sm text-gray-600 text-center pt-4">
+                First Floor, First St Vincent Bank Ltd Building, James Street, Kingstown, St.
+                Vincent and the Grenadines.
+              </div>
+            </div>
+            <div
+              class="contact-us bg-gradient-to-b from-gray-200 to-gray-300 text-gray-900 p-12 rounded-xl shadow-md shadow-gray-700/50"
+            >
+              <div class="c-title flex justify-center items-center gap-4">
+                <span class="ico"
+                  ><svg
+                    t="1739786608062"
+                    class="icon"
+                    viewBox="0 0 1024 1024"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    p-id="5433"
+                    width="32"
+                    height="32"
+                  >
+                    <path
+                      d="M874.666667 181.333333H149.333333c-40.533333 0-74.666667 34.133333-74.666666 74.666667v512c0 40.533333 34.133333 74.666667 74.666666 74.666667h725.333334c40.533333 0 74.666667-34.133333 74.666666-74.666667V256c0-40.533333-34.133333-74.666667-74.666666-74.666667z m-725.333334 64h725.333334c6.4 0 10.666667 4.266667 10.666666 10.666667v25.6L512 516.266667l-373.333333-234.666667V256c0-6.4 4.266667-10.666667 10.666666-10.666667z m725.333334 533.333334H149.333333c-6.4 0-10.666667-4.266667-10.666666-10.666667V356.266667l356.266666 224c4.266667 4.266667 10.666667 4.266667 17.066667 4.266666s12.8-2.133333 17.066667-4.266666l356.266666-224V768c0 6.4-4.266667 10.666667-10.666666 10.666667z"
+                      fill="#707070"
+                      p-id="5434"
+                    ></path></svg
+                ></span>
+                <span class="text-2xl font-semibold">Contact us</span>
+              </div>
+              <div class="small-title text-base font-semibold text-center text-gray-700 pt-4">
+                Customer service:
+              </div>
+              <div class="p text-sm text-gray-600 text-center pt-4">
+                English&Hindi: support@gurutrade7.com
+              </div>
+              <div class="small-title text-base font-semibold text-center text-gray-700 pt-4">
+                Complaint inbox:
+              </div>
+              <div class="p text-sm text-gray-600 text-center pt-4">suggest@gurutrade7.com</div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- footer -->
       <div class="layout-footer">
         <Footer />
