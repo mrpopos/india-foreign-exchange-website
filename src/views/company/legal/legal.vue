@@ -3,6 +3,7 @@ import { ref, watchEffect } from 'vue'
 import Footer from '@/layout/components/footer.vue'
 import { useDomScroll } from '@/hooks/useDomScroll'
 import { useAppStore } from '@/stores/modules/app'
+import ServiceAgreement from './components/serviceAgreement.vue'
 
 const scrollContainer = ref()
 const { scrollTop } = useDomScroll(scrollContainer)
@@ -10,170 +11,118 @@ const { scrollTop } = useDomScroll(scrollContainer)
 watchEffect(() => {
   useAppStore().setScrollTop(scrollTop.value)
 })
+
+const showAllLegal = ref(true)
+const activeLegalIndex = ref(-1)
+const legalList = [
+  {
+    name: 'Service Agreement',
+  },
+  {
+    name: 'Trading Transactions Policy',
+  },
+  {
+    name: 'Risk Disclosure',
+  },
+  {
+    name: 'Agreement on the Storage of the Cardholder’s Credentials',
+  },
+  {
+    name: 'Privacy Policy',
+  },
+  {
+    name: 'Promotional Events',
+  },
+]
+
+const showLegalDetail = (index: number) => {
+  if (index === activeLegalIndex.value) {
+    showAllLegal.value = true
+    activeLegalIndex.value = -1
+  } else {
+    showAllLegal.value = false
+    activeLegalIndex.value = index
+  }
+}
 </script>
 
 <template>
-  <div class="quick-wrapper h-full">
-    <div ref="scrollContainer" class="quick-container h-full overflow-auto">
+  <div class="legal-wrapper h-full">
+    <div ref="scrollContainer" class="legal-container h-full overflow-auto">
       <!-- first screen -->
-      <section class="quick-banner bg-gradient-to-br from-[#01203f] to-[#021d4b] overflow-hidden">
-        <!-- <div class="quick-banner-bg h-full relative">
-          <picture
-            class="h-[80%] absolute top-1/2 right-0 transform translate-x-1/4 -translate-y-1/2 md:translate-x-1/2"
-          >
-            <source :srcset="homeBg3" type="image/webp" />
-            <img class="" :src="homeBg3" alt="" />
-          </picture>
-        </div> -->
-        <div class="quick-banner-content w-full pt-40 pb-20">
+      <section class="legal-banner overflow-hidden bg-legalbg bg-cover" v-if="showAllLegal">
+        <div class="legal-banner-content w-full pt-40 pb-20">
           <div
             class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-start justify-center gap-12"
           >
-            <h1 class="text-white text-3xl font-bold mesm:text-4xl melg:text-5xl">
-              How to trade<br />
-              on financial markets
+            <h1
+              class="w-full text-white text-3xl font-bold mesm:text-4xl melg:text-5xl text-center"
+            >
+              LEGAL INFOMATION
             </h1>
-            <div class="desc text-sm text-gray-700">
-              <p class="text-white text-base md:text-xl">With Pocket Option</p>
+            <div class="w-full desc text-sm text-gray-700">
+              <p class="w-full text-gray-500 text-base md:text-xl py-1 text-center">
+                To fully understand the implications of trading with Guru Trade7, please read our
+                legal documents.
+              </p>
             </div>
-            <div>
+            <!-- <div>
               <a class="btn px-8 py-4 bg-btn-color rounded-lg text-lg hover:cursor-pointer"
                 >REGISTRATION</a
               >
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
-      <!-- Get started in a few easy steps -->
-      <section class="get-started w-full py-20 bg-gradient-to-br from-blue-200 to-slate-200">
-        <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
-          <h2 class="title text-gray-800 px-6 py-4 text-2xl font-semibold mb-8">
-            Get started in a few easy steps
-          </h2>
-          <div class="step-imgtxt grid grid-cols-1 gap-8 memd:gap-16">
-            <div class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row">
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute w-full" src="@/assets/images/step1.webp" alt="step-1" />
-                <img class="w-full" src="@/assets/images/step1-1.webp" alt="step-1" />
-              </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-6xl font-semibold bg-gradient-to-r from-blue-600 to-green-800 text-transparent bg-clip-text"
-                    >1</span
-                  >
-                  <span class="num-title text-gray-800 text-xl font-semibold">Registration</span>
-                </div>
-                <div class="desc text-sm text-gray-700">
-                  Create a free trading account by using your email address or simply authorize via
-                  Facebook or Google accounts.
-                </div>
-              </div>
-            </div>
+      <!-- legal pages -->
+      <section class="legal-banner overflow-hidden bg-cover py-20 bg-gray-700">
+        <div
+          class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-start justify-center gap-12"
+        >
+          <div class="legal-list" v-if="showAllLegal">
             <div
-              class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row-reverse"
+              class="legal-item flex flex-row justify-start items-center gap-4 py-4 text-gray-500 hover:text-gray-800 hover:underline hover:cursor-pointer"
+              v-for="(item, i) in legalList"
+              :key="i"
+              @click="showLegalDetail(i)"
             >
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute" src="@/assets/images/step2.webp" alt="step-1" />
-                <img src="@/assets/images/step2-1.webp" alt="step-1" />
-              </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-6xl font-semibold bg-gradient-to-r from-blue-600 to-green-800 text-transparent bg-clip-text"
-                    >2</span
-                  >
-                  <span class="num-title text-gray-800 text-xl font-semibold">Verification</span>
-                </div>
-                <div class="desc text-sm text-gray-700">
-                  Make your account personalized. Enter your personal information in the profile and
-                  upload both ID document and address documents.
-                </div>
-              </div>
+              <span class="ico"
+                ><svg
+                  t="1739791612232"
+                  class="icon"
+                  viewBox="0 0 1024 1024"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  p-id="14141"
+                  width="24"
+                  height="24"
+                >
+                  <path
+                    d="M870.4 921.6H153.6c-40.96 0-76.8-35.84-76.8-76.8V256H870.4c40.96 0 76.8 35.84 76.8 76.8v512c0 40.96-35.84 76.8-76.8 76.8zM128 307.2v537.6c0 15.36 10.24 25.6 25.6 25.6h716.8c15.36 0 25.6-10.24 25.6-25.6v-512c0-15.36-10.24-25.6-25.6-25.6H128z"
+                    fill="currentColor"
+                    p-id="14142"
+                  ></path>
+                  <path
+                    d="M128 332.8h-51.2v-153.6C76.8 138.24 112.64 102.4 153.6 102.4h266.24c25.6 0 46.08 10.24 61.44 30.72l102.4 133.12-40.96 30.72-102.4-133.12c-5.12-5.12-10.24-10.24-20.48-10.24H153.6c-15.36 0-25.6 10.24-25.6 25.6v153.6z"
+                    fill="currentColor"
+                    p-id="14143"
+                  ></path></svg
+              ></span>
+              <span class="name">{{ item.name }}</span>
             </div>
-            <div class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row">
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute" src="@/assets/images/step3.webp" alt="step-1" />
-                <img src="@/assets/images/step3-1.webp" alt="step-1" />
-              </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-6xl font-semibold bg-gradient-to-r from-blue-600 to-green-800 text-transparent bg-clip-text"
-                    >3</span
-                  >
-                  <span class="num-title text-gray-800 text-xl font-semibold">Deposit</span>
-                </div>
-                <div class="desc text-sm text-gray-700">
-                  Add funds to your trading account balance by using the most comfortable deposit
-                  method. Processing time depends on the chosen option.
-                </div>
-              </div>
-            </div>
-            <div
-              class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row-reverse"
-            >
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute" src="@/assets/images/step4.webp" alt="step-1" />
-                <img src="@/assets/images/step4-1.webp" alt="step-1" />
-              </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-6xl font-semibold bg-gradient-to-r from-blue-600 to-green-800 text-transparent bg-clip-text"
-                    >4</span
-                  >
-                  <span class="num-title text-gray-800 text-xl font-semibold">Trading</span>
-                </div>
-                <div class="desc text-sm text-gray-700">
-                  Trading on Pocket Option is easy as 123. Choose a trading asset, set up the
-                  preferred chart layout and enable indicators for better market analysis. Set the
-                  trade amount, purchase time and place either a price decrease or increase order.
-                </div>
-              </div>
-            </div>
-            <div class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row">
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute w-full" src="@/assets/images/step5.webp" alt="step-1" />
-                <img src="@/assets/images/step5-1.webp" alt="step-1" />
-              </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-6xl font-semibold bg-gradient-to-r from-blue-600 to-green-800 text-transparent bg-clip-text"
-                    >5</span
-                  >
-                  <span class="num-title text-gray-800 text-xl font-semibold">Profit</span>
-                </div>
-                <div class="desc text-sm text-gray-700">
-                  Each correct forecast results in a profitable trade order. The order amount plus
-                  the generated profit are automatically added to your account balance. Manage your
-                  income properly, invest further or withdraw profit if necessary.
-                </div>
-              </div>
-            </div>
-            <div
-              class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row-reverse"
-            >
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute" src="@/assets/images/step6.webp" alt="step-1" />
-                <img src="@/assets/images/step6-1.webp" alt="step-1" />
-              </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-6xl font-semibold bg-gradient-to-r from-blue-600 to-green-800 text-transparent bg-clip-text"
-                    >6</span
-                  >
-                  <span class="num-title text-gray-800 text-xl font-semibold">Withdrawal</span>
-                </div>
-                <div class="desc text-sm text-gray-700">
-                  You can withdraw your trading account balance at any time without any restrictions
-                  on the amount. Place a withdrawal request via one of the methods previously used
-                  for depositing and wait for it to be processed and sent.
-                </div>
-              </div>
-            </div>
+          </div>
+          <div class="legal-detail pt-20" v-else-if="!showAllLegal">
+            <!-- service agreement -->
+            <ServiceAgreement />
+            <!-- trading transactions policy -->
+
+            <!-- risk disclosure -->
+
+            <!-- agreement on the storage of the cardholder’s credentials -->
+
+            <!-- privacy policy -->
+
+            <!-- promotional events -->
           </div>
         </div>
       </section>
@@ -186,7 +135,7 @@ watchEffect(() => {
 </template>
 
 <style lang="scss" scoped>
-.quick-container {
+.legal-container {
   scrollbar-width: none;
 }
 </style>

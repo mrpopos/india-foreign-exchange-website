@@ -101,19 +101,19 @@ watchEffect(() => {
           <div
             class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-start justify-center gap-12"
           >
-            <h1 class="text-white text-3xl font-bold mesm:text-4xl melg:text-5xl">
+            <h1 class="text-white text-3xl font-bold mesm:text-4xl melg:text-5xl text-center">
               6 YEARS OF INCREDIBLE SERVICE
             </h1>
             <div class="desc text-sm text-gray-700">
-              <p class="text-gray-500 text-base md:text-xl py-1">
+              <p class="text-gray-500 text-base md:text-xl py-1 text-center">
                 Offer an all-in-one self-directed investment platform that provides advanced and
                 intelligent tools;
               </p>
-              <p class="text-gray-500 text-base md:text-xl py-1">
+              <p class="text-gray-500 text-base md:text-xl py-1 text-center">
                 To be a leader in trading industry by providing innovative financial trading
                 plaform;
               </p>
-              <p class="text-gray-500 text-base md:text-xl py-1">
+              <p class="text-gray-500 text-base md:text-xl py-1 text-center">
                 Be a client-centric company with a clear focus on providing long-term value addition
                 to clients.
               </p>
