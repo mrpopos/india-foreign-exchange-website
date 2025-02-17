@@ -17,9 +17,9 @@ watchEffect(() => {
 })
 
 const carouselConfig = {
-  dir: 'ltr',
+  // dir: 'ltr',
   autoplay: 5000,
-  breakpointMode: 'viewport',
+  // breakpointMode: 'viewport',
   itemsToShow: 1,
   wrapAround: true,
   transition: 500,

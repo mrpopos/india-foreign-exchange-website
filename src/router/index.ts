@@ -9,19 +9,80 @@ const routes = [
     redirect: '/home',
   },
   {
-    path: '/',
-    name: 'Layout',
+    path: '/home',
+    name: 'Home',
     component: Layout,
     children: [
       {
-        path: 'home',
-        name: 'Home',
+        path: '',
+        name: 'HomePage',
         component: () => import('../views/home/home.vue'),
       },
+    ],
+  },
+  {
+    path: '/quick-start',
+    name: 'QuickStart',
+    component: Layout,
+    children: [
       {
-        path: 'quick-start',
-        name: 'QuickStart',
+        path: '',
+        name: 'QuickStartPage',
         component: () => import('../views/quick-start/quickStart.vue'),
+      },
+    ],
+  },
+  {
+    path: '/company',
+    name: 'Company',
+    component: Layout,
+    children: [
+      {
+        path: 'about-us',
+        name: 'AboutUs',
+        component: () => import('../views/company/about-us/about-us.vue'),
+      },
+      {
+        path: 'legal',
+        name: 'Legal',
+        component: () => import('../views/company/legal/legal.vue'),
+      },
+      {
+        path: 'fund-safety',
+        name: 'FundSafety',
+        component: () => import('../views/company/fund-safety/fund-safety.vue'),
+      },
+      {
+        path: 'responsibility',
+        name: 'Responsibility',
+        component: () => import('../views/company/responsibility/responsibility.vue'),
+      },
+    ],
+  },
+  {
+    path: '/learn',
+    name: 'Learn',
+    component: Layout,
+    children: [
+      {
+        path: 'guides',
+        name: 'guides',
+        component: () => import('../views/learn/guides/guides.vue'),
+      },
+      {
+        path: 'what-is-cfd',
+        name: 'WhatIsCfd',
+        component: () => import('../views/learn/what-is-cfd/what-is-cfd.vue'),
+      },
+      {
+        path: 'deposits-withdrawals',
+        name: 'DepositsWithdrawals',
+        component: () => import('../views/learn/deposits-withdrawals/deposits-withdrawals.vue'),
+      },
+      {
+        path: 'glossary',
+        name: 'Glossary',
+        component: () => import('../views/learn/glossary/glossary.vue'),
       },
     ],
   },

@@ -208,7 +208,7 @@ import { useRouter } from 'vue-router'
 
 interface MenuItem {
   label: string
-  to: string
+  to?: string
   icon?: string
   index: string
   children: MenuItem[] | null
@@ -236,8 +236,10 @@ const closeMenu = () => {
 }
 
 const menuJunp = (menu: MenuItem) => {
-  emit('update:open', false)
-  router.push(menu.to)
+  if (menu.to) {
+    emit('update:open', false)
+    router.push(menu.to)
+  }
 }
 </script>
 

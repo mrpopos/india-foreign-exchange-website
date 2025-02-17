@@ -24,6 +24,9 @@ export default {
         memd: '768px',
         melg: '1200px',
       },
+      backgroundImage: {
+        aboutbg: "url('../../../src/assets/images/aboutbg.webp')",
+      },
     },
   },
   plugins: [],

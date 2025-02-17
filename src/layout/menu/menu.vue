@@ -54,7 +54,7 @@ import { useRouter } from 'vue-router'
 
 interface MenuItem {
   label: string
-  to: string
+  to?: string
   icon?: string
   index: string
   children: MenuItem[] | null
