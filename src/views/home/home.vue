@@ -169,7 +169,7 @@ const peopleSays = [
         </div>
       </div>
       <!-- Place your trades on best conditions -->
-      <div class="w-full py-20 bg-gradient-to-br from-blue-200 to-slate-200">
+      <div class="w-full py-20 bg-gradient-to-b from-gray-400 via-gray-800 via-80% to-slate-400">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
           <h2 class="text-text-color-4 text-3xl font-semibold mb-16 md:text-4xl xl:text-5xl">
             Place your trades on best conditions
@@ -178,61 +178,61 @@ const peopleSays = [
             <div class="grid-list grid gap-4 grid-cols-2 lg:grid-cols-2">
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
-                  class="value text-4xl font-bold bg-gradient-to-br from-red-500 to-blue-500 bg-clip-text text-transparent"
+                  class="value text-4xl font-bold bg-gradient-to-b from-indigo-900 to-blue-600 bg-clip-text text-transparent"
                 >
                   $5*
                 </div>
-                <div class="name text-base text-gray-800 text-center melg:text-lg">
+                <div class="name text-base text-gray-300 text-center memd:text-base melg:text-lg">
                   Minimum investment amount
                 </div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
-                  class="value text-4xl font-bold bg-gradient-to-br from-red-500 to-blue-500 bg-clip-text text-transparent"
+                  class="value text-4xl font-bold bg-gradient-to-b from-indigo-900 to-blue-600 bg-clip-text text-transparent"
                 >
                   $1
                 </div>
-                <div class="name text-base text-gray-800 text-center memd:text-base melg:text-lg">
+                <div class="name text-base text-gray-300 text-center memd:text-base melg:text-lg">
                   Minimum trade amount
                 </div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
-                  class="value text-4xl font-bold bg-gradient-to-br from-red-500 to-blue-500 bg-clip-text text-transparent"
+                  class="value text-4xl font-bold bg-gradient-to-b from-indigo-900 to-blue-600 bg-clip-text text-transparent"
                 >
                   $50 000
                 </div>
-                <div class="name text-base text-gray-800 text-center memd:text-base melg:text-lg">
+                <div class="name text-base text-gray-300 text-center memd:text-base melg:text-lg">
                   Virtual money on your Demo account
                 </div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
-                  class="value text-4xl font-bold bg-gradient-to-br from-red-500 to-blue-500 bg-clip-text text-transparent"
+                  class="value text-4xl font-bold bg-gradient-to-b from-indigo-900 to-blue-600 bg-clip-text text-transparent"
                 >
                   50+
                 </div>
-                <div class="name text-base text-gray-800 text-center memd:text-base melg:text-lg">
+                <div class="name text-base text-gray-300 text-center memd:text-base melg:text-lg">
                   Payment methods
                 </div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
-                  class="value text-4xl font-bold bg-gradient-to-br from-red-500 to-blue-500 bg-clip-text text-transparent"
+                  class="value text-4xl font-bold bg-gradient-to-b from-indigo-900 to-blue-600 bg-clip-text text-transparent"
                 >
                   $0
                 </div>
-                <div class="name text-base text-gray-800 text-center memd:text-base melg:text-lg">
+                <div class="name text-base text-gray-300 text-center memd:text-base melg:text-lg">
                   No commission on deposit and withdrawal
                 </div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
-                  class="value text-4xl font-bold bg-gradient-to-br from-red-500 to-blue-500 bg-clip-text text-transparent"
+                  class="value text-4xl font-bold bg-gradient-to-b from-indigo-900 to-blue-600 bg-clip-text text-transparent"
                 >
                   100+
                 </div>
-                <div class="name text-base text-gray-800 text-center memd:text-base melg:text-lg">
+                <div class="name text-base text-gray-300 text-center memd:text-base melg:text-lg">
                   Assets for trading
                 </div>
               </div>
