@@ -2,10 +2,10 @@
 
 <template>
   <div class="legal-detail">
-    <h2 class="pag-navi">
+    <h2>
       <a href="/company/legal">&lt; BACK</a>
     </h2>
-    <h3 class="page-title">Service Agreement</h3>
+    <h3>Service Agreement</h3>
     <p>
       <b><span>Contents: </span></b>
     </p>
@@ -26,7 +26,7 @@
       <b><span>1.&nbsp;General Provisions and Subject of the Agreement</span></b>
     </p>
     <p>
-      <span>1.</span
+      <span class="sort">1.</span
       ><span
         >This Service Agreement has been made by Guru Trade7 App (hereinafter – Guru Trade7), and
         the natural person who filled in the registration form on the Guru Trade7's website or in
@@ -35,7 +35,7 @@
       >
     </p>
     <p>
-      <span>2.</span
+      <span class="sort">2.</span
       ><span
         >The Agreement is an invitation to make offers posted on the GuruTrade7’s website that must
         be treated as an offer to enter into this Agreement on the terms set forth in it. The posted
@@ -49,7 +49,7 @@
       >
     </p>
     <p>
-      <span>3.</span
+      <span class="sort">3.</span
       ><span
         >The Client must carefully review the terms of the Agreement. By accepting the terms of this
         Agreement, the Client agrees to the terms of all annexes to it listed above, including the
@@ -150,7 +150,7 @@
       </div>
     </div>
     <p>
-      <span>4.</span
+      <span class="sort">4.</span
       ><span
         >The subject of the Agreement is the definition of the general conditions under which the
         Parties carry out transactions (trades), the content and procedure for which are set forth
@@ -162,17 +162,17 @@
       >
     </p>
     <p>
-      <span>5.</span
+      <span class="sort">5.</span
       ><span
         >The Guru Trade7 may engage third parties to perform this Agreement. The Guru Trade7 is not
         responsible for services provided by such third parties.</span
       >
     </p>
     <p>
-      <b><span>2.&nbsp;Terms and Definitions </span></b>
+      <b><span class="sort">2.&nbsp;Terms and Definitions </span></b>
     </p>
     <p>
-      <span>1.</span
+      <span class="sort">1.</span
       ><span
         >Asset – the underlying financial instrument of an option. An asset may be company stock, a
         stock index, currency pair (the rate of an exchange of one currency into another currency),
@@ -180,11 +180,11 @@
       >
     </p>
     <p>
-      <span>2.</span
+      <span class="sort">2.</span
       ><span>Client's Account Balance – the amount of money in the Client's account.</span>
     </p>
     <p>
-      <span>3.</span
+      <span class="sort">3.</span
       ><span
         >Option - a derivative financial instrument (trade), consisting of two transactions: Making
         a trade and Closing a trade, as a result of the fulfillment of which the Client either
@@ -201,7 +201,7 @@
       >
     </p>
     <p>
-      <span>4.</span
+      <span class="sort">4.</span
       ><span
         >Bonus – virtual cash credited by the Guru Trade7 to the Client's Account when the Client
         meets the conditions established by the Guru Trade7. When the Client executes trading
@@ -219,7 +219,7 @@
       >
     </p>
     <p>
-      <span>5.</span
+      <span class="sort">5.</span
       ><span
         >Guru Trade7 Website – an internet site at the address (domain name) Guru Trade7.com, and
         other internet sites which the Guru Trade7 references in the Agreement or on the Guru Trade7
@@ -227,31 +227,32 @@
       >
     </p>
     <p>
-      <span>6.</span
+      <span class="sort">6.</span
       ><span
         >Client External Account – the Client's current account at a lending institution, an account
         (wallet) on an electronic payment system.</span
       >
     </p>
     <p>
-      <span>7.</span
+      <span class="sort">7.</span
       ><span
         >Option Expiration Time – the time when the condition for payout of income on the option is
         checked.</span
       >
     </p>
     <p>
-      <span>8.</span><span>Trading Hours – the time when trading in an asset may be done.</span>
+      <span class="sort">8.</span
+      ><span>Trading Hours – the time when trading in an asset may be done.</span>
     </p>
     <p>
-      <span>9.</span
+      <span class="sort">9.</span
       ><span
         >Funds Withdrawal – transfer of money from the Client’s Account to the Client’s External
         Account.</span
       >
     </p>
     <p>
-      <span>10.</span
+      <span class="sort">10.</span
       ><span
         >Income – fixed remuneration credited to the Client's Account if the conditions of the
         option are met. The Income amount is determined at the time that the trade is executed.
@@ -261,7 +262,7 @@
       >
     </p>
     <p>
-      <span>11.</span
+      <span class="sort">11.</span
       ><span
         >Execution of a trade – a trading transaction in which the essential conditions of an option
         trade are agreed by the Client and the Guru Trade7. After the essential conditions are
@@ -269,7 +270,7 @@
       >
     </p>
     <p>
-      <span>12.</span
+      <span class="sort">12.</span
       ><span
         >Closing a trade - a trading transaction in which an open trade on an option is liquidated
         at the option expiration time agreed by the Parties when the trade is made. Early closing of
@@ -280,22 +281,24 @@
       >
     </p>
     <p>
-      <span>13.</span
+      <span class="sort">13.</span
       ><span
         >Exceptional Situations - abnormal market conditions and other exceptional conditions
         described in the Regulation on Trading Transactions.</span
       >
     </p>
     <p>
-      <span>14.</span
+      <span class="sort">14.</span
       ><span
         >Payout ratio – the percentage that determines the Income amount set by the Guru Trade7
         depending on the option asset and other conditions of the option.</span
       >
     </p>
-    <p><span>15.</span><span>Asset Quote – the price for one unit of the Asset.</span></p>
     <p>
-      <span>16.</span
+      <span class="sort">15.</span><span>Asset Quote – the price for one unit of the Asset.</span>
+    </p>
+    <p>
+      <span class="sort">16.</span
       ><span
         >Log entry - an entry in the database made by the Guru Trade7 server that, with accuracy to
         the millisecond or, in the case of absence of technical capability, with accuracy to the
@@ -309,39 +312,40 @@
       >
     </p>
     <p>
-      <span>17.</span
+      <span class="sort">17.</span
       ><span
         >Price Direction – an essential condition of an option trade that determines the trade
         payout. A price may change direction Higher or Lower.</span
       >
     </p>
     <p>
-      <span>18.</span
+      <span class="sort">18.</span
       ><span
         >Non-trading Transaction – any Client transaction to deposit funds on the Client's Account
         or withdraw funds from the Client's Account.</span
       >
     </p>
     <p>
-      <span>19.</span><span>Transactions – The Client's trading and non-trading transactions.</span>
+      <span class="sort">19.</span
+      ><span>Transactions – The Client's trading and non-trading transactions.</span>
     </p>
     <p>
-      <span>20.</span
+      <span class="sort">20.</span
       ><span
         >Open Trade – an option trade after the execution of the trade and before trade closure, for
         which it is not determined yet whether a payout will be made.</span
       >
     </p>
     <p>
-      <span>21.</span
+      <span class="sort">21.</span
       ><span>Price Feed – a succession of prices displayed on the Trading Terminal.</span>
     </p>
     <p>
-      <span>22.</span
+      <span class="sort">22.</span
       ><span>Payment service provider - a company that provides funds transfer services.</span>
     </p>
     <p>
-      <span>23.</span
+      <span class="sort">23.</span
       ><span
         >Recurring payment – a periodically repeating transaction to replenish the Balance of the
         Client's account without requiring the latter to reenter his or her credit card
@@ -349,7 +353,7 @@
       >
     </p>
     <p>
-      <span>24.</span
+      <span class="sort">24.</span
       ><span
         >Guru Trade7 Server – the Guru Trade7's software used to process and store information about
         client requests for trading and non-trading transactions, to provide to the Client realtime
@@ -359,14 +363,14 @@
       >
     </p>
     <p>
-      <span>25.</span
+      <span class="sort">25.</span
       ><span
         >Withdrawal Method – one of the Funds Withdrawal methods offered to the Client that is
         posted on the trading terminal and in the Dashboard.</span
       >
     </p>
     <p>
-      <span>26.</span
+      <span class="sort">26.</span
       ><span
         >The Trade Amount is the amount paid by the Client to the Guru Trade7 when the trade is
         made. The Client`s profit on an option trade if the trade conditions are fulfilled is
@@ -374,7 +378,7 @@
       >
     </p>
     <p>
-      <span>27.</span
+      <span class="sort">27.</span
       ><span
         >Guru Trade7's Account – the Guru Trade7's settlement account at a financial institution, an
         account (wallet) in an electronic payment system, and other accounts, including accounts of
@@ -382,7 +386,7 @@
       >
     </p>
     <p>
-      <span>28.</span
+      <span class="sort">28.</span
       ><span
         >Essential Conditions of a trading transaction (essential conditions of a trade) – the
         conditions that govern the payout of income from a trade to the Client by the Guru
@@ -390,7 +394,7 @@
       >
     </p>
     <p>
-      <span>29.</span
+      <span class="sort">29.</span
       ><span
         >Client account (Trading account) - a special account in the Guru Trade7's accounting system
         in which funds transferred by the Client to make trades are posted; from which the trade
@@ -410,7 +414,7 @@
       >
     </p>
     <p>
-      <span>30.</span
+      <span class="sort">30.</span
       ><span
         >Trading transactions - procedures to make and close trades with options between the Guru
         Trade7 and a Client. Trading transactions are carried out at the place of the GuruTrade7’s
@@ -421,7 +425,7 @@
       >
     </p>
     <p>
-      <span>31.</span
+      <span class="sort">31.</span
       ><span
         >The Trading Terminal is software through which the Client can obtain real-time information
         about quotes to carry out trading and non-trading transactions and receive messages from the
@@ -436,14 +440,14 @@
       >
     </p>
     <p>
-      <span>32.</span
+      <span class="sort">32.</span
       ><span
         >Red Territory - the state of an open option trade if, at the current asset price, income
         cannot be paid out on that trade.</span
       >
     </p>
     <p>
-      <span>33.</span
+      <span class="sort">33.</span
       ><span
         >1-Click service - makes it possible to replenish a Client's account balance from the
         Client's bank (payment) cards without entering the bank (payment) card data of the bank card
@@ -451,14 +455,14 @@
       >
     </p>
     <p>
-      <span>34.</span
+      <span class="sort">34.</span
       ><span
         >Targeted level - the level of asset prices with respect to which the trade result is
         calculated.</span
       >
     </p>
     <p>
-      <span>35.</span
+      <span class="sort">35.</span
       ><span
         >Cookie file - a small data set including an anonymous unique identifier which is sent to
         the web browser of the Client's computer or mobile telephone (hereinafterdevice) from the
@@ -473,7 +477,7 @@
       >
     </p>
     <p>
-      <span>36.</span
+      <span class="sort">36.</span
       ><span
         >Trading signals are information about the state of the market gathered by the Guru Trade7
         based on analytical conclusions that the Guru Trade7 is entitled to provide at its
@@ -486,7 +490,7 @@
       >
     </p>
     <p>
-      <span>37.</span
+      <span class="sort">37.</span
       ><span
         >Quote - the current Asset price displayed on the Trading Terminal. Terms used in this
         Agreement and definitions absent in this Clause shall be interpreted in accordance with
@@ -495,24 +499,26 @@
       >
     </p>
     <p>
-      <b><span>3.&nbsp;Communications and Provision of Information </span></b>
+      <b><span class="sort">3.&nbsp;Communications and Provision of Information </span></b>
     </p>
-    <p><span>1.</span><span>To communicate with the Client, the Guru Trade7 may use:</span></p>
+    <p>
+      <span class="sort">1.</span
+      ><span>To communicate with the Client, the Guru Trade7 may use:</span>
+    </p>
     <p><span>- e-mail;</span></p>
     <p><span>- fax;</span></p>
     <p><span>- telephone;</span></p>
     <p><span>- SMS;</span></p>
     <p><span>- letters sent by post;</span></p>
     <p>
-      <span></span
-      ><span
+      <span
         >— different types of messages sent to the Client on the trading terminal, in the Dashboard,
         browser window, etc. (push notifications, reminders, service messages, etc.);</span
       >
     </p>
     <p><span>— announcements on the Guru Trade7 website.</span></p>
     <p>
-      <span>2.</span
+      <span class="sort">2.</span
       ><span
         >To promptly communicate with the Client to resolve problems related to Client transactions,
         the Guru Trade7 will use the Client's contact information entered when the Client registered
@@ -521,7 +527,7 @@
       >
     </p>
     <p>
-      <span>3.</span
+      <span class="sort">3.</span
       ><span
         >Any correspondence (documents, notices, confirmations, announcements, reports etc.) are
         deemed received by the Client:</span
@@ -552,7 +558,7 @@
       </div>
     </div>
     <p>
-      <span>4.</span
+      <span class="sort">4.</span
       ><span
         >The Client may also contact the Guru Trade7 by e-mail at support@gurutrade7.com, and other
         email addresses and the telephone numbers listed in this Agreement and on the Guru Trade7
@@ -560,7 +566,7 @@
       >
     </p>
     <p>
-      <span>5.</span
+      <span class="sort">5.</span
       ><span
         >The Client understands and agrees that, if the Client's behavior during conversations with
         a Guru Trade7 representative is inappropriate, the Guru Trade7 reserves the right to
@@ -568,7 +574,7 @@
       >
     </p>
     <p>
-      <span>6.</span
+      <span class="sort">6.</span
       ><span
         >The Guru Trade7 may use contact information provided by the Client to send informational,
         marketing, and advertising materials, and service messages and to resolve other tasks. The
@@ -579,17 +585,17 @@
       >
     </p>
     <p>
-      <b><span>4.&nbsp;Terms of use of the Guru Trade7 services. </span></b>
+      <b><span class="sort">4.&nbsp;Terms of use of the Guru Trade7 services. </span></b>
     </p>
     <p>
-      <span>1.</span
+      <span class="sort">1.</span
       ><span
         >During registration the Client undertakes to provide correct and reliable identification
         information in accordance with requirements of the Client registration form.</span
       >
     </p>
     <p>
-      <span>2.</span
+      <span class="sort">2.</span
       ><span
         >After successful registration, the Client will be granted access to the trading terminal,
         the ability to transfer funds to the Client’s Account (placing a deposit in the Client’s
@@ -597,7 +603,7 @@
       >
     </p>
     <p>
-      <span>3.</span
+      <span class="sort">3.</span
       ><span
         >The Client must promptly inform the Guru Trade7 about changes in identification and contact
         information (within 7 (seven) days after that change) by making the appropriate changes on
@@ -617,7 +623,9 @@
         discretion.</span
       >
     </p>
-    <p><span>4.</span><span>Login to the trading terminal is password protected.</span></p>
+    <p>
+      <span class="sort">4.</span><span>Login to the trading terminal is password protected.</span>
+    </p>
     <div>
       <div>
         <ul>
@@ -658,17 +666,17 @@
       </div>
     </div>
     <p>
-      <span>5.</span
+      <span class="sort">5.</span
       ><span
         >The Client may change the password to the trading terminal himself/herself or use the
         procedure for password recovery set by the Guru Trade7.</span
       >
     </p>
     <p>
-      <b><span>5.&nbsp;Claims and Dispute Resolution</span></b>
+      <b><span class="sort">5.&nbsp;Claims and Dispute Resolution</span></b>
     </p>
     <p>
-      <span>1.</span
+      <span class="sort">1.</span
       ><span
         >The Parties have agreed that they will make every effort to settle all disputes between the
         Guru Trade7 and the Client related to transactions, payouts and other actions hereunder by
@@ -676,7 +684,7 @@
       >
     </p>
     <p>
-      <span>2.</span
+      <span class="sort">2.</span
       ><span
         >If a dispute arises, the Client may submit a claim/complaint to the Guru Trade7 and send a
         statement or notice to the Guru Trade7. All claims/complaints/statements/ notices related to
@@ -721,7 +729,10 @@
         </ul>
       </div>
     </div>
-    <p><span>3.</span><span>Claims/complaints/statements/notices must not contain:</span></p>
+    <p>
+      <span class="sort">3.</span
+      ><span>Claims/complaints/statements/notices must not contain:</span>
+    </p>
     <div>
       <div>
         <ul>
@@ -736,7 +747,7 @@
       </div>
     </div>
     <p>
-      <span>4.</span
+      <span class="sort">4.</span
       ><span
         >To respond to a claim/complaint/statement/notice, the Guru Trade7 may request additional
         documents and information from the Client. A claim/complaint/statement/ notice will be
@@ -749,14 +760,14 @@
       >
     </p>
     <p>
-      <span>5.</span
+      <span class="sort">5.</span
       ><span
         >The Guru Trade7 may reject a claim/complaint/statement/notice if the terms of this section
         are violated.</span
       >
     </p>
     <p>
-      <span>6.</span
+      <span class="sort">6.</span
       ><span
         >The Guru Trade7 must consider a claim/complaint/application/appeal within no more than 10
         working days after the submission date. This term does not include time for provision of
@@ -764,7 +775,7 @@
       >
     </p>
     <p>
-      <span>7.</span
+      <span class="sort">7.</span
       ><span
         >In addition to provision set forth in clauses 5.2.-5.6. of the dispute resolution
         procedure, the Client may file a claim to a court, provided that he/she has first submitted
@@ -778,7 +789,7 @@
       >
     </p>
     <p>
-      <span>8.</span
+      <span class="sort">8.</span
       ><span
         >In case of any disputes, the Guru Trade7 reserves the right to fully or partiallyblock
         transactions in the Client's Account until the dispute is settled or until the Parties come
@@ -786,9 +797,9 @@
       </span>
     </p>
     <p>
-      <b><span>6.&nbsp;Governing Law </span></b>
+      <b><span class="sort">6.&nbsp;Governing Law </span></b>
     </p>
-    <p><span>1.</span><span>The Client expressly:</span></p>
+    <p><span class="sort">1.</span><span>The Client expressly:</span></p>
     <div>
       <div>
         <ul>
@@ -818,10 +829,10 @@
       </div>
     </div>
     <p>
-      <b><span>7.&nbsp;Force Majeure</span></b>
+      <b><span class="sort">7.&nbsp;Force Majeure</span></b>
     </p>
     <p>
-      <span>1.</span
+      <span class="sort">1.</span
       ><span
         >If the Guru Trade7 has sufficient grounds, it may claim force majeure events. Force majeure
         events include (without limitation):</span
@@ -854,7 +865,7 @@
       </div>
     </div>
     <p>
-      <span>2.</span
+      <span class="sort">2.</span
       ><span
         >If the Guru Trade7 has established that a force majeure event occurred, the Guru Trade7 has
         the right (without prejudice to the Guru Trade7's other rights) to take any of the following
@@ -867,25 +878,25 @@
       >
     </p>
     <p>
-      <span>3.</span
+      <span class="sort">3.</span
       ><span
         >The Guru Trade7 assumes no liability for breach (improper discharge) of obligations if
         force majeure events interfered with that discharge.</span
       >
     </p>
     <p>
-      <b><span>8.&nbsp;Liability of the Parties</span></b
+      <b><span class="sort">8.&nbsp;Liability of the Parties</span></b
       ><span> </span>
     </p>
     <p>
-      <span>1.</span
+      <span class="sort">1.</span
       ><span
         >The liability of the Parties to this Agreement is determined by the terms of the Agreement
         and its annexes.</span
       >
     </p>
     <p>
-      <span>2.</span
+      <span class="sort">2.</span
       ><span
         >The Guru Trade7 assumes liability only for real damages caused to the Client as a result of
         the Guru Trade7's deliberate breach of its obligations hereunder. The Guru Trade7 is as
@@ -894,7 +905,7 @@
       >
     </p>
     <p>
-      <span>3.</span
+      <span class="sort">3.</span
       ><span
         >The Client assumes liability to the Guru Trade7 for losses incurred by the Guru Trade7 for
         which the Client is responsible, including:</span
@@ -971,7 +982,7 @@
       </div>
     </div>
     <p>
-      <span>4.</span
+      <span class="sort">4.</span
       ><span>If the Client breaches this Agreement, the Guru Trade7 may, at its option:</span>
     </p>
     <div>
@@ -1000,7 +1011,7 @@
       </div>
     </div>
     <p>
-      <span>5.</span
+      <span class="sort">5.</span
       ><span
         >If the Client breaches any terms of the Agreement and its integral parts listed in clause
         1.2, including refusal to undergo the necessary checks and refusal to provide the necessary
@@ -1027,7 +1038,7 @@
       </div>
     </div>
     <p>
-      <span>6.</span
+      <span class="sort">6.</span
       ><span
         >The Guru Trade7 assumes no liability to the Client for any damages, losses, lost profit,
         lost opportunities (without limitations, due to possible market fluctuations), expenses or
@@ -1036,7 +1047,7 @@
       >
     </p>
     <p>
-      <span>7.</span
+      <span class="sort">7.</span
       ><span
         >The Guru Trade7 assumes no liability in case of a discrepancy between the information
         represented on the Client’s trading terminal and the information on the Guru Trade7 Server
@@ -1046,7 +1057,7 @@
       >
     </p>
     <p>
-      <span>8.</span
+      <span class="sort">8.</span
       ><span
         >The Guru Trade7 assumes no liability for the Client’s damages if those damages resulted
         from hacker attacks, accidents (failures) of computer networks, communication networks,
@@ -1056,7 +1067,7 @@
       >
     </p>
     <p>
-      <span>9.</span
+      <span class="sort">9.</span
       ><span
         >The Guru Trade7 assumes no liability for technical failures and/or interruptions in trading
         terminal operation that occurred as a result of hacker attacks, accidents (failures) of
@@ -1065,7 +1076,7 @@
       >
     </p>
     <p>
-      <span>10.</span
+      <span class="sort">10.</span
       ><span
         >The Guru Trade7 assumes no liability for the results of trades that the Client decided to
         make on the basis of analytical materials provided by the Guru Trade7 and/ or third parties.
@@ -1082,7 +1093,7 @@
       >
     </p>
     <p>
-      <span>11.</span
+      <span class="sort">11.</span
       ><span
         >The Guru Trade7 assumes no liability for any losses the Client may suffer in case of theft,
         loss or disclosure of his/her password to the trading terminal to third parties. The Client
@@ -1091,7 +1102,7 @@
       >
     </p>
     <p>
-      <span>12.</span
+      <span class="sort">12.</span
       ><span
         >The Guru Trade7 assumes no liability for breach (improper discharge) of the obligations
         hereunder if it was caused by force majeure events or other exceptional conditions stated in
@@ -1099,7 +1110,7 @@
       >
     </p>
     <p>
-      <span>13.</span
+      <span class="sort">13.</span
       ><span
         >The Guru Trade7 assumes no liability for any indirect, special, arbitrary, or punitive
         damages suffered by the Client, including, but not limited to, lost profit, loss of expected
@@ -1108,7 +1119,7 @@
       >
     </p>
     <p>
-      <span>14.</span
+      <span class="sort">14.</span
       ><span
         >The Guru Trade7 reserves the right to consider the Clients breaches at any time, regardless
         of the time when the breach was made, and, if breaches are discovered, to take measures in
@@ -1116,17 +1127,20 @@
       >
     </p>
     <p>
-      <b><span>9.&nbsp;Term and Termination of the Agreement</span></b
+      <b><span class="sort">9.&nbsp;Term and Termination of the Agreement</span></b
       ><span> </span>
     </p>
     <p>
-      <span>1.</span
+      <span class="sort">1.</span
       ><span
         >This Agreement comes into force upon its conclusion (client registration on the website or
         on the GuruTrade7’s trading terminal) and is valid sine die.</span
       >
     </p>
-    <p><span>2.</span><span>Either Party may terminate this Agreement unilaterally:</span></p>
+    <p>
+      <span class="sort">2.</span
+      ><span>Either Party may terminate this Agreement unilaterally:</span>
+    </p>
     <div>
       <div>
         <ul>
@@ -1150,7 +1164,7 @@
       </div>
     </div>
     <p>
-      <span>3.</span
+      <span class="sort">3.</span
       ><span
         >This Agreement is considered terminated with respect to the Parties when the mutual
         obligations of the Client and of the Guru Trade7 with respect to previously made
@@ -1158,11 +1172,11 @@
       >
     </p>
     <p>
-      <b><span>10. &nbsp;Final Provisions</span></b
+      <b><span class="sort">10. &nbsp;Final Provisions</span></b
       ><span> </span>
     </p>
     <p>
-      <span>1.</span
+      <span class="sort">1.</span
       ><span
         >Amendments and additions to this Agreement and to the annexes hereto are made by the Guru
         Trade7 unilaterally. All amendments and additions made by the Guru Trade7 and not related to
@@ -1171,7 +1185,7 @@
       >
     </p>
     <p>
-      <span>2.</span
+      <span class="sort">2.</span
       ><span
         >Amendments and additions made by the Guru Trade7 to this Agreement and to its annexes
         because of amendments to legislation and regulations governing the subject hereof and to
@@ -1181,7 +1195,7 @@
       >
     </p>
     <p>
-      <span>3.</span
+      <span class="sort">3.</span
       ><span
         >When the amendments and supplements made by the Guru Trade7 come into force, they will
         apply equally to all Clients, including those who concluded the Agreement before their
@@ -1189,7 +1203,7 @@
       >
     </p>
     <p>
-      <span>4.</span
+      <span class="sort">4.</span
       ><span
         >To ensure that a Client who entered into the Agreement is aware of amendments and
         additions, the Client must visit the Guru Trade7's Website or the trading platform
@@ -1198,7 +1212,7 @@
       >
     </p>
     <p>
-      <span>5.</span
+      <span class="sort">5.</span
       ><span
         >The Client (individual) providing his/her personal data to the Guru Trade7 in any form and
         in any way (when performing any actions on the GuruTrade7’s website, through the
@@ -1218,7 +1232,7 @@
       >
     </p>
     <p>
-      <span>6.</span
+      <span class="sort">6.</span
       ><span
         >The Client may use information that was provided to the Client either orally or in writing
         that is posted by the Guru Trade7 or by third parties, access to which was granted to
@@ -1235,7 +1249,7 @@
       >
     </p>
     <p>
-      <span>7.</span
+      <span class="sort">7.</span
       ><span
         >The Guru Trade7 may fully or partially transfer the rights and obligations under this
         Agreement and the annexes hereto to a third party if such person undertakes to fulfill the
@@ -1245,7 +1259,7 @@
       >
     </p>
     <p>
-      <span>8.</span
+      <span class="sort">8.</span
       ><span
         >The Client is not entitled to assign his/her own rights, impose his/her own obligations or
         transfer rights or obligations hereunder in any other way without prior written consent of
@@ -1254,7 +1268,7 @@
       >
     </p>
     <p>
-      <span>9.</span
+      <span class="sort">9.</span
       ><span
         >The Guru Trade7, its partners or any other affiliates may have a material benefit, legal
         relation or arrangement with respect to a transaction on the trading platform or in the
@@ -1267,7 +1281,7 @@
       >
     </p>
     <p>
-      <span>10.</span
+      <span class="sort">10.</span
       ><span
         >The Client agrees and authorizes the Guru Trade7 to act with respect to the Client and for
         the Client as the Guru Trade7 finds appropriate, despite a potential conflict of interests
@@ -1283,7 +1297,7 @@
       >
     </p>
     <p>
-      <span>11.</span
+      <span class="sort">11.</span
       ><span
         >If a court of proper jurisdiction declares any provision of the Agreement (or any part of
         any provision) void, that provision will be treated as a separate part of the Agreement and
@@ -1291,21 +1305,21 @@
       >
     </p>
     <p>
-      <span>12.</span
+      <span class="sort">12.</span
       ><span
         >The Guru Trade7 may suspend services to the Client at any time (prior notice to the Client
         is not required).</span
       >
     </p>
     <p>
-      <span>13.</span
+      <span class="sort">13.</span
       ><span
         >In situations not described in the Agreement, the Guru Trade7 will act according to market
         best practices based on principles of honesty and fairness.</span
       >
     </p>
     <p>
-      <span>14.</span
+      <span class="sort">14.</span
       ><span
         >The Guru Trade7 may prepare and use texts of the Agreement and its annexes in languages
         other than English. If there are contradictions between the text of this Agreement and its
@@ -1315,7 +1329,7 @@
       >
     </p>
     <p>
-      <span>15.</span
+      <span class="sort">15.</span
       ><span
         >The Client is granted a limited and non-exclusive right to use the Trading Terminal only
         for the purposes stipulated in this Agreement. If the Agreement is terminated on any
@@ -1324,7 +1338,7 @@
       >
     </p>
     <p>
-      <span>16.</span
+      <span class="sort">16.</span
       ><span
         >The Client agrees that the Guru Trade7 cannot guarantee continuous uninterrupted and
         technically sound operation of the Trading Terminal, and therefore the Client accepts this
@@ -1333,7 +1347,7 @@
       >
     </p>
     <p>
-      <span>17.</span
+      <span class="sort">17.</span
       ><span
         >All terms used in this Agreement and its integral parts, whether they are in uppercase or
         lowercase characters, shall be of equal importance, unless otherwise follows from the
@@ -1341,10 +1355,14 @@
       >
     </p>
     <p>
-      <b><span>11. &nbsp;List of Countries in which the Guru Trade7 Does Not Do Business</span></b>
+      <b
+        ><span class="sort"
+          >11. &nbsp;List of Countries in which the Guru Trade7 Does Not Do Business</span
+        ></b
+      >
     </p>
     <p>
-      <span>1.</span
+      <span class="sort">1.</span
       ><span
         >The Guru Trade7 does not do business in the following countries and does not provide
         services to persons associated with those states: Gibraltar, the Isle of man, Guernsey,
@@ -1355,7 +1373,10 @@
         Sweden, Islamic Republic of Iran and United Kingdom;</span
       >
     </p>
-    <p><span>2.</span><span>Persons associated with a country are defined as persons:</span></p>
+    <p>
+      <span class="sort">2.</span
+      ><span>Persons associated with a country are defined as persons:</span>
+    </p>
     <div>
       <div>
         <ul>
@@ -1396,7 +1417,7 @@
       </div>
     </div>
     <p>
-      <span>3.</span
+      <span class="sort">3.</span
       ><span
         >If it is found that the Guru Trade7 is providing services to persons associated with the
         countries in which the Guru Trade7 does not do business, the Guru Trade7 may apply the
@@ -1416,6 +1437,7 @@
     a {
       padding: 8px 20px;
       background-color: #282828;
+      font-weight: 600;
       color: #bbb;
       border-radius: 5px;
     }
@@ -1432,6 +1454,10 @@
         color: #fefefe;
         font-weight: 600;
       }
+    }
+    .sort {
+      font-weight: 600;
+      padding-right: 5px;
     }
   }
   ul {

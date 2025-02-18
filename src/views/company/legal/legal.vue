@@ -4,6 +4,11 @@ import Footer from '@/layout/components/footer.vue'
 import { useDomScroll } from '@/hooks/useDomScroll'
 import { useAppStore } from '@/stores/modules/app'
 import ServiceAgreement from './components/serviceAgreement.vue'
+import TradingTransactions from './components/tradingTransactions.vue'
+import RiskDisclosure from './components/riskDisclosure.vue'
+import AgreementOnStorage from './components/agreementOnStorage.vue'
+import PrivacyPolicy from './components/privacyPolicy.vue'
+import PromotionalEvents from './components/promotionalEvents.vue'
 
 const scrollContainer = ref()
 const { scrollTop } = useDomScroll(scrollContainer)
@@ -81,7 +86,7 @@ const showLegalDetail = (index: number) => {
         >
           <div class="legal-list" v-if="showAllLegal">
             <div
-              class="legal-item flex flex-row justify-start items-center gap-4 py-4 text-gray-500 hover:text-gray-800 hover:underline hover:cursor-pointer"
+              class="legal-item flex flex-row justify-start items-center gap-4 py-4 text-gray-300 hover:text-blue-600 hover:underline hover:cursor-pointer"
               v-for="(item, i) in legalList"
               :key="i"
               @click="showLegalDetail(i)"
@@ -113,16 +118,17 @@ const showLegalDetail = (index: number) => {
           </div>
           <div class="legal-detail pt-20" v-else-if="!showAllLegal">
             <!-- service agreement -->
-            <ServiceAgreement />
+            <ServiceAgreement v-if="activeLegalIndex === 0" />
             <!-- trading transactions policy -->
-
+            <TradingTransactions v-if="activeLegalIndex === 1" />
             <!-- risk disclosure -->
-
+            <RiskDisclosure v-if="activeLegalIndex === 2" />
             <!-- agreement on the storage of the cardholder’s credentials -->
-
+            <AgreementOnStorage v-if="activeLegalIndex === 3" />
             <!-- privacy policy -->
-
+            <PrivacyPolicy v-if="activeLegalIndex === 4" />
             <!-- promotional events -->
+            <PromotionalEvents v-if="activeLegalIndex === 5" />
           </div>
         </div>
       </section>
