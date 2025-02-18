@@ -6,7 +6,7 @@ export default {
     //自定义或扩展Tailwind CSS的主题
     extend: {
       colors: {
-        'primary-color': '#131A21', // 背景色：文档
+        'primary-color': '#141414', // 背景色：文档
         'secondary-color': '#1a3355', // 背景色：移动端菜单列表模块
         'tertiary-color': '#e7eaec', // 背景色：移动端菜单平台模块
         'btn-color': '#013FC2', // 背景色：按钮
@@ -27,6 +27,16 @@ export default {
       backgroundImage: {
         aboutbg: "url('../../../src/assets/images/aboutbg.webp')",
         legalbg: "url('../../../src/assets/images/legalbg.webp')",
+        govsvg: "url('../../../src/assets/svg/gov.svg')",
+      },
+      keyframes: {
+        spin: {
+          from: { transform: 'translate(0)' },
+          to: { transform: 'translate(50px)' },
+        },
+      },
+      animation: {
+        'custom-spin': 'spin 1s ease-out infinite',
       },
     },
   },

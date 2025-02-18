@@ -175,14 +175,14 @@ const peopleSays = [
             Place your trades on best conditions
           </h2>
           <div class="grid grid-cols-1 gap-12 mesm:grid-cols-2">
-            <div class="grid-list grid gap-4 grid-cols-2 lg:grid-cols-3">
+            <div class="grid-list grid gap-4 grid-cols-2 lg:grid-cols-2">
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
                   class="value text-4xl font-bold bg-gradient-to-br from-red-500 to-blue-500 bg-clip-text text-transparent"
                 >
                   $5*
                 </div>
-                <div class="name text-base text-gray-800 text-center memd:text-lg melg:text-xl">
+                <div class="name text-base text-gray-800 text-center melg:text-lg">
                   Minimum investment amount
                 </div>
               </div>
@@ -192,7 +192,7 @@ const peopleSays = [
                 >
                   $1
                 </div>
-                <div class="name text-base text-gray-800 text-center memd:text-lg melg:text-xl">
+                <div class="name text-base text-gray-800 text-center memd:text-base melg:text-lg">
                   Minimum trade amount
                 </div>
               </div>
@@ -202,7 +202,7 @@ const peopleSays = [
                 >
                   $50 000
                 </div>
-                <div class="name text-base text-gray-800 text-center memd:text-lg melg:text-xl">
+                <div class="name text-base text-gray-800 text-center memd:text-base melg:text-lg">
                   Virtual money on your Demo account
                 </div>
               </div>
@@ -212,7 +212,7 @@ const peopleSays = [
                 >
                   50+
                 </div>
-                <div class="name text-base text-gray-800 text-center memd:text-lg melg:text-xl">
+                <div class="name text-base text-gray-800 text-center memd:text-base melg:text-lg">
                   Payment methods
                 </div>
               </div>
@@ -222,7 +222,7 @@ const peopleSays = [
                 >
                   $0
                 </div>
-                <div class="name text-base text-gray-800 text-center memd:text-lg melg:text-xl">
+                <div class="name text-base text-gray-800 text-center memd:text-base melg:text-lg">
                   No commission on deposit and withdrawal
                 </div>
               </div>
@@ -232,7 +232,7 @@ const peopleSays = [
                 >
                   100+
                 </div>
-                <div class="name text-base text-gray-800 text-center memd:text-lg melg:text-xl">
+                <div class="name text-base text-gray-800 text-center memd:text-base melg:text-lg">
                   Assets for trading
                 </div>
               </div>
@@ -240,6 +240,27 @@ const peopleSays = [
             <div class="img flex items-center justify-center">
               <img src="@/assets/images/nowdata.webp" alt="" />
             </div>
+          </div>
+        </div>
+      </div>
+      <!-- licensed and regulated online broker -->
+      <div class="w-full py-[250px] bg-govsvg bg-no-repeat bg-contain bg-center">
+        <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
+          <div class="text-white text-3xl font-semibold text-center memd:text-4xl melg:text-6xl">
+            ForeignExchange is a licensed and regulated online broker
+          </div>
+          <div class="content text-lg text-gray-300 text-center my-16">
+            ForeignExchange is a licensed and regulated broker by the Vanuatu Financial Services
+            Commission. ForeignExchange is committed to providing the highest quality of service.
+            Our clients are covered by deposit insurance and have access to comprehensive support
+            and prompt resolution of any issues concerning their financial interactions with
+            ForeignExchange.
+          </div>
+          <div
+            class="link group text-xl text-white font-semibold flex flex-row justify-center items-center gap-4 hover:text-blue-500"
+          >
+            <a href="/regulation">Learn more</a
+            ><span class="group-hover:animate-custom-spin">&gt;</span>
           </div>
         </div>
       </div>
@@ -251,7 +272,7 @@ const peopleSays = [
           </div>
           <div class="grid-list grid grid-cols-1 gap-12 mesm:grid-cols-2 lg:grid-cols-4">
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why1.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -265,7 +286,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why2.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -278,7 +299,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why3.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -291,7 +312,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why4.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -303,7 +324,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why5.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -316,7 +337,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why6.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -330,7 +351,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why7.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -344,7 +365,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why8.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">

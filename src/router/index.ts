@@ -33,6 +33,18 @@ const routes = [
     ],
   },
   {
+    path: '/regulation',
+    name: 'Regulation',
+    component: Layout,
+    children: [
+      {
+        path: '',
+        name: 'QuickStartPage',
+        component: () => import('../views/regulation/regulation.vue'),
+      },
+    ],
+  },
+  {
     path: '/company',
     name: 'Company',
     component: Layout,

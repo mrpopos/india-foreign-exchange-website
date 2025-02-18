@@ -155,6 +155,7 @@ const menuJump = (item: MenuItem) => {
       padding: 10px 15px;
       cursor: pointer;
       position: relative;
+      transition: all 0.3s ease-in-out;
 
       // &.active {
       //   color: var(--c-hover);
