@@ -16,7 +16,7 @@ export default {
         'text-color-4': '#1e385b', // 文字颜色：首页区域why choose us标题
         'text-color-5': '#212121', // 文字颜色：首页区域why choose us副标题
         'text-color-6': '#515151', // 文字颜色：首页区域why choose us文本
-        'text-hover-colo-1': '#69ff2f', // 文字颜色：移动端菜单列表模块标题
+        'text-hover-colo-1': '#013fc2', // 文字颜色：移动端菜单列表模块标题、菜单链接悬浮颜色
       },
       screens: {
         mexs: '320px',
