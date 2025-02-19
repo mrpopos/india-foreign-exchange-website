@@ -23,24 +23,28 @@ const menuData = ref([
     children: [
       {
         label: 'About Us',
+        icon: 'IconAboutUs',
         to: '/company/about-us',
         index: '2-1',
         children: null,
       },
       {
         label: 'legal',
+        icon: 'IconLegal',
         to: '/company/legal',
         index: '2-2',
         children: null,
       },
       {
         label: 'Fund Safety',
+        icon: 'IconFundSafety',
         to: '/company/fund-safety',
         index: '2-3',
         children: null,
       },
       {
         label: 'Responsibility',
+        icon: 'IconResponsibility',
         to: '/company/responsibility',
         index: '2-4',
         children: null,
@@ -55,24 +59,28 @@ const menuData = ref([
     children: [
       {
         label: 'Guides',
+        icon: 'IconGuides',
         to: '/learn/guides',
         index: '3-1',
         children: null,
       },
       {
         label: 'What is CFD?',
+        icon: 'IconWhatCfd',
         to: '/learn/what-is-cfd',
         index: '3-2',
         children: null,
       },
       {
         label: 'Deposits & Withdrawals',
+        icon: 'IconDeposit',
         to: '/learn/deposits-withdrawals',
         index: '3-3',
         children: null,
       },
       {
         label: 'Glossary',
+        icon: 'IconGlossary',
         to: '/learn/glossary',
         index: '3-4',
         children: null,

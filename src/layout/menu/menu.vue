@@ -35,7 +35,17 @@
               class="sub-menu-item"
               @click="menuJump(child)"
             >
-              {{ child.label }}
+              <div class="label-box-child">
+                <IconAboutUs v-if="child.icon === 'IconAboutUs'" />
+                <IconLegal v-else-if="child.icon === 'IconLegal'" />
+                <IconFundSafety v-else-if="child.icon === 'IconFundSafety'" />
+                <IconResponsibility v-else-if="child.icon === 'IconResponsibility'" />
+                <IconGuides v-else-if="child.icon === 'IconGuides'" />
+                <IconWhatCfd v-else-if="child.icon === 'IconWhatCfd'" />
+                <IconDeposit v-else-if="child.icon === 'IconDeposit'" />
+                <IconGlossary v-else-if="child.icon === 'IconGlossary'" />
+                <span class="menu-label">{{ child.label }}</span>
+              </div>
             </li>
           </ul>
         </Transition>
@@ -50,6 +60,15 @@ import IconQuickStart from '@/components/icons/IconQuickStart.vue'
 import IconCompany from '@/components/icons/IconCompany.vue'
 import IconLearn from '@/components/icons/IconLearn.vue'
 import IconHelp from '@/components/icons/IconHelp.vue'
+import IconAboutUs from '@/components/icons/IconAboutUs.vue'
+import IconLegal from '@/components/icons/IconLegal.vue'
+import IconFundSafety from '@/components/icons/IconFundSafety.vue'
+import IconResponsibility from '@/components/icons/IconResponsibility.vue'
+import IconGuides from '@/components/icons/IconGuides.vue'
+import IconWhatCfd from '@/components/icons/IconWhatCfd.vue'
+import IconDeposit from '@/components/icons/IconDeposit.vue'
+import IconGlossary from '@/components/icons/IconGlossary.vue'
+
 import { useRouter } from 'vue-router'
 
 interface MenuItem {
@@ -195,6 +214,14 @@ const menuJump = (item: MenuItem) => {
           cursor: pointer;
           text-wrap: nowrap;
           color: var(--primary-color);
+
+          .label-box-child {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 8px;
+          }
 
           &:hover {
             background-color: var(--c-hover-1);
