@@ -136,7 +136,7 @@ watchEffect(() => {
                   your information.
                 </p>
               </div>
-              <div class="line1-right w-full mesm:min-w-[250px]">
+              <div class="line1-right w-full max-w-[320px] mesm:min-w-[250px]">
                 <img class="w-full" src="@/assets/images/fund1.webp" alt="" />
               </div>
             </div>
@@ -152,7 +152,7 @@ watchEffect(() => {
                   market fluctuations or emerging challenges.
                 </p>
               </div>
-              <div class="line1-right w-full mesm:min-w-[250px]">
+              <div class="line1-right w-full max-w-[320px] mesm:min-w-[250px]">
                 <img class="w-full" src="@/assets/images/fund2.webp" alt="" />
               </div>
             </div>
@@ -169,7 +169,7 @@ watchEffect(() => {
                   your information.
                 </p>
               </div>
-              <div class="line1-right w-full mesm:min-w-[250px]">
+              <div class="line1-right w-full max-w-[320px] mesm:min-w-[250px]">
                 <img class="w-full" src="@/assets/images/fund3.webp" alt="" />
               </div>
             </div>
@@ -185,13 +185,12 @@ watchEffect(() => {
             >
               <div class="flex flex-col-reverse justify-center items-center gap-2">
                 <div class="cart-left flex flex-col justify-center items-center gap-1">
-                  <div class="card-title text-base text-gray-600 font-bold">Team</div>
-                  <div class="card-value text-2xl text-gray-800 font-bold">100</div>
+                  <div class="card-value text-2xl text-gray-800 font-bold">Zero fees</div>
                   <div class="card-desc text-center text-base text-gray-700 font-bold">
-                    Support Members
+                    We do not charge commissions for either withdrawals or deposits.
                   </div>
                 </div>
-                <div class="cart-right">
+                <div class="cart-right w-full max-w-[100px]">
                   <img src="@/assets/images/fundicon1.webp" alt="" />
                 </div>
               </div>
@@ -201,11 +200,15 @@ watchEffect(() => {
             >
               <div class="flex flex-col-reverse justify-center items-center gap-2">
                 <div class="cart-left flex flex-col justify-center items-center gap-1">
-                  <div class="card-title text-base text-gray-600 font-bold">Email</div>
-                  <div class="card-value text-2xl text-gray-800 font-bold">20</div>
-                  <div class="card-desc text-center text-base text-gray-700 font-bold">Minutes</div>
+                  <div class="card-value text-2xl text-gray-800 font-bold">
+                    Fast deposits & withdrawal
+                  </div>
+                  <div class="card-desc text-center text-base text-gray-700 font-bold">
+                    Deposit orders can be processed in as little as 3 minutes and withdrawals can be
+                    made in as little as 20 minutes.
+                  </div>
                 </div>
-                <div class="cart-right">
+                <div class="cart-right w-full max-w-[100px]">
                   <img src="@/assets/images/fundicon2.webp" alt="" />
                 </div>
               </div>
@@ -215,11 +218,12 @@ watchEffect(() => {
             >
               <div class="flex flex-col-reverse justify-center items-center gap-2">
                 <div class="cart-left flex flex-col justify-center items-center gap-1">
-                  <div class="card-title text-base text-gray-600 font-bold">Chat</div>
-                  <div class="card-value text-2xl text-gray-800 font-bold">50</div>
-                  <div class="card-desc text-center text-base text-gray-700 font-bold">Seconds</div>
+                  <div class="card-value text-2xl text-gray-800 font-bold">5+ Payment Methods</div>
+                  <div class="card-desc text-center text-base text-gray-700 font-bold">
+                    Supports several local payment channels and international payment channels.
+                  </div>
                 </div>
-                <div class="cart-right">
+                <div class="cart-right w-full max-w-[100px]">
                   <img src="@/assets/images/fundicon3.webp" alt="" />
                 </div>
               </div>
