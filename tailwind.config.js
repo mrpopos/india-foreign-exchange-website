@@ -27,6 +27,7 @@ export default {
       backgroundImage: {
         aboutbg: "url('../../../src/assets/images/aboutbg.webp')",
         legalbg: "url('../../../src/assets/images/legalbg.webp')",
+        fundbg: "url('../../../src/assets/images/fundbg.webp')",
         govsvg: "url('../../../src/assets/svg/gov.svg')",
       },
       keyframes: {

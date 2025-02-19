@@ -89,19 +89,13 @@ watchEffect(() => {
     <div ref="scrollContainer" class="quick-container h-full overflow-auto">
       <!-- first screen -->
       <section class="quick-banner overflow-hidden bg-aboutbg bg-cover">
-        <!-- <div class="quick-banner-bg h-full relative">
-          <picture
-            class="h-[80%] absolute top-1/2 right-0 transform translate-x-1/4 -translate-y-1/2 md:translate-x-1/2"
-          >
-            <source :srcset="homeBg3" type="image/webp" />
-            <img class="" :src="homeBg3" alt="" />
-          </picture>
-        </div> -->
         <div class="quick-banner-content w-full pt-40 pb-20">
           <div
-            class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-start justify-center gap-12"
+            class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-center justify-center gap-12"
           >
-            <h1 class="text-white text-3xl font-bold mesm:text-4xl melg:text-5xl text-center">
+            <h1
+              class="w-full text-white text-3xl font-bold mesm:text-4xl melg:text-5xl text-center"
+            >
               6 YEARS OF INCREDIBLE SERVICE
             </h1>
             <div class="desc text-sm text-gray-700">
