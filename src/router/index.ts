@@ -39,7 +39,7 @@ const routes = [
     children: [
       {
         path: '',
-        name: 'QuickStartPage',
+        name: 'RegulationPage',
         component: () => import('../views/regulation/regulation.vue'),
       },
     ],
