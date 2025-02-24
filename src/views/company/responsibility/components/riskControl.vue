@@ -6,30 +6,20 @@
       <a href="/company/responsibility">&lt; BACK</a>
     </h2>
     <!-- <h3>Agreement on the Storage of the Cardholder’s Credentials</h3> -->
-    <div data-v-03bef76b="" class="job-content">
-      <div data-v-03bef76b="" class="list">
-        <p data-v-03bef76b="" class="title">JOB DESCRIPTION:</p>
-        <p data-v-03bef76b="" class="name">Risk Control Group (RCG) Analyst</p>
-        <!----><!---->
-        <div data-v-03bef76b="" class="details job-info">
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Job Number: 3221367
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> PRIMARY LOCATION: Montreal, Canada
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> EMPLOYMENT TYPE: Full Time
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> JOB LEVEL: Associate
-          </p>
+    <div>
+      <div>
+        <p>JOB DESCRIPTION:</p>
+        <p>Risk Control Group (RCG) Analyst</p>
+        <div>
+          <p>Job Number: 3221367</p>
+          <p>PRIMARY LOCATION: Montreal, Canada</p>
+          <p>EMPLOYMENT TYPE: Full Time</p>
+          <p>JOB LEVEL: Associate</p>
         </div>
       </div>
-      <div data-v-03bef76b="" class="list">
-        <p data-v-03bef76b="" class="title">DESCRIPTION:</p>
-        <!---->
-        <p data-v-03bef76b="" class="description-details">
+      <div>
+        <p>DESCRIPTION:</p>
+        <p>
           The Risk Control Group (RCG) provides oversight of regulatory and firm requirements for
           supervision, Surveillance, entitlements, information security and supplier risk programs
           by performing in-depth assessments and implementing consistent programmatic coverage
@@ -43,103 +33,71 @@
           and other business owners. RCG is looking for an analyst to support projects and
           day-to-day tasks as applicable.
         </p>
-        <!---->
-        <div data-v-03bef76b="" class="details"></div>
       </div>
-      <div data-v-03bef76b="" class="list">
-        <p data-v-03bef76b="" class="title">Key Roles and Responsibilities</p>
-        <!----><!----><!---->
-        <div data-v-03bef76b="" class="details">
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Servicing the Sales and traders to apply
-            the risk control framework.
+      <div>
+        <p>Key Roles and Responsibilities</p>
+        <div>
+          <p>Servicing the Sales and traders to apply the risk control framework.</p>
+          <p>Reviewing surveillance reports/system and following escalation procedures.</p>
+          <p>Review of system entitlements and analyzing appropriate access.</p>
+          <p>
+            Providing local support and oversight of outsourced processes and ensuring data accuracy
+            for population management.
           </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Reviewing surveillance reports/system and
-            following escalation procedures.
+          <p>Manage escalations on Non-Market Abuse (NMA) trade surveillance.</p>
+          <p>
+            Ability to build strong relationships with Business, Compliance and Technology
+            stakeholders across the region to drive continuous improvement on Risk governance.
           </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Review of system entitlements and
-            analyzing appropriate access.
+          <p>
+            Promote risk education and awareness and provide management summaries as appropriate
           </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Providing local support and oversight of
-            outsourced processes and ensuring data accuracy for population management.
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Manage escalations on Non-Market Abuse
-            (NMA) trade surveillance.
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Ability to build strong relationships with
-            Business, Compliance and Technology stakeholders across the region to drive continuous
-            improvement on Risk governance.
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Promote risk education and awareness and
-            provide management summaries as appropriate
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Engaging with Sales and Trading contacts
-            and other stakeholders to build awareness of RCG’s continued focus on proactive and
-            effective surveillance and supervision.
+          <p>
+            Engaging with Sales and Trading contacts and other stakeholders to build awareness of
+            RCG’s continued focus on proactive and effective surveillance and supervision.
           </p>
         </div>
       </div>
-      <div data-v-03bef76b="" class="list">
-        <p data-v-03bef76b="" class="title">QUALIFICATIONS</p>
-        <!----><!----><!---->
-        <div data-v-03bef76b="" class="details">
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Risk Management, Compliance or IT
-            Professional with 3+ years of experience in managing risk on areas such as equity
-            surveillance, operational risk, information Security or similar.
+      <div>
+        <p>QUALIFICATIONS</p>
+        <div>
+          <p>
+            Risk Management, Compliance or IT Professional with 3+ years of experience in managing
+            risk on areas such as equity surveillance, operational risk, information Security or
+            similar.
           </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Excellent verbal and written skills with
-            ability to create quality written procedures that are clear and comprehensive.
+          <p>
+            Excellent verbal and written skills with ability to create quality written procedures
+            that are clear and comprehensive.
           </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Strong analytic and problem
-            solving/process improvement skills; ability to learn quickly and solve poorly defined
-            problems
+          <p>
+            Strong analytic and problem solving/process improvement skills; ability to learn quickly
+            and solve poorly defined problems
           </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Very strong Excel skills; coding
-            capabilities (Macro’s, VBA etc.) is advantageous.
+          <p>Very strong Excel skills; coding capabilities (Macro’s, VBA etc.) is advantageous.</p>
+          <p>
+            Outstanding interpersonal skills with the ability to work effectively with all levels of
+            the organization with excellent influencing and negotiation skills.
           </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Outstanding interpersonal skills with the
-            ability to work effectively with all levels of the organization with excellent
-            influencing and negotiation skills.
+          <p>
+            Knowledge of Software development lifecycle and change management either through IT
+            project management or developer/quality assurance experience.
           </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Knowledge of Software development
-            lifecycle and change management either through IT project management or
-            developer/quality assurance experience.
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Strong organizational skills and an
-            ability to manage multiple demands and changing priorities.
+          <p>
+            Strong organizational skills and an ability to manage multiple demands and changing
+            priorities.
           </p>
         </div>
       </div>
-      <div data-v-03bef76b="" class="list">
-        <p data-v-03bef76b="" class="title">Skills Desired</p>
-        <!----><!----><!---->
-        <div data-v-03bef76b="" class="details">
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Knowledge of Sales and Trading products
-            such as Cash, SWAPs, Derivatives and Bonds is advantageous
+      <div>
+        <p>Skills Desired</p>
+        <div>
+          <p>
+            Knowledge of Sales and Trading products such as Cash, SWAPs, Derivatives and Bonds is
+            advantageous
           </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Additional language advantageous e.g.
-            Japanese
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> General interest/awareness of regulations
-            and the banking governing bodies.
-          </p>
+          <p>Additional language advantageous e.g. Japanese</p>
+          <p>General interest/awareness of regulations and the banking governing bodies.</p>
         </div>
       </div>
     </div>

@@ -6,30 +6,20 @@
       <a href="/company/responsibility">&lt; BACK</a>
     </h2>
     <!-- <h3>Agreement on the Storage of the Cardholder’s Credentials</h3> -->
-    <div data-v-03bef76b="" class="job-content">
-      <div data-v-03bef76b="" class="list">
-        <p data-v-03bef76b="" class="title">JOB DESCRIPTION:</p>
-        <p data-v-03bef76b="" class="name">Client Service Associate-English</p>
-        <!----><!---->
-        <div data-v-03bef76b="" class="details job-info">
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Job Number: 3223472
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> JOB: Client Service Associate
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> EMPLOYMENT TYPE: Full Time
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> JOB LEVEL: Associate
-          </p>
+    <div>
+      <div>
+        <p>JOB DESCRIPTION:</p>
+        <p>Client Service Associate-English</p>
+        <div>
+          <p>Job Number: 3223472</p>
+          <p>JOB: Client Service Associate</p>
+          <p>EMPLOYMENT TYPE: Full Time</p>
+          <p>JOB LEVEL: Associate</p>
         </div>
       </div>
-      <div data-v-03bef76b="" class="list">
-        <p data-v-03bef76b="" class="title">DESCRIPTION:</p>
-        <!---->
-        <p data-v-03bef76b="" class="description-details">
+      <div>
+        <p>DESCRIPTION:</p>
+        <p>
           The primary responsibility of the Client Service Associate is to work as part of a team
           managing all administrative aspects of The Asia Practice in a high volume, time critical
           environment. To be successful in this role you will need to demonstrate knowledge of the
@@ -38,37 +28,21 @@
           and work well under pressure. The role will include direct contact with clients to ensure
           issues/queries are being addressed in a timely manner.
         </p>
-        <p data-v-03bef76b="" class="sub-title">About The Role</p>
-        <div data-v-03bef76b="" class="details"></div>
+        <p>About The Role</p>
       </div>
-      <div data-v-03bef76b="" class="list">
-        <p data-v-03bef76b="" class="title">QUALIFICATIONS</p>
-        <!----><!---->
-        <p data-v-03bef76b="" class="sub-title">Qualifications / Experience Required</p>
-        <div data-v-03bef76b="" class="details">
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> 2 – 3 years’ experience in a similar
-            client service role
+      <div>
+        <p>QUALIFICATIONS</p>
+        <p>Qualifications / Experience Required</p>
+        <div>
+          <p>2 – 3 years’ experience in a similar client service role</p>
+          <p>Undergraduate degree in Finance, Commerce, Accounting or Business essential</p>
+          <p>CPA or CA qualifications preferred</p>
+          <p>
+            Recognized industry studies preferred (including RG146, Series 7) – if not held already
+            a requirement to study towards
           </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Undergraduate degree in Finance, Commerce,
-            Accounting or Business essential
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> CPA or CA qualifications preferred
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Recognized industry studies preferred
-            (including RG146, Series 7) – if not held already a requirement to study towards
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Experience in Accounting, Risk, Audit or
-            Compliance
-          </p>
-          <p data-v-03bef76b="">
-            <span data-v-03bef76b="" class="line"></span> Experience within wealth management,
-            financial planning or professional services
-          </p>
+          <p>Experience in Accounting, Risk, Audit or Compliance</p>
+          <p>Experience within wealth management, financial planning or professional services</p>
         </div>
       </div>
     </div>
