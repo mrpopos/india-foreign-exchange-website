@@ -29,6 +29,7 @@ export default {
         legalbg: "url('../../../src/assets/images/legalbg.webp')",
         fundbg: "url('../../../src/assets/images/fundbg.webp')",
         responsibilitybg: "url('../../../src/assets/images/responsibilitybg.webp')",
+        cfdbg: "url('../../../src/assets/images/cfdbg.webp')",
         govsvg: "url('../../../src/assets/svg/gov.svg')",
       },
       keyframes: {

@@ -77,11 +77,6 @@ const routes = [
     component: Layout,
     children: [
       {
-        path: 'guides',
-        name: 'guides',
-        component: () => import('../views/learn/guides/guides.vue'),
-      },
-      {
         path: 'what-is-cfd',
         name: 'WhatIsCfd',
         component: () => import('../views/learn/what-is-cfd/what-is-cfd.vue'),
@@ -90,11 +85,6 @@ const routes = [
         path: 'deposits-withdrawals',
         name: 'DepositsWithdrawals',
         component: () => import('../views/learn/deposits-withdrawals/deposits-withdrawals.vue'),
-      },
-      {
-        path: 'glossary',
-        name: 'Glossary',
-        component: () => import('../views/learn/glossary/glossary.vue'),
       },
     ],
   },

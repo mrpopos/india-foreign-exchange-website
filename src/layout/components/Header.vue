@@ -58,13 +58,6 @@ const menuData = ref([
     index: '3',
     children: [
       {
-        label: 'Guides',
-        icon: 'IconGuides',
-        to: '/learn/guides',
-        index: '3-1',
-        children: null,
-      },
-      {
         label: 'What is CFD?',
         icon: 'IconWhatCfd',
         to: '/learn/what-is-cfd',
@@ -76,13 +69,6 @@ const menuData = ref([
         icon: 'IconDeposit',
         to: '/learn/deposits-withdrawals',
         index: '3-3',
-        children: null,
-      },
-      {
-        label: 'Glossary',
-        icon: 'IconGlossary',
-        to: '/learn/glossary',
-        index: '3-4',
         children: null,
       },
     ],
