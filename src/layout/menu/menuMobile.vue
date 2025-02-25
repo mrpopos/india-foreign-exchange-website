@@ -17,12 +17,12 @@
                       (m) => !m.children || !m.children.length,
                     )"
                     :key="index"
-                    class="flex flex-row justify-start items-center gap-2 my-2 hover:cursor-pointer hover:text-text-hover-colo-1"
+                    class="text-text-color-3 leading-8 flex flex-row justify-start items-center gap-2 my-2 hover:cursor-pointer hover:text-text-hover-color-1 group"
                     @click="menuJunp(item)"
                   >
                     <IconQuickStart v-if="item.icon === 'IconQuickStart'" />
                     <IconHelp v-else-if="item.icon === 'IconHelp'" />
-                    <span>{{ item.label }}</span>
+                    <span class="group-hover:underline underline-offset-4">{{ item.label }}</span>
                   </li>
                 </ul>
               </div>
@@ -33,7 +33,7 @@
                 </h2>
                 <ul>
                   <li
-                    class="flex flex-row justify-start items-center gap-2 my-2 text-text-color-2 hover:cursor-pointer hover:text-text-hover-colo-1"
+                    class="flex flex-row justify-start items-center gap-2 my-2 text-text-color-2 hover:cursor-pointer hover:text-blue-600"
                   >
                     <svg
                       t="1739517641705"
@@ -79,7 +79,7 @@
                     <span>Android</span>
                   </li>
                   <li
-                    class="flex flex-row justify-start items-center gap-2 my-2 text-text-color-2 hover:cursor-pointer hover:text-text-hover-colo-1"
+                    class="flex flex-row justify-start items-center gap-2 my-2 text-text-color-2 hover:cursor-pointer hover:text-blue-600"
                   >
                     <svg
                       t="1739517704218"
@@ -115,7 +115,7 @@
                     <span>Apk Download</span>
                   </li>
                   <li
-                    class="flex flex-row justify-start items-center gap-2 my-2 text-text-color-2 hover:cursor-pointer hover:text-text-hover-colo-1"
+                    class="flex flex-row justify-start items-center gap-2 my-2 text-text-color-2 hover:cursor-pointer hover:text-blue-600"
                   >
                     <svg
                       t="1739517808129"
@@ -141,7 +141,7 @@
                     <span>Web App</span>
                   </li>
                   <li
-                    class="flex flex-row justify-start items-center gap-2 my-2 text-text-color-2 hover:cursor-pointer hover:text-text-hover-colo-1"
+                    class="flex flex-row justify-start items-center gap-2 my-2 text-text-color-2 hover:cursor-pointer hover:text-blue-600"
                   >
                     <svg
                       t="1739517896389"
@@ -176,14 +176,14 @@
                 v-for="(item, index) in menuData.filter((m) => m.children && m.children.length)"
                 :key="index"
               >
-                <h2 class="text-text-color-3 text-xl uppercase font-semibold text-color-3 pb-2">
+                <h2 class="text-text-color-3 text-xl uppercase font-semibold pb-2">
                   {{ item.label }}
                 </h2>
                 <ul>
                   <li
                     v-for="(ele, i) in item.children"
                     :key="i"
-                    class="text-base text-text-color-3 leading-8 hover:cursor-pointer hover:text-text-hover-colo-1"
+                    class="text-base text-text-color-3 leading-8 hover:cursor-pointer hover:text-text-hover-color-1 hover:underline hover:underline-offset-4"
                     @click="menuJunp(ele)"
                   >
                     {{ ele.label }}

@@ -90,7 +90,7 @@ const showLegalDetail = (index: number) => {
           </div>
         </section>
         <!-- Trade with a partner you can trust -->
-        <section class="suport-team w-full py-20 bg-gradient-to-br from-blue-200 to-slate-200">
+        <section class="suport-team w-full py-20">
           <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
             <div class="grid grid-cols-1 gap-6 memd:grid-cols-3">
               <div

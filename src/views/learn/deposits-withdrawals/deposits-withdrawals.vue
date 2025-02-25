@@ -16,161 +16,198 @@ watchEffect(() => {
   <div class="quick-wrapper h-full">
     <div ref="scrollContainer" class="quick-container h-full overflow-auto">
       <!-- first screen -->
-      <section class="quick-banner bg-gradient-to-br from-[#01203f] to-[#021d4b] overflow-hidden">
-        <!-- <div class="quick-banner-bg h-full relative">
-          <picture
-            class="h-[80%] absolute top-1/2 right-0 transform translate-x-1/4 -translate-y-1/2 md:translate-x-1/2"
-          >
-            <source :srcset="homeBg3" type="image/webp" />
-            <img class="" :src="homeBg3" alt="" />
-          </picture>
-        </div> -->
+      <section class="quick-banner overflow-hidden bg-fundbg bg-cover">
         <div class="quick-banner-content w-full pt-40 pb-20">
           <div
-            class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-start justify-center gap-12"
+            class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-center justify-center gap-12"
           >
-            <h1 class="text-white text-3xl font-bold mesm:text-4xl melg:text-5xl">
-              How to trade<br />
-              on financial markets
+            <h1
+              class="w-full text-white text-3xl font-bold mesm:text-4xl melg:text-5xl text-center"
+            >
+              DEPOSITS & WITHDRAWALS
             </h1>
-            <div class="desc text-sm text-gray-700">
-              <p class="text-white text-base md:text-xl">With Pocket Option</p>
+            <div class="desc text-base text-gray-700">
+              <p class="text-gray-500 text-base md:text-xl py-1 text-center">
+                Quick access to deposits & withdrawal with the most popular and secure payment
+                methods.
+              </p>
             </div>
-            <div>
+            <!-- <div>
               <a class="btn px-8 py-4 bg-btn-color rounded-lg text-lg hover:cursor-pointer"
-                >REGISTRATION</a
+                >view terms and policies</a
               >
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- Fees and Charges -->
+      <section class="suport-team w-full py-40 memd:py-20">
+        <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
+          <div class="flex flex-col justify-start items-start gap-12">
+            <div
+              class="introduce-line1 w-full bg-white rounded-lg flex flex-row justify-center items-center gap-8 px-8 pt-24 pb-8 mesm:flex-row-reverse relative memd:pt-8"
+            >
+              <div class="line1-left w-full memd:w-[50%]">
+                <h2 class="title text-xl text-black font-semibold mb-6">Payment process</h2>
+                <p class="desc text-base text-gray-700 font-normal">
+                  For faster processing we recommend that all account holders deposit funds into
+                  their trading account from inside their Secure Client Area. From your Secure
+                  Client Area you will be able to fund your account in real time using one of the
+                  instant funding methods. In certain instances, it may take up to hours for
+                  deposits to be processed into the designated trading account. If the above
+                  situation occurs, please contact our professional customer service to deal with.
+                </p>
+              </div>
+              <div
+                class="line1-right absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 memd:static memd:w-[50%] memd:translate-x-0 memd:translate-y-0 flex justify-center items-center memd:bg-gray-200 rounded-lg"
+              >
+                <img class="w-full max-w-[250px]" src="@/assets/images/fund4.webp" alt="" />
+              </div>
+            </div>
+            <div
+              class="introduce-line2 w-full bg-white rounded-lg flex flex-row justify-center items-center gap-8 px-8 pt-24 pb-8 mesm:flex-row-reverse relative memd:pt-8 mt-20 memd:mt-0"
+            >
+              <div
+                class="line1-right absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 memd:static memd:w-[50%] memd:translate-x-0 memd:translate-y-0 flex justify-center items-center memd:bg-gray-200 rounded-lg"
+              >
+                <img class="w-full max-w-[250px]" src="@/assets/images/fund5.webp" alt="" />
+              </div>
+              <div class="line1-left w-full memd:w-[50%]">
+                <h2 class="title text-xl text-black font-semibold mb-6">Guru Trade7 Offers You</h2>
+                <p
+                  class="desc text-base text-gray-700 font-normal flex flex-row justify-between items-center py-2 before:content-[''] before:absolute relative before:border-dashed before:border-b-2 before:border-gray-500 before:w-full before:h-[2px] z-10"
+                >
+                  <span class="bg-white relative">Real-time Quotes</span>
+                  <span class="bg-white relative">Free</span>
+                </p>
+                <p
+                  class="desc text-base text-gray-700 font-normal flex flex-row justify-between items-center py-2 before:content-[''] before:absolute relative before:border-dashed before:border-b-2 before:border-gray-500 before:w-full before:h-[2px]"
+                >
+                  <span class="bg-white relative">Beginners Teaching</span>
+                  <span class="bg-white relative">Free</span>
+                </p>
+                <p
+                  class="desc text-base text-gray-700 font-normal flex flex-row justify-between items-center py-2 before:content-[''] before:absolute relative before:border-dashed before:border-b-2 before:border-gray-500 before:w-full before:h-[2px]"
+                >
+                  <span class="bg-white relative">Market Insights</span>
+                  <span class="bg-white relative">Free</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- Get started in a few easy steps -->
-      <section class="get-started w-full py-20 bg-gradient-to-br from-blue-200 to-slate-200">
+      <!-- Trade with a partner you can trust -->
+      <section class="suport-team w-full py-20 bg-section-bg">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
-          <h2 class="title text-gray-800 px-6 py-4 text-2xl font-semibold mb-8">
-            Get started in a few easy steps
-          </h2>
-          <div class="step-imgtxt grid grid-cols-1 gap-8 memd:gap-16">
-            <div class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row">
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute w-full" src="@/assets/images/step1.webp" alt="step-1" />
-                <img class="w-full" src="@/assets/images/step1-1.webp" alt="step-1" />
+          <div class="flex flex-col justify-start items-start gap-12">
+            <div
+              class="introduce-line1 bg-gray-100 rounded-lg flex flex-col justify-center items-center gap-2 p-4 mesm:flex-row-reverse"
+            >
+              <div class="line1-left">
+                <h2 class="title text-lg text-black font-semibold mb-6">Payment process</h2>
+                <p class="desc text-base text-gray-700 font-normal">
+                  For faster processing we recommend that all account holders deposit funds into
+                  their trading account from inside their Secure Client Area. From your Secure
+                  Client Area you will be able to fund your account in real time using one of the
+                  instant funding methods. In certain instances, it may take up to hours for
+                  deposits to be processed into the designated trading account. If the above
+                  situation occurs, please contact our professional customer service to deal with.
+                </p>
               </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-6xl font-semibold bg-gradient-to-r from-blue-600 to-green-800 text-transparent bg-clip-text"
-                    >1</span
-                  >
-                  <span class="num-title text-gray-800 text-xl font-semibold">Registration</span>
+              <div class="line1-right w-full max-w-[320px] mesm:min-w-[250px]">
+                <img class="w-full" src="@/assets/images/fund1.webp" alt="" />
+              </div>
+            </div>
+            <div
+              class="introduce-line2 bg-gray-100 rounded-lg flex flex-col justify-center items-center gap-2 p-4 mesm:flex-row"
+            >
+              <div class="line1-left">
+                <h2 class="title text-lg text-black font-semibold mb-6">24/7 Coverage</h2>
+                <p class="desc text-base text-gray-700 font-normal">
+                  Our commitment to providing unwavering support aligns with the 24/7 nature of the
+                  markets. To ensure seamless service, our Operations, Security, and Engineering
+                  teams employ a round-the-clock coverage model, ready to respond promptly to any
+                  market fluctuations or emerging challenges.
+                </p>
+              </div>
+              <div class="line1-right w-full max-w-[320px] mesm:min-w-[250px]">
+                <img class="w-full" src="@/assets/images/fund2.webp" alt="" />
+              </div>
+            </div>
+            <div
+              class="introduce-line3 bg-gray-100 rounded-lg flex flex-col justify-center items-center gap-2 p-4 mesm:flex-row-reverse"
+            >
+              <div class="line1-left">
+                <h2 class="title text-lg text-black font-semibold mb-6">Safeguarding User Data</h2>
+                <p class="desc text-base text-gray-700 font-normal">
+                  At Guru Trade7, your privacy is of utmost importance. We strictly adhere to
+                  permissible data processing purposes, never utilizing personal data for automated
+                  decision-making or profiling. Our robust security protocols guarantee the secure
+                  storage and processing of your data. Explore further details on how we protect
+                  your information.
+                </p>
+              </div>
+              <div class="line1-right w-full max-w-[320px] mesm:min-w-[250px]">
+                <img class="w-full" src="@/assets/images/fund3.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Support Team from us -->
+      <section class="suport-team w-full py-20 bg-gradient-to-br from-blue-950 to-slate-900">
+        <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
+          <div class="card-list grid grid-cols-1 gap-4 mexs:grid-cols-2 memd:grid-cols-3">
+            <div
+              class="card-item bg-gray-100 p-2 mesm:p-7 rounded-lg flex flex-col justify-center items-center gap-2"
+            >
+              <div class="flex flex-col-reverse justify-center items-center gap-2">
+                <div class="cart-left flex flex-col justify-center items-center gap-1">
+                  <div class="card-value text-xl text-gray-800 font-semibold text-center">
+                    Zero fees
+                  </div>
+                  <div class="card-desc text-center text-base text-gray-700 font-normal">
+                    We do not charge commissions for either withdrawals or deposits.
+                  </div>
                 </div>
-                <div class="desc text-sm text-gray-700">
-                  Create a free trading account by using your email address or simply authorize via
-                  Facebook or Google accounts.
+                <div class="cart-right w-full max-w-[100px]">
+                  <img src="@/assets/images/fundicon1.webp" alt="" />
                 </div>
               </div>
             </div>
             <div
-              class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row-reverse"
+              class="card-item bg-gray-100 p-2 mesm:p-7 rounded-lg flex flex-col justify-center items-center gap-2"
             >
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute" src="@/assets/images/step2.webp" alt="step-1" />
-                <img src="@/assets/images/step2-1.webp" alt="step-1" />
-              </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-6xl font-semibold bg-gradient-to-r from-blue-600 to-green-800 text-transparent bg-clip-text"
-                    >2</span
-                  >
-                  <span class="num-title text-gray-800 text-xl font-semibold">Verification</span>
+              <div class="flex flex-col-reverse justify-center items-center gap-2">
+                <div class="cart-left flex flex-col justify-center items-center gap-1">
+                  <div class="card-value text-xl text-gray-800 font-semibold text-center">
+                    Fast deposits & withdrawal
+                  </div>
+                  <div class="card-desc text-center text-base text-gray-700 font-normal">
+                    Deposit orders can be processed in as little as 3 minutes and withdrawals can be
+                    made in as little as 20 minutes.
+                  </div>
                 </div>
-                <div class="desc text-sm text-gray-700">
-                  Make your account personalized. Enter your personal information in the profile and
-                  upload both ID document and address documents.
-                </div>
-              </div>
-            </div>
-            <div class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row">
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute" src="@/assets/images/step3.webp" alt="step-1" />
-                <img src="@/assets/images/step3-1.webp" alt="step-1" />
-              </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-6xl font-semibold bg-gradient-to-r from-blue-600 to-green-800 text-transparent bg-clip-text"
-                    >3</span
-                  >
-                  <span class="num-title text-gray-800 text-xl font-semibold">Deposit</span>
-                </div>
-                <div class="desc text-sm text-gray-700">
-                  Add funds to your trading account balance by using the most comfortable deposit
-                  method. Processing time depends on the chosen option.
+                <div class="cart-right w-full max-w-[100px]">
+                  <img src="@/assets/images/fundicon2.webp" alt="" />
                 </div>
               </div>
             </div>
             <div
-              class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row-reverse"
+              class="card-item bg-gray-100 p-2 mesm:p-7 rounded-lg flex flex-col justify-center items-center gap-2"
             >
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute" src="@/assets/images/step4.webp" alt="step-1" />
-                <img src="@/assets/images/step4-1.webp" alt="step-1" />
-              </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-6xl font-semibold bg-gradient-to-r from-blue-600 to-green-800 text-transparent bg-clip-text"
-                    >4</span
-                  >
-                  <span class="num-title text-gray-800 text-xl font-semibold">Trading</span>
+              <div class="flex flex-col-reverse justify-center items-center gap-2">
+                <div class="cart-left flex flex-col justify-center items-center gap-1">
+                  <div class="card-value text-xl text-gray-800 font-semibold text-center">
+                    5+ Payment Methods
+                  </div>
+                  <div class="card-desc text-center text-base text-gray-700 font-normal">
+                    Supports several local payment channels and international payment channels.
+                  </div>
                 </div>
-                <div class="desc text-sm text-gray-700">
-                  Trading on Pocket Option is easy as 123. Choose a trading asset, set up the
-                  preferred chart layout and enable indicators for better market analysis. Set the
-                  trade amount, purchase time and place either a price decrease or increase order.
-                </div>
-              </div>
-            </div>
-            <div class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row">
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute w-full" src="@/assets/images/step5.webp" alt="step-1" />
-                <img src="@/assets/images/step5-1.webp" alt="step-1" />
-              </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-6xl font-semibold bg-gradient-to-r from-blue-600 to-green-800 text-transparent bg-clip-text"
-                    >5</span
-                  >
-                  <span class="num-title text-gray-800 text-xl font-semibold">Profit</span>
-                </div>
-                <div class="desc text-sm text-gray-700">
-                  Each correct forecast results in a profitable trade order. The order amount plus
-                  the generated profit are automatically added to your account balance. Manage your
-                  income properly, invest further or withdraw profit if necessary.
-                </div>
-              </div>
-            </div>
-            <div
-              class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row-reverse"
-            >
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute" src="@/assets/images/step6.webp" alt="step-1" />
-                <img src="@/assets/images/step6-1.webp" alt="step-1" />
-              </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-6xl font-semibold bg-gradient-to-r from-blue-600 to-green-800 text-transparent bg-clip-text"
-                    >6</span
-                  >
-                  <span class="num-title text-gray-800 text-xl font-semibold">Withdrawal</span>
-                </div>
-                <div class="desc text-sm text-gray-700">
-                  You can withdraw your trading account balance at any time without any restrictions
-                  on the amount. Place a withdrawal request via one of the methods previously used
-                  for depositing and wait for it to be processed and sent.
+                <div class="cart-right w-full max-w-[100px]">
+                  <img src="@/assets/images/fundicon3.webp" alt="" />
                 </div>
               </div>
             </div>

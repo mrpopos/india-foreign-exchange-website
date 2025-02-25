@@ -121,7 +121,7 @@ watchEffect(() => {
         </div>
       </section>
       <!-- Legacy of committed excellence -->
-      <section class="legacy-of w-full py-20 bg-gradient-to-br from-blue-200 to-slate-200">
+      <section class="legacy-of w-full py-20">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
           <h2 class="title text-gray-800 px-6 pt-4 text-2xl font-semibold mb-8 text-center">
             Legacy of committed excellence
@@ -174,7 +174,7 @@ watchEffect(() => {
         </div>
       </section>
       <!-- Support Team from Guru Trade7 -->
-      <section class="suport-team w-full py-20 bg-gradient-to-br from-blue-200 to-slate-200">
+      <section class="suport-team w-full py-20 bg-section-bg">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
           <h2 class="title text-gray-800 px-6 pt-4 text-2xl font-semibold mb-8 text-center">
             Support Team from Guru Trade7
@@ -247,7 +247,7 @@ watchEffect(() => {
         </div>
       </section>
       <!-- introduce -->
-      <section class="suport-team w-full py-20 bg-gradient-to-br from-blue-200 to-slate-200">
+      <section class="suport-team w-full py-20">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
           <div class="flex flex-col justify-start items-start gap-12">
             <div

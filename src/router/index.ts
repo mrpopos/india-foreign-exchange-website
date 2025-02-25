@@ -4,12 +4,12 @@ import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 
 const routes = [
+  // {
+  //   path: '',
+  //   redirect: '/home',
+  // },
   {
-    path: '',
-    redirect: '/home',
-  },
-  {
-    path: '/home',
+    path: '/',
     name: 'Home',
     component: Layout,
     children: [

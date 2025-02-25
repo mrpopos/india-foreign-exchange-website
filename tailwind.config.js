@@ -13,10 +13,11 @@ export default {
         'text-color-1': '#173257', // 文字颜色：移动端菜单平台模块标题
         'text-color-2': '#5b6675', // 文字颜色：移动端菜单平台模块列表
         'text-color-3': '#b1c6d7', // 文字颜色：移动端菜单列表模块标题
-        'text-color-4': '#1e385b', // 文字颜色：首页区域why choose us标题
+        'text-color-4': '#001b48', // 文字颜色：首页区域why choose us标题
         'text-color-5': '#212121', // 文字颜色：首页区域why choose us副标题
         'text-color-6': '#515151', // 文字颜色：首页区域why choose us文本
-        'text-hover-colo-1': '#013fc2', // 文字颜色：移动端菜单列表模块标题、菜单链接悬浮颜色
+        'text-hover-color-1': '#ffffff', // 文字颜色：移动端菜单列表模块标题、菜单链接悬浮颜色
+        'section-bg': '#f7f8fa', // 背景色：区域背景色（区别于全局背景）
       },
       screens: {
         mexs: '320px',
@@ -30,7 +31,6 @@ export default {
         fundbg: "url('../../../src/assets/images/fundbg.webp')",
         responsibilitybg: "url('../../../src/assets/images/responsibilitybg.webp')",
         cfdbg: "url('../../../src/assets/images/cfdbg.webp')",
-        govsvg: "url('../../../src/assets/svg/gov.svg')",
       },
       keyframes: {
         spin: {

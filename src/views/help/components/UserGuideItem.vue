@@ -48,8 +48,8 @@ defineProps<{ data: IPropsData }>()
   border-radius: var(--padding-8);
 
   .svg {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
 
     svg {
       width: 100%;
@@ -62,7 +62,7 @@ defineProps<{ data: IPropsData }>()
   }
 
   &:hover {
-    background-color: var(--c-hover-1);
+    background-color: var(--c-hover-2);
   }
 }
 </style>

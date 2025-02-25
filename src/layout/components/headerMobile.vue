@@ -91,7 +91,7 @@ const handleMenuIcoClick = () => {
       <div
         class="menu-box flex flex-row justify-start items-center gap-2"
         @click="handleMenuIcoClick"
-        :class="{ 'text-gray-800': useAppStore().scrollTop > 80 }"
+        :class="[useAppStore().scrollTop > 80 ? 'text-gray-800' : 'text-white']"
       >
         <svg
           t="1739507295412"
@@ -118,7 +118,7 @@ const handleMenuIcoClick = () => {
           >ForeignExchange</span
         >
       </div>
-      <div class="title" :class="{ 'text-gray-800': useAppStore().scrollTop > 80 }">
+      <div class="title" :class="[useAppStore().scrollTop > 80 ? 'text-gray-800' : 'text-white']">
         <svg
           t="1739382053306"
           class="icon"

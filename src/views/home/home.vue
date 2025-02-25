@@ -124,34 +124,42 @@ const peopleSays = [
   <div class="home-wrapper h-full">
     <div ref="scrollContainer" class="home-container h-full overflow-auto">
       <!-- first screen -->
-      <div class="home-banner h-full relative overflow-hidden">
+      <div
+        class="home-banner bg-gradient-to-b from-[#003b72] via-[#00264a] via-50% to-[#00264a] h-full relative overflow-hidden"
+      >
         <div class="home-banner-bg h-full relative">
-          <picture class="absolute top-1/2 left-0 transform -translate-y-1/2">
+          <picture
+            class="w-[1920px] h-[450px] absolute bottom-1/2 right-0 transform -translate-y-1/1"
+          >
             <source :srcset="homeBg1" type="image/webp" />
             <img :src="homeBg1" alt="" />
           </picture>
-          <picture class="h-[30%] absolute bottom-0 left-0 transform -translate-y-1/2">
-            <source :srcset="homeBg2" type="image/webp" />
-            <img :src="homeBg2" alt="" />
+          <picture
+            class="w-[300px] mesm:w-[400px] memd:w-[450px] melg:w-[500px] absolute top-0 left-0 transform translate-x-0 translate-y-[100px] mesm:translate-x-[40px] mesm:translate-y-[120px] memd:translate-x-[25%] memd:translate-y-[140px] melg:translate-x-[25%] melg:translate-y-[140px]"
+          >
+            <source class="w-full" :srcset="homeBg2" type="image/webp" />
+            <img class="w-full" :src="homeBg2" alt="" />
           </picture>
           <picture
-            class="h-[80%] absolute top-1/2 right-0 transform translate-x-1/4 -translate-y-1/2 md:translate-x-1/2"
+            class="w-[450px] mesm:w-[800px] memd:w-[1100px] melg:w-[1300px] absolute bottom-0 right-0 transform translate-x-[150px] translate-y-10 mesm:translate-x-[200px] mesm:translate-y-20 memd:translate-x-[300px] memd:translate-y-20 melg:translate-x-[450px] melg:translate-y-24"
           >
-            <source :srcset="homeBg3" type="image/webp" />
-            <img class="" :src="homeBg3" alt="" />
+            <source class="w-full" :srcset="homeBg3" type="image/webp" />
+            <img class="w-full" :src="homeBg3" alt="" />
           </picture>
         </div>
         <div
           class="home-banner-content w-full absolute top-0 left-1/2 transform translate-y-1/3 -translate-x-1/2"
         >
-          <div class="w-full py-20">
+          <div class="w-full pb-20 memd:pt-20">
             <div
               class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-start justify-center gap-12"
             >
-              <h1 class="text-white text-3xl font-bold mesm:text-5xl melg:text-6xl">
-                The right place<br />
-                for online trading<br />
-                on financial markets
+              <h1
+                class="text-white text-3xl font-bold mesm:text-5xl melg:text-6xl melg:font-semibold melg:leading-[80px]"
+              >
+                THE RIGHT PLACE<br />
+                FOR ONLINE TRADING<br />
+                ON FINANCIAL MARKETS
               </h1>
               <div class="desc">
                 <p class="text-white text-base md:text-xl">The most user-friendly interface</p>
@@ -160,7 +168,8 @@ const peopleSays = [
                 </p>
               </div>
               <div>
-                <a class="btn px-8 py-4 bg-btn-color rounded-lg text-lg hover:cursor-pointer"
+                <a
+                  class="btn px-8 py-4 bg-white rounded-lg text-lg hover:cursor-pointer bg-gradient-to-r from-[#0099fa] to-[#002ed9] text-white hover:from-[#1d6b9c] hover:to-[#1e358a]"
                   >Start Trading Now</a
                 >
               </div>
@@ -169,70 +178,84 @@ const peopleSays = [
         </div>
       </div>
       <!-- Place your trades on best conditions -->
-      <div class="w-full py-20 bg-gradient-to-b from-gray-400 via-gray-800 via-80% to-slate-400">
+      <div class="w-full py-20">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
-          <h2 class="text-text-color-4 text-3xl font-semibold mb-16 md:text-4xl xl:text-5xl">
+          <h2
+            class="text-text-color-4 font-semibold mb-16 text-[20px] mesm:text-[24px] memd:text-[28px] melg:text-[32px]"
+          >
             Place your trades on best conditions
           </h2>
           <div class="grid grid-cols-1 gap-12 mesm:grid-cols-2">
             <div class="grid-list grid gap-4 grid-cols-2 lg:grid-cols-2">
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
-                  class="value text-4xl font-bold bg-gradient-to-b from-indigo-900 to-blue-600 bg-clip-text text-transparent"
+                  class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent"
                 >
                   $5*
                 </div>
-                <div class="name text-base text-gray-300 text-center memd:text-base melg:text-lg">
+                <div
+                  class="name text-base text-text-color-1 text-center memd:text-base melg:text-lg"
+                >
                   Minimum investment amount
                 </div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
-                  class="value text-4xl font-bold bg-gradient-to-b from-indigo-900 to-blue-600 bg-clip-text text-transparent"
+                  class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent"
                 >
                   $1
                 </div>
-                <div class="name text-base text-gray-300 text-center memd:text-base melg:text-lg">
+                <div
+                  class="name text-base text-text-color-1 text-center memd:text-base melg:text-lg"
+                >
                   Minimum trade amount
                 </div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
-                  class="value text-4xl font-bold bg-gradient-to-b from-indigo-900 to-blue-600 bg-clip-text text-transparent"
+                  class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent"
                 >
                   $50 000
                 </div>
-                <div class="name text-base text-gray-300 text-center memd:text-base melg:text-lg">
+                <div
+                  class="name text-base text-text-color-1 text-center memd:text-base melg:text-lg"
+                >
                   Virtual money on your Demo account
                 </div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
-                  class="value text-4xl font-bold bg-gradient-to-b from-indigo-900 to-blue-600 bg-clip-text text-transparent"
+                  class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent"
                 >
                   50+
                 </div>
-                <div class="name text-base text-gray-300 text-center memd:text-base melg:text-lg">
+                <div
+                  class="name text-base text-text-color-1 text-center memd:text-base melg:text-lg"
+                >
                   Payment methods
                 </div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
-                  class="value text-4xl font-bold bg-gradient-to-b from-indigo-900 to-blue-600 bg-clip-text text-transparent"
+                  class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent"
                 >
                   $0
                 </div>
-                <div class="name text-base text-gray-300 text-center memd:text-base melg:text-lg">
+                <div
+                  class="name text-base text-text-color-1 text-center memd:text-base melg:text-lg"
+                >
                   No commission on deposit and withdrawal
                 </div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div
-                  class="value text-4xl font-bold bg-gradient-to-b from-indigo-900 to-blue-600 bg-clip-text text-transparent"
+                  class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent"
                 >
                   100+
                 </div>
-                <div class="name text-base text-gray-300 text-center memd:text-base melg:text-lg">
+                <div
+                  class="name text-base text-text-color-1 text-center memd:text-base melg:text-lg"
+                >
                   Assets for trading
                 </div>
               </div>
@@ -244,12 +267,12 @@ const peopleSays = [
         </div>
       </div>
       <!-- licensed and regulated online broker -->
-      <div class="w-full py-[250px] bg-govsvg bg-no-repeat bg-contain bg-center">
+      <div class="w-full py-20 bg-section-bg">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
-          <div class="text-white text-3xl font-semibold text-center memd:text-4xl melg:text-6xl">
+          <div class="text-[20px] mesm:text-[24px] memd:text-[28px] melg:text-[32px] font-semibold">
             ForeignExchange is a licensed and regulated online broker
           </div>
-          <div class="content text-lg text-gray-300 text-center my-16">
+          <div class="content text-base text-center my-16 text-[#515151]">
             ForeignExchange is a licensed and regulated broker by the Vanuatu Financial Services
             Commission. ForeignExchange is committed to providing the highest quality of service.
             Our clients are covered by deposit insurance and have access to comprehensive support
@@ -257,9 +280,10 @@ const peopleSays = [
             ForeignExchange.
           </div>
           <div
-            class="link group text-xl text-white font-semibold flex flex-row justify-center items-center gap-4 hover:text-blue-500"
+            class="link group text-xl font-semibold flex flex-row justify-center items-center gap-4 hover:text-blue-500 text-[#515151]"
           >
-            <a href="/regulation">Learn more</a
+            <a class="group-hover:underline group-hover:underline-offset-2" href="/regulation"
+              >Learn more</a
             ><span class="group-hover:animate-custom-spin">&gt;</span>
           </div>
         </div>
@@ -267,7 +291,9 @@ const peopleSays = [
       <!-- Why choose us? -->
       <div class="w-full py-20 bg-white">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
-          <div class="text-text-color-4 text-3xl font-semibold mb-16 md:text-4xl xl:text-5xl">
+          <div
+            class="font-semibold mb-16 text-[20px] mesm:text-[24px] memd:text-[28px] melg:text-[32px]"
+          >
             Why choose us?
           </div>
           <div class="grid-list grid grid-cols-1 gap-12 mesm:grid-cols-2 lg:grid-cols-4">
@@ -382,10 +408,12 @@ const peopleSays = [
         </div>
       </div>
       <!-- What people say about us -->
-      <div class="w-full py-20">
+      <div class="w-full py-20 bg-section-bg">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
           <div class="">
-            <h2 class="text-3xl font-semibold mb-4 md:text-4xl xl:text-5xl">
+            <h2
+              class="font-semibold mb-4 text-[20px] mesm:text-[24px] memd:text-[28px] melg:text-[32px]"
+            >
               What people say about us
             </h2>
             <p class="text-base mb-8 md:text-lg mesm:mb-16">

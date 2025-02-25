@@ -100,7 +100,7 @@ function activeTab(path: string) {
       <div class="menu">
         <Menu :menu-data="menuData" direction="horizontal" submenu-direction="bottom" />
       </div>
-      <div class="title" :class="{ 'text-gray-800': appStore.scrollTop > 80 }">
+      <div class="title" :class="[useAppStore().scrollTop > 80 ? 'text-gray-800' : 'text-white']">
         <svg
           t="1739382053306"
           class="icon"

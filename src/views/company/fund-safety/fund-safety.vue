@@ -45,7 +45,7 @@ watchEffect(() => {
         </div>
       </section>
       <!-- Trade with a partner you can trust -->
-      <section class="suport-team w-full py-20 bg-gradient-to-br from-blue-200 to-slate-200">
+      <section class="suport-team w-full py-20">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
           <h2 class="title text-gray-800 px-6 pt-4 text-2xl font-semibold mb-8 text-center">
             Trade with a partner you can trust
@@ -164,9 +164,7 @@ watchEffect(() => {
         </div>
       </section>
       <!-- Fees and Charges -->
-      <section
-        class="suport-team w-full py-40 memd:py-20 bg-gradient-to-br from-blue-200 to-slate-200"
-      >
+      <section class="suport-team w-full py-40 memd:py-20">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
           <div class="flex flex-col justify-start items-start gap-12">
             <div

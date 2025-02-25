@@ -153,6 +153,7 @@ const menuJump = (item: MenuItem) => {
 .menu-container {
   border-radius: 16px;
   box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
 
   /* 水平菜单样式 */
   &.horizontal-menu {
@@ -186,6 +187,7 @@ const menuJump = (item: MenuItem) => {
         justify-content: center;
         align-items: center;
         gap: 8px;
+        // color: var(--c-white);
         &:hover {
           color: var(--c-hover);
         }
@@ -195,8 +197,9 @@ const menuJump = (item: MenuItem) => {
       .sub-menu {
         position: absolute;
         border-radius: 4px;
-        box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.8);
+        box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.2);
         z-index: 10;
+        background-color: #fff;
 
         &.sub-menu-right {
           top: 0;
@@ -209,7 +212,7 @@ const menuJump = (item: MenuItem) => {
         }
 
         .sub-menu-item {
-          padding: 10px 15px;
+          padding: 15px;
           list-style: none;
           cursor: pointer;
           text-wrap: nowrap;
@@ -223,9 +226,17 @@ const menuJump = (item: MenuItem) => {
             gap: 8px;
           }
 
+          &:first-child:hover {
+            border-radius: 4px 4px 0 0;
+          }
+
+          &:last-child:hover {
+            border-radius: 0 0 4px 4px;
+          }
+
           &:hover {
             background-color: var(--c-hover-1);
-            color: var(--c-hover);
+            color: var(--c-white);
           }
         }
       }

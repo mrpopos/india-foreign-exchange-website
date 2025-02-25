@@ -21,7 +21,7 @@ import HowHelpYouIcon from '@/assets/images/how-help-you.png'
   .text {
     font-size: 48px;
     font-weight: 600;
-    color: var(--color-text);
+    color: var(--c-white);
     line-height: 4rem;
 
     @media screen and (max-width: 667px) {
