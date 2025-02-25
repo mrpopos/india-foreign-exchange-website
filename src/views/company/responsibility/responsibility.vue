@@ -75,14 +75,14 @@ const showLegalDetail = (index: number) => {
                 OUR COMMITMENT TO THE SOICETY
               </h1>
               <div class="desc text-base text-gray-700">
-                <p class="text-gray-500 text-base md:text-xl py-1 text-center">
+                <p class="text-gray-300 text-base md:text-xl py-1 text-center">
                   We want to make the world of trading a better place, but we want to make other
                   positive changes too. We believe in rolling our sleeves up and getting stuck in,
                   being part of the communities where we live and work.
                 </p>
               </div>
               <!-- <div>
-              <a class="btn px-8 py-4 bg-btn-color rounded-lg text-lg hover:cursor-pointer"
+              <a class="btn px-8 py-4 bg-white rounded-lg text-lg hover:cursor-pointer bg-gradient-to-r from-[#0099fa] to-[#002ed9] text-white hover:from-[#1d6b9c] hover:to-[#1e358a]"
                 >view terms and policies</a
               >
             </div> -->

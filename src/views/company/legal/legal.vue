@@ -66,13 +66,13 @@ const showLegalDetail = (index: number) => {
               LEGAL INFOMATION
             </h1>
             <div class="w-full desc text-sm text-gray-700">
-              <p class="w-full text-gray-500 text-base md:text-xl py-1 text-center">
+              <p class="w-full text-gray-300 text-base md:text-xl py-1 text-center">
                 To fully understand the implications of trading with Guru Trade7, please read our
                 legal documents.
               </p>
             </div>
             <!-- <div>
-              <a class="btn px-8 py-4 bg-btn-color rounded-lg text-lg hover:cursor-pointer"
+              <a class="btn px-8 py-4 bg-white rounded-lg text-lg hover:cursor-pointer bg-gradient-to-r from-[#0099fa] to-[#002ed9] text-white hover:from-[#1d6b9c] hover:to-[#1e358a]"
                 >REGISTRATION</a
               >
             </div> -->

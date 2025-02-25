@@ -69,13 +69,13 @@ const showLegalDetail = (index: number) => {
               WHAT IS CFD TRADING AND HOW DOES IT WORK?
             </h1>
             <div class="desc text-base text-gray-700">
-              <p class="text-gray-500 text-base md:text-xl py-1 text-center">
+              <p class="text-gray-300 text-base md:text-xl py-1 text-center">
                 Discover a complete CFD guide, mastering diverse asset trading with essential
                 knowledge and strategies for success.
               </p>
             </div>
             <!-- <div>
-              <a class="btn px-8 py-4 bg-btn-color rounded-lg text-lg hover:cursor-pointer"
+              <a class="btn px-8 py-4 bg-white rounded-lg text-lg hover:cursor-pointer bg-gradient-to-r from-[#0099fa] to-[#002ed9] text-white hover:from-[#1d6b9c] hover:to-[#1e358a]"
                 >view terms and policies</a
               >
             </div> -->

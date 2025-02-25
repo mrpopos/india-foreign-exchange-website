@@ -99,21 +99,21 @@ watchEffect(() => {
               6 YEARS OF INCREDIBLE SERVICE
             </h1>
             <div class="desc text-sm text-gray-700">
-              <p class="text-gray-500 text-base md:text-xl py-1 text-center">
+              <p class="text-gray-300 text-base md:text-xl py-1 text-center">
                 Offer an all-in-one self-directed investment platform that provides advanced and
                 intelligent tools;
               </p>
-              <p class="text-gray-500 text-base md:text-xl py-1 text-center">
+              <p class="text-gray-300 text-base md:text-xl py-1 text-center">
                 To be a leader in trading industry by providing innovative financial trading
                 plaform;
               </p>
-              <p class="text-gray-500 text-base md:text-xl py-1 text-center">
+              <p class="text-gray-300 text-base md:text-xl py-1 text-center">
                 Be a client-centric company with a clear focus on providing long-term value addition
                 to clients.
               </p>
             </div>
             <!-- <div>
-              <a class="btn px-8 py-4 bg-btn-color rounded-lg text-lg hover:cursor-pointer"
+              <a class="btn px-8 py-4 bg-white rounded-lg text-lg hover:cursor-pointer bg-gradient-to-r from-[#0099fa] to-[#002ed9] text-white hover:from-[#1d6b9c] hover:to-[#1e358a]"
                 >REGISTRATION</a
               >
             </div> -->
