@@ -91,7 +91,7 @@ const showLegalDetail = (index: number) => {
             >
               <div class="line1-left flex flex-col justify-center items-start gap-8">
                 <h2 class="title text-lg text-black font-semibold">What is CFD trading?</h2>
-                <p class="desc text-sm text-gray-700 font-normal">
+                <p class="desc text-base text-gray-700 font-normal">
                   Trading CFDs, or 'contracts for difference', allows you to speculate on whether an
                   asset's price will move up or down – without having to own the asset. This
                   provides benefits, as well as potential risk to trading. Make sure you understand
@@ -107,7 +107,7 @@ const showLegalDetail = (index: number) => {
             >
               <div class="line1-left flex flex-col justify-center items-start gap-8">
                 <h2 class="title text-lg text-black font-semibold">How does CFD trading work?</h2>
-                <p class="desc text-sm text-gray-700 font-normal">
+                <p class="desc text-base text-gray-700 font-normal">
                   With CFD trading, you don't buy or sell the underlying asset (for example a
                   physical share, currency pair or commodity). Instead, you buy or sell a number of
                   units for a particular financial instrument​, depending on whether you think
@@ -116,7 +116,7 @@ const showLegalDetail = (index: number) => {
                   example of one of our most popular stock indices is the UK 100, which aggregates
                   the price movements of all the stocks listed on the UK's FTSE 100 index.
                 </p>
-                <p class="desc text-sm text-gray-700 font-normal">
+                <p class="desc text-base text-gray-700 font-normal">
                   For every point the price of the instrument moves in your favour, you gain
                   multiples of the number of CFD units you have bought or sold. For every point the
                   price moves against you, you will make a loss.

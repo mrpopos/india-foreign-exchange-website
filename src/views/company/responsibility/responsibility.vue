@@ -391,10 +391,7 @@ const showLegalDetail = (index: number) => {
           </div>
         </section>
       </div>
-      <section
-        v-else-if="!showAllLegal"
-        class="legal-banner overflow-hidden bg-cover py-40 bg-gray-700"
-      >
+      <section v-else-if="!showAllLegal" class="legal-banner overflow-hidden bg-cover py-40">
         <div
           class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-start justify-center gap-12"
         >

@@ -177,7 +177,7 @@
               </div>
             </div>
           </div>
-          <div class="crip pt-16 text-sm text-center text-gray-300">
+          <div class="crip pt-16 text-base text-center text-gray-300">
             Foreign Exchange, © 2024-2034
           </div>
         </div>

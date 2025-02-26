@@ -109,7 +109,7 @@
 <style lang="scss" scoped>
 .legal-detail {
   font-size: 16px;
-  color: #bbbbbb;
+  color: var(--c-black);
   line-height: 1.7;
   h2 {
     padding-bottom: 25px;

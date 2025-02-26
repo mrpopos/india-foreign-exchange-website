@@ -432,7 +432,7 @@ const peopleSays = [
                     <div class="avator flex flex-col justify-center items-center gap-2">
                       <img src="@/assets/images/avator01.png" alt="" />
                       <span class="name text-nowrap">{{ slide.name }}</span>
-                      <span class="text-nowrap text-sm text-gray-500">UID {{ slide.uid }}</span>
+                      <span class="text-nowrap text-base text-gray-500">UID {{ slide.uid }}</span>
                     </div>
                     <div class="right w-full flex flex-col justify-start items-start gap-6">
                       <div
@@ -448,12 +448,12 @@ const peopleSays = [
                           <span>★</span>
                         </div>
                         <div
-                          class="datetime text-gray-500 text-sm flex flex-row justify-start items-center gap-1 mesm:text-base"
+                          class="datetime text-gray-500 text-base flex flex-row justify-start items-center gap-1 mesm:text-base"
                         >
                           <span>{{ slide.datetime }}</span>
                         </div>
                       </div>
-                      <div class="desc leading-7 text-sm text-gray-400 mesm:text-base">
+                      <div class="desc leading-7 text-base text-gray-400 mesm:text-base">
                         {{ slide.content }}
                       </div>
                     </div>

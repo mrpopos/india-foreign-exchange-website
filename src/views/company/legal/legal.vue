@@ -65,7 +65,7 @@ const showLegalDetail = (index: number) => {
             >
               LEGAL INFOMATION
             </h1>
-            <div class="w-full desc text-sm text-gray-700">
+            <div class="w-full desc text-base text-gray-700">
               <p class="w-full text-gray-300 text-base md:text-xl py-1 text-center">
                 To fully understand the implications of trading with Guru Trade7, please read our
                 legal documents.
@@ -80,13 +80,13 @@ const showLegalDetail = (index: number) => {
         </div>
       </section>
       <!-- legal pages -->
-      <section class="legal-banner overflow-hidden bg-cover py-20 bg-gray-700">
+      <section class="legal-banner overflow-hidden bg-cover py-20">
         <div
           class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-start justify-center gap-12"
         >
           <div class="legal-list" v-if="showAllLegal">
             <div
-              class="legal-item flex flex-row justify-start items-center gap-4 py-4 text-gray-300 hover:text-blue-600 hover:underline hover:cursor-pointer"
+              class="legal-item flex flex-row justify-start items-center gap-4 py-4 hover:text-blue-600 hover:underline hover:cursor-pointer"
               v-for="(item, i) in legalList"
               :key="i"
               @click="showLegalDetail(i)"

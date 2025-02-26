@@ -98,7 +98,7 @@ watchEffect(() => {
             >
               6 YEARS OF INCREDIBLE SERVICE
             </h1>
-            <div class="desc text-sm text-gray-700">
+            <div class="desc text-base text-gray-700">
               <p class="text-gray-300 text-base md:text-xl py-1 text-center">
                 Offer an all-in-one self-directed investment platform that provides advanced and
                 intelligent tools;
@@ -134,7 +134,7 @@ watchEffect(() => {
               class="feature-item bg-gray-100 p-7 rounded-lg flex flex-col justify-center items-center gap-2"
             >
               <div class="counter text-gray-800 font-semibold text-2xl">6+</div>
-              <div class="count-desc text-gray-600 font-semibold text-sm text-center">
+              <div class="count-desc text-gray-600 font-semibold text-base text-center">
                 YEARS OF TRUST
               </div>
             </div>
@@ -142,7 +142,7 @@ watchEffect(() => {
               class="feature-item bg-gray-100 p-7 rounded-lg flex flex-col justify-center items-center gap-2"
             >
               <div class="counter text-gray-800 font-semibold text-2xl">100M+</div>
-              <div class="count-desc text-gray-600 font-semibold text-sm text-center">
+              <div class="count-desc text-gray-600 font-semibold text-base text-center">
                 LOYAL TRADERS WORLDWIDE
               </div>
             </div>
@@ -150,7 +150,7 @@ watchEffect(() => {
               class="feature-item bg-gray-100 p-7 rounded-lg flex flex-col justify-center items-center gap-2"
             >
               <div class="counter text-gray-800 font-semibold text-2xl">10M+</div>
-              <div class="count-desc text-gray-600 font-semibold text-sm text-center">
+              <div class="count-desc text-gray-600 font-semibold text-base text-center">
                 TRADES PER DAY
               </div>
             </div>
@@ -158,7 +158,7 @@ watchEffect(() => {
               class="feature-item bg-gray-100 p-7 rounded-lg flex flex-col justify-center items-center gap-2"
             >
               <div class="counter text-gray-800 font-semibold text-2xl">$20M</div>
-              <div class="count-desc text-gray-600 font-semibold text-sm text-center">
+              <div class="count-desc text-gray-600 font-semibold text-base text-center">
                 TRADE VOLUME PER MONTH
               </div>
             </div>
@@ -166,7 +166,7 @@ watchEffect(() => {
               class="feature-item bg-gray-100 p-7 rounded-lg flex flex-col justify-center items-center gap-2"
             >
               <div class="counter text-gray-800 font-semibold text-2xl">$20M</div>
-              <div class="count-desc text-gray-600 font-semibold text-sm text-center">
+              <div class="count-desc text-gray-600 font-semibold text-base text-center">
                 WITHDRAWN BY TRADERS PER MONTH
               </div>
             </div>
@@ -255,7 +255,7 @@ watchEffect(() => {
             >
               <div class="line1-left">
                 <h2 class="title text-lg text-black font-semibold">About Guru Trade7</h2>
-                <p class="desc text-sm text-gray-700 font-normal">
+                <p class="desc text-base text-gray-700 font-normal">
                   Offer an all-in-one self-directed investment platform that provides advanced and
                   intelligent tools; to be a leader in trading industry by providing innovative
                   financial trading plaform; Be a client-centric company with a clear focus on
@@ -271,7 +271,7 @@ watchEffect(() => {
             >
               <div class="line1-left">
                 <h2 class="title text-lg text-black font-semibold">About Guru Trade7</h2>
-                <p class="desc text-sm text-gray-700 font-normal">
+                <p class="desc text-base text-gray-700 font-normal">
                   Offer an all-in-one self-directed investment platform that provides advanced and
                   intelligent tools; to be a leader in trading industry by providing innovative
                   financial trading plaform; Be a client-centric company with a clear focus on
@@ -312,7 +312,7 @@ watchEffect(() => {
                   <p
                     v-for="(desc, i) in item.desc"
                     :key="i"
-                    class="text-sm font-normal text-gray-500"
+                    class="text-base font-normal text-gray-500"
                   >
                     {{ desc }}
                   </p>
@@ -358,7 +358,7 @@ watchEffect(() => {
               <div class="office text-base font-semibold text-center text-gray-700 pt-4">
                 Office Location:
               </div>
-              <div class="desc text-sm text-gray-600 text-center pt-4">
+              <div class="desc text-base text-gray-600 text-center pt-4">
                 First Floor, First St Vincent Bank Ltd Building, James Street, Kingstown, St.
                 Vincent and the Grenadines.
               </div>
@@ -389,13 +389,13 @@ watchEffect(() => {
               <div class="small-title text-base font-semibold text-center text-gray-700 pt-4">
                 Customer service:
               </div>
-              <div class="p text-sm text-gray-600 text-center pt-4">
+              <div class="p text-base text-gray-600 text-center pt-4">
                 English&Hindi: support@gurutrade7.com
               </div>
               <div class="small-title text-base font-semibold text-center text-gray-700 pt-4">
                 Complaint inbox:
               </div>
-              <div class="p text-sm text-gray-600 text-center pt-4">suggest@gurutrade7.com</div>
+              <div class="p text-base text-gray-600 text-center pt-4">suggest@gurutrade7.com</div>
             </div>
           </div>
         </div>
