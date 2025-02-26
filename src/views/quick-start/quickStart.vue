@@ -15,6 +15,30 @@ import img5Webp from '@/assets/images/step5.webp'
 import img51Webp from '@/assets/images/step5-1.webp'
 import img6Webp from '@/assets/images/step6.webp'
 import img61Webp from '@/assets/images/step6-1.webp'
+import quickslider1Webp from '@/assets/images/quickslider1.webp'
+import quickslider11Webp from '@/assets/images/quickslider1-1.webp'
+import quickslider12Webp from '@/assets/images/quickslider1-2.webp'
+import quickslider2Webp from '@/assets/images/quickslider2.webp'
+import quickslider21Webp from '@/assets/images/quickslider2-1.webp'
+import quickslider22Webp from '@/assets/images/quickslider2-2.webp'
+import quickslider3Webp from '@/assets/images/quickslider3.webp'
+import quickslider31Webp from '@/assets/images/quickslider3-1.webp'
+import quickslider4Webp from '@/assets/images/quickslider4.webp'
+import quickslider41Webp from '@/assets/images/quickslider4-1.webp'
+import quickslider42Webp from '@/assets/images/quickslider4-2.webp'
+import quickslider43Webp from '@/assets/images/quickslider4-3.webp'
+import quickslider5Webp from '@/assets/images/quickslider5.webp'
+import quickslider51Webp from '@/assets/images/quickslider5-1.webp'
+import quickslider6Webp from '@/assets/images/quickslider6.webp'
+import quickslider61Webp from '@/assets/images/quickslider6-1.webp'
+import quickslider62Webp from '@/assets/images/quickslider6-2.webp'
+import 'vue3-carousel/carousel.css'
+import { Carousel, Slide, Navigation, Pagination } from 'vue3-carousel'
+
+const carouselConfig = {
+  itemsToShow: 1,
+  wrapAround: true,
+}
 
 const scrollContainer = ref()
 const { scrollTop } = useDomScroll(scrollContainer)
@@ -23,7 +47,7 @@ watchEffect(() => {
   useAppStore().setScrollTop(scrollTop.value)
 })
 
-const getStartedData = [
+const getStartedData = ref([
   {
     title: 'Registration',
     desc: [
@@ -33,6 +57,7 @@ const getStartedData = [
     ],
     img: img1Webp,
     img1: img11Webp,
+    quickSliders: [quickslider1Webp, quickslider11Webp, quickslider12Webp],
   },
   {
     title: 'Verification',
@@ -44,6 +69,7 @@ const getStartedData = [
     ],
     img: img2Webp,
     img1: img21Webp,
+    quickSliders: [quickslider2Webp, quickslider21Webp, quickslider22Webp],
   },
   {
     title: 'Deposit',
@@ -54,6 +80,7 @@ const getStartedData = [
     ],
     img: img3Webp,
     img1: img31Webp,
+    quickSliders: [quickslider3Webp, quickslider31Webp],
   },
   {
     title: 'Trading',
@@ -65,6 +92,7 @@ const getStartedData = [
     ],
     img: img4Webp,
     img1: img41Webp,
+    quickSliders: [quickslider4Webp, quickslider41Webp, quickslider42Webp, quickslider43Webp],
   },
   {
     title: 'Profit',
@@ -75,6 +103,7 @@ const getStartedData = [
     ],
     img: img5Webp,
     img1: img51Webp,
+    quickSliders: [quickslider5Webp, quickslider51Webp],
   },
   {
     title: 'Withdrawal',
@@ -85,8 +114,17 @@ const getStartedData = [
     ],
     img: img6Webp,
     img1: img61Webp,
+    quickSliders: [quickslider6Webp, quickslider61Webp, quickslider62Webp],
   },
-]
+])
+
+const handleLearnMore = (item) => {
+  item.learnMore = !item.learnMore
+}
+
+const handleHideDetail = (item) => {
+  item.learnMore = !item.learnMore
+}
 </script>
 
 <template>
@@ -125,31 +163,83 @@ const getStartedData = [
             <div
               v-for="(item, index) in getStartedData"
               :key="index"
-              class="step-item flex flex-col justify-start items-center gap-4 memd:flex-row-reverse"
+              class="step-item flex flex-col justify-start items-center gap-8"
+              :class="[index % 2 === 0 ? 'memd:flex-row-reverse' : 'memd:flex-row']"
             >
-              <div class="step-img relative w-[210px] mesm:w-[240px] memd:flex-none">
-                <img class="absolute w-full" :src="item.img" alt="step-1" />
-                <img class="w-full" :src="item.img1" alt="step-1" />
+              <div
+                class="step-img flex-none relative w-[50%] bg-[#f0f4f9] rounded-xl overflow-hidden flex justify-center items-center py-12"
+                :class="{ 'memd:hidden': item.learnMore }"
+              >
+                <img class="absolute w-[60%]" :src="item.img" alt="step-1" />
+                <img class="w-[60%]" :src="item.img1" alt="step-1" />
               </div>
-              <div class="step-txt">
-                <div class="txt-title">
-                  <span
-                    class="num pr-2 text-4xl mesm:text-5xl memd:text-6xl melg:text-7xl font-semibold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] text-transparent bg-clip-text"
-                    >{{ index + 1 }}</span
+              <div
+                class="step-txt grid grid-cols-1 gap-8"
+                :class="{ 'memd:grid-cols-2': item.learnMore }"
+              >
+                <div class="col-txt">
+                  <div class="txt-title">
+                    <span
+                      class="num pr-2 text-4xl mesm:text-5xl memd:text-6xl melg:text-7xl font-semibold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] text-transparent bg-clip-text"
+                      >{{ index + 1 }}</span
+                    >
+                    <span class="num-title text-[#515151] text-xl font-semibold uppercase">{{
+                      item.title
+                    }}</span>
+                  </div>
+                  <div class="desc text-base text-[#515151]">
+                    <p class="mt-4" v-if="!item.learnMore">{{ item.desc[0] }}</p>
+                    <div v-if="item.learnMore">
+                      <p class="mt-4" v-for="(de, k) in item.desc" :key="k">{{ de }}</p>
+                    </div>
+                  </div>
+                  <div
+                    class="more-btn mt-6 link hidden memd:block"
+                    :class="{ 'memd:block': item.learnMore }"
                   >
-                  <span class="num-title text-[#515151] text-xl font-semibold uppercase">{{
-                    item.title
-                  }}</span>
+                    <div
+                      class="group text-base font-semibold flex flex-row justify-start items-center gap-4 hover:text-blue-500 text-[#515151]"
+                    >
+                      <a
+                        class="group-hover:underline group-hover:underline-offset-2 hover:cursor-pointer"
+                        @click="handleLearnMore(item)"
+                        >{{ item.learnMore ? 'Hide detail' : 'Learn more' }}</a
+                      ><span class="group-hover:animate-custom-spin">&gt;</span>
+                    </div>
+                  </div>
                 </div>
-                <div class="desc text-base text-[#515151]">
-                  <p class="mt-4">{{ item.desc[0] }}</p>
-                </div>
-                <div
-                  class="more-info mt-4 link group text-base font-semibold flex flex-row justify-start items-center gap-4 hover:text-blue-500 text-[#515151]"
-                >
-                  <a class="group-hover:underline group-hover:underline-offset-2" href="/regulation"
-                    >Learn more</a
-                  ><span class="group-hover:animate-custom-spin">&gt;</span>
+                <div class="col-banner learn-more flex flex-col justify-center items-center">
+                  <div
+                    v-if="item.learnMore"
+                    class="more-banner bg-[#f0f4f9] rounded-xl overflow-hidden"
+                  >
+                    <Carousel v-bind="carouselConfig">
+                      <Slide v-for="(img, index) in item.quickSliders" :key="index">
+                        <div class="carousel__item">
+                          <img :src="img" alt="" />
+                        </div>
+                      </Slide>
+
+                      <template #addons>
+                        <Navigation />
+                        <Pagination />
+                      </template>
+                    </Carousel>
+                  </div>
+                  <div
+                    class="more-btn mt-6 link block memd:hidden"
+                    :class="{ 'memd:hidden': item.learnMore }"
+                  >
+                    <div
+                      class="group text-base font-semibold flex flex-row justify-start items-center gap-4 hover:text-blue-500 text-[#515151]"
+                    >
+                      <a
+                        class="group-hover:underline group-hover:underline-offset-2 hover:cursor-pointer"
+                        @click="handleHideDetail(item)"
+                        >{{ item.learnMore ? 'Hide detail' : 'Learn more' }}</a
+                      ><span class="group-hover:animate-custom-spin">&gt;</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

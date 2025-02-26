@@ -298,7 +298,7 @@ const peopleSays = [
           </div>
           <div class="grid-list grid grid-cols-1 gap-12 mesm:grid-cols-2 lg:grid-cols-4">
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why1.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -312,7 +312,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why2.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -325,7 +325,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why3.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -338,7 +338,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why4.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -350,7 +350,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why5.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -363,7 +363,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why6.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -377,7 +377,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why7.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -391,7 +391,7 @@ const peopleSays = [
               </div>
             </div>
             <div
-              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:skew-x-3 skew-x-0 transition-all duration-300 ease-in-out"
+              class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out"
             >
               <img src="@/assets/svg/why8.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
