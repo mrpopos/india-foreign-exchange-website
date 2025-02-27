@@ -32,16 +32,89 @@ export default {
         responsibilitybg: "url('../../../src/assets/images/responsibilitybg.webp')",
         cfdbg: "url('../../../src/assets/images/cfdbg.webp')",
         depositsbg: "url('../../../src/assets/images/depositsbg.webp')",
-        howdeposit1: "url('../../../src/assets/images/howdeposit1.webp')"
+        howdeposit1: "url('../../../src/assets/images/howdeposit1.webp')",
+        howdeposit6: "url('../../../src/assets/images/howdeposit6.webp')"
       },
       keyframes: {
         spin: {
           from: { transform: 'translate(0)' },
           to: { transform: 'translate(50px)' }
+        },
+        dot1: {
+          '0%': {},
+          '25%': {
+            backgroundColor: '#0000ff'
+          },
+          '50%': {
+            backgroundColor: '#0000ff'
+          },
+          '75%': {
+            backgroundColor: '#0000ff'
+          },
+          '100%': {}
+        },
+        dot2: {
+          '0%': {},
+          '25%': {},
+          '50%': {
+            backgroundColor: '#0000ff'
+          },
+          '75%': {
+            backgroundColor: '#0000ff'
+          },
+          '100%': {}
+        },
+        dot3: {
+          '0%': {},
+          '25%': {},
+          '50%': {},
+          '75%': {
+            backgroundColor: '#0000ff'
+          },
+          '100%': {}
+        },
+        steptxt1: {
+          '0%': {},
+          '25%': {
+            color: '#0000ff'
+          },
+          '50%': {
+            color: '#0000ff'
+          },
+          '75%': {
+            color: '#0000ff'
+          },
+          '100%': {}
+        },
+        steptxt2: {
+          '0%': {},
+          '25%': {},
+          '50%': {
+            color: '#0000ff'
+          },
+          '75%': {
+            color: '#0000ff'
+          },
+          '100%': {}
+        },
+        steptxt3: {
+          '0%': {},
+          '25%': {},
+          '50%': {},
+          '75%': {
+            color: '#0000ff'
+          },
+          '100%': {}
         }
       },
       animation: {
-        'custom-spin': 'spin 1s ease-out infinite'
+        'custom-spin': 'spin 1s ease-out infinite',
+        'custom-dot1': 'dot1 8s linear infinite',
+        'custom-dot2': 'dot2 8s linear infinite',
+        'custom-dot3': 'dot3 8s linear infinite',
+        'custom-steptxt1': 'steptxt1 8s linear infinite',
+        'custom-steptxt2': 'steptxt2 8s linear infinite',
+        'custom-steptxt3': 'steptxt3 8s linear infinite'
       }
     }
   },

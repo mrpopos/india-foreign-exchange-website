@@ -98,25 +98,62 @@ watchEffect(() => {
                   <div class="line2 absolute top-0 left-0"></div>
                   <ul class="flex flex-col justify-start items-start gap-10">
                     <li class="flex flex-row justify-start items-center gap-10 -mt-4">
-                      <span class="dot bg-white w-[14px] h-[14px] rounded-[50%] border border-gray-500 relative"></span>
-                      <span class="txt text-nowrap text-sm">Enter deposit amount</span>
+                      <span class="dot bg-white w-[14px] h-[14px] rounded-[50%] border border-gray-500 relative animate-custom-dot1"></span>
+                      <span class="txt text-nowrap text-sm animate-custom-steptxt1">Enter deposit amount</span>
                     </li>
                     <li class="flex flex-row justify-start items-center gap-10">
-                      <span class="dot bg-white w-[14px] h-[14px] rounded-[50%] border border-gray-500 relative"></span>
-                      <span class="txt text-nowrap text-sm">Choose payment method</span>
+                      <span class="dot bg-white w-[14px] h-[14px] rounded-[50%] border border-gray-500 relative animate-custom-dot2"></span>
+                      <span class="txt text-nowrap text-sm animate-custom-steptxt2">Choose payment method</span>
                     </li>
                     <li class="flex flex-row justify-start items-center gap-10 -mb-4">
-                      <span class="dot bg-white w-[14px] h-[14px] rounded-[50%] border border-gray-500 relative"></span>
-                      <span class="txt text-nowrap text-sm">Takes only minutes to the account </span>
+                      <span class="dot bg-white w-[14px] h-[14px] rounded-[50%] border border-gray-500 relative animate-custom-dot3"></span>
+                      <span class="txt text-nowrap text-sm animate-custom-steptxt3">Takes only minutes to the account </span>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="line1-right w-full max-w-[320px] mesm:min-w-[250px] bg-howdeposit1 bg-contain bg-no-repeat bg-center">
-                <img class="avator" src="@/assets/images/howdeposit2.webp" alt="" />
-                <img class="avator" src="@/assets/images/howdeposit3.webp" alt="" />
-                <img class="avator" src="@/assets/images/howdeposit4.webp" alt="" />
-                <img class="avator" src="@/assets/images/howdeposit5.webp" alt="" />
+              <div class="line1-right w-full max-w-[320px] h-[450px] bg-howdeposit1 bg-contain bg-no-repeat bg-center relative">
+                <img class="avator w-[80px] absolute left-0 top-0" src="@/assets/images/howdeposit2.webp" alt="" />
+                <img class="avator w-[80px] absolute right-0 top-0" src="@/assets/images/howdeposit3.webp" alt="" />
+                <img class="avator w-[80px] absolute left-0 bottom-0" src="@/assets/images/howdeposit4.webp" alt="" />
+                <img class="avator w-[80px] absolute right-0 bottom-0" src="@/assets/images/howdeposit5.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- How to withdrawal? -->
+      <section class="suport-team w-full py-20 bg-section-bg">
+        <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
+          <h2 class="title text-black px-6 pt-4 text-2xl font-semibold mb-8 text-center">How to withdrawal?</h2>
+          <div class="w-full flex flex-col justify-between items-start gap-12 memd:flex-row">
+            <div class="w-full introduce-line1 rounded-lg flex flex-col justify-between items-center gap-12 p-4 memd:flex-row-reverse">
+              <div class="line1-left">
+                <h2 class="title text-lg text-black font-semibold mb-14">Safe and secure withdrawals</h2>
+                <div class="step relative">
+                  <div class="line1 absolute top-0 left-[6px] w-[2px] h-full bg-gray-400"></div>
+                  <div class="line2 absolute top-0 left-0"></div>
+                  <ul class="flex flex-col justify-start items-start gap-10">
+                    <li class="flex flex-row justify-start items-center gap-10 -mt-4">
+                      <span class="dot bg-white w-[14px] h-[14px] rounded-[50%] border border-gray-500 relative animate-custom-dot1"></span>
+                      <span class="txt text-nowrap text-sm animate-custom-steptxt1">Enter withdrawal amount</span>
+                    </li>
+                    <li class="flex flex-row justify-start items-center gap-10">
+                      <span class="dot bg-white w-[14px] h-[14px] rounded-[50%] border border-gray-500 relative animate-custom-dot2"></span>
+                      <span class="txt text-nowrap text-sm animate-custom-steptxt2">Fill in personal bank account information</span>
+                    </li>
+                    <li class="flex flex-row justify-start items-center gap-10 -mb-4">
+                      <span class="dot bg-white w-[14px] h-[14px] rounded-[50%] border border-gray-500 relative animate-custom-dot3"></span>
+                      <span class="txt text-nowrap text-sm animate-custom-steptxt3">Transit to your bank account in as little as 20 minutes </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="line1-right flex-none w-full max-w-[320px] h-[450px] bg-howdeposit6 bg-contain bg-no-repeat bg-center relative">
+                <img class="avator w-[80px] absolute left-0 top-0" src="@/assets/images/howdeposit7.webp" alt="" />
+                <img class="avator w-[80px] absolute right-0 top-0" src="@/assets/images/howdeposit8.webp" alt="" />
+                <img class="avator w-[80px] absolute left-0 bottom-0" src="@/assets/images/howdeposit9.webp" alt="" />
+                <img class="avator w-[80px] absolute right-0 bottom-0" src="@/assets/images/howdeposit10.webp" alt="" />
               </div>
             </div>
           </div>
