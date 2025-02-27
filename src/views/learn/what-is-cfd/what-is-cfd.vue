@@ -3,6 +3,12 @@ import { ref, watchEffect } from 'vue'
 import Footer from '@/layout/components/footer.vue'
 import { useDomScroll } from '@/hooks/useDomScroll'
 import { useAppStore } from '@/stores/modules/app'
+import cfdsIcon1 from '@/assets/images/cfds1.webp'
+import cfdsIcon2 from '@/assets/images/cfds2.webp'
+import cfdsIcon3 from '@/assets/images/cfds3.webp'
+import cfdsIcon4 from '@/assets/images/cfds4.webp'
+import cfdsIcon5 from '@/assets/images/cfds5.webp'
+import cfdsIcon6 from '@/assets/images/cfds6.webp'
 
 const scrollContainer = ref()
 const { scrollTop } = useDomScroll(scrollContainer)
@@ -15,27 +21,33 @@ const discoverData = ref([
   {
     title: 'Service Desk Agent',
     content: 'Mitigate against risk with our extensive range of stop and limit orders.',
+    icon: cfdsIcon1,
   },
   {
     title: 'Senior C++ Developer (Hybrid)',
     content: "We're here 24 hours a day, except from 6am to 4pm on Saturday (UTC+8).",
+    icon: cfdsIcon2,
   },
   {
     title: 'Client Service Associate-English',
     content:
       'Please use our award-winning trading application, available on both web and mobile platforms.',
+    icon: cfdsIcon3,
   },
   {
     title: 'Administrative Assistant, Analytics, Data & Innovation',
     content: 'Open a position for a fraction of the cost with our competitive margins.',
+    icon: cfdsIcon4,
   },
   {
     title: 'Associate Portfolio Manager, Global Capital Markets',
     content: 'React to breaking news with custom price alerts.',
+    icon: cfdsIcon5,
   },
   {
     title: 'Risk Control Group (RCG) Analyst',
     content: 'Enhance your trading skills with guidance and social media learning.',
+    icon: cfdsIcon6,
   },
 ])
 const showAllLegal = ref(true)
@@ -137,13 +149,16 @@ const showLegalDetail = (index: number) => {
           </h2>
           <div class="discover-list grid grid-cols-1 gap-4 mesm:grid-cols-2 memd:grid-cols-3">
             <div
-              class="discover-item py-6 px-4 group flex flex-col justify-start items-center gap-8 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-100 ease-in-out"
+              class="discover-item py-6 px-4 flex flex-col justify-start items-center gap-8 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-100 ease-in-out"
               v-for="(item, index) in discoverData"
               :key="index"
               @click="showLegalDetail(index)"
             >
+              <div class="img">
+                <img :src="item.icon" alt="" />
+              </div>
               <div
-                class="text-gray-950 font-semibold group-hover:underline group-hover:underline-offset-2 group-hover:text-blue-500 transition-all duration-100 ease-in-out text-center"
+                class="text-gray-950 font-semibold transition-all duration-100 ease-in-out text-center"
               >
                 {{ item.title }}
               </div>
