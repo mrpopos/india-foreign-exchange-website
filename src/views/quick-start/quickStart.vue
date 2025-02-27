@@ -36,6 +36,7 @@ import 'vue3-carousel/carousel.css'
 import { Carousel, Slide, Navigation, Pagination } from 'vue3-carousel'
 
 const carouselConfig = {
+  autoplay: 3000,
   itemsToShow: 1,
   wrapAround: true,
 }
@@ -164,7 +165,11 @@ const handleHideDetail = (item) => {
               v-for="(item, index) in getStartedData"
               :key="index"
               class="step-item flex flex-col justify-start items-center gap-8"
-              :class="[index % 2 === 0 ? 'memd:flex-row-reverse' : 'memd:flex-row']"
+              :class="[
+                index % 2 === 0
+                  ? 'memd:flex-row-reverse memd:items-start'
+                  : 'memd:flex-row memd:items-start',
+              ]"
             >
               <div
                 class="step-img flex-none relative w-[50%] bg-[#f0f4f9] rounded-xl overflow-hidden flex justify-center items-center py-12"
@@ -174,10 +179,10 @@ const handleHideDetail = (item) => {
                 <img class="w-[60%]" :src="item.img1" alt="step-1" />
               </div>
               <div
-                class="step-txt grid grid-cols-1 gap-8"
+                class="step-txt grid grid-cols-1 gap-x-8"
                 :class="{ 'memd:grid-cols-2': item.learnMore }"
               >
-                <div class="col-txt">
+                <div class="col-txt" :class="[index % 2 === 0 ? 'memd:order-1' : 'memd:order-2']">
                   <div class="txt-title">
                     <span
                       class="num pr-2 text-4xl mesm:text-5xl memd:text-6xl melg:text-7xl font-semibold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] text-transparent bg-clip-text"
@@ -208,15 +213,18 @@ const handleHideDetail = (item) => {
                     </div>
                   </div>
                 </div>
-                <div class="col-banner learn-more flex flex-col justify-center items-center">
+                <div
+                  class="col-banner learn-more flex flex-col justify-start items-center"
+                  :class="[index % 2 === 0 ? 'memd:order-2' : 'memd:order-1']"
+                >
                   <div
                     v-if="item.learnMore"
                     class="more-banner bg-[#f0f4f9] rounded-xl overflow-hidden"
                   >
                     <Carousel v-bind="carouselConfig">
                       <Slide v-for="(img, index) in item.quickSliders" :key="index">
-                        <div class="carousel__item">
-                          <img :src="img" alt="" />
+                        <div class="carousel__item p-8">
+                          <img class="rounded-lg" :src="img" alt="" />
                         </div>
                       </Slide>
 

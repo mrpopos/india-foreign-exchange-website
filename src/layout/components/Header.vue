@@ -88,7 +88,7 @@ function activeTab(path: string) {
 </script>
 
 <template>
-  <div class="header-wrapper px-12" :class="{ 'bg-white': appStore.scrollTop > 80 }">
+  <div class="header-wrapper px-12" :class="[appStore.scrollTop > 80 ? 'bg-white' : 'bg-black']">
     <div class="header-container">
       <div class="logo" @click="activeTab('/')">
         <img :src="LogoIcon" alt="logo" />
