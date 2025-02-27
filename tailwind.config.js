@@ -17,13 +17,13 @@ export default {
         'text-color-5': '#212121', // 文字颜色：首页区域why choose us副标题
         'text-color-6': '#515151', // 文字颜色：首页区域why choose us文本
         'text-hover-color-1': '#ffffff', // 文字颜色：移动端菜单列表模块标题、菜单链接悬浮颜色
-        'section-bg': '#f7f8fa', // 背景色：区域背景色（区别于全局背景）
+        'section-bg': '#f7f8fa' // 背景色：区域背景色（区别于全局背景）
       },
       screens: {
         mexs: '320px',
         mesm: '600px',
         memd: '768px',
-        melg: '1200px',
+        melg: '1200px'
       },
       backgroundImage: {
         aboutbg: "url('../../../src/assets/images/aboutbg.webp')",
@@ -31,17 +31,19 @@ export default {
         fundbg: "url('../../../src/assets/images/fundbg.webp')",
         responsibilitybg: "url('../../../src/assets/images/responsibilitybg.webp')",
         cfdbg: "url('../../../src/assets/images/cfdbg.webp')",
+        depositsbg: "url('../../../src/assets/images/depositsbg.webp')",
+        howdeposit1: "url('../../../src/assets/images/howdeposit1.webp')"
       },
       keyframes: {
         spin: {
           from: { transform: 'translate(0)' },
-          to: { transform: 'translate(50px)' },
-        },
+          to: { transform: 'translate(50px)' }
+        }
       },
       animation: {
-        'custom-spin': 'spin 1s ease-out infinite',
-      },
-    },
+        'custom-spin': 'spin 1s ease-out infinite'
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }
