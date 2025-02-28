@@ -112,29 +112,26 @@
 
 <style lang="scss" scoped>
 .legal-detail {
-  font-size: 16px;
-  color: var(--c-black);
   line-height: 1.7;
   h2 {
     padding-bottom: 25px;
     a {
       padding: 8px 20px;
-      background-color: #282828;
+      background-color: #001b48;
+      color: #ffffff;
       font-weight: 600;
-      color: #bbb;
       border-radius: 5px;
     }
   }
   h3 {
     font-size: 18px;
-    color: #ffffff;
     font-weight: 600;
   }
   p {
-    padding: 8px 0;
+    padding: 10px 0;
     b {
       span {
-        color: #fefefe;
+        font-size: 17px;
         font-weight: 600;
       }
     }
@@ -144,11 +141,12 @@
     }
   }
   ul {
-    padding: 5px 0;
+    padding: 15px 0;
     li {
+      padding: 5px 0;
       &:before {
         content: '- ';
-        color: #fefefe;
+        padding-right: 5px;
       }
     }
   }

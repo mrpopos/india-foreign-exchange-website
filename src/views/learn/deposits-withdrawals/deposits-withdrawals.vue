@@ -20,7 +20,7 @@ watchEffect(() => {
         <div class="quick-banner-content w-full pt-40 pb-20">
           <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-center justify-center gap-12">
             <h1 class="w-full text-white text-3xl font-bold mesm:text-4xl melg:text-5xl text-center">DEPOSITS & WITHDRAWALS</h1>
-            <div class="desc text-base text-gray-700">
+            <div class="desc text-base text-text-color-6">
               <p class="text-gray-300 text-base md:text-xl py-1 text-center">Quick access to deposits & withdrawal with the most popular and secure payment methods.</p>
             </div>
             <div>
@@ -35,8 +35,8 @@ watchEffect(() => {
           <div class="flex flex-col justify-start items-start gap-12">
             <div class="introduce-line1 w-full bg-white rounded-lg flex flex-row justify-center items-center gap-8 px-8 pt-24 pb-8 mt-20 memd:mt-0 mesm:flex-row relative">
               <div class="line1-left w-full memd:w-[50%]">
-                <h2 class="title text-xl text-black font-semibold mb-6">Payment process</h2>
-                <p class="desc text-base text-gray-700 font-normal">
+                <h2 class="title text-xl font-semibold mb-6">Payment process</h2>
+                <p class="desc text-base text-text-color-6 font-normal">
                   For faster processing we recommend that all account holders deposit funds into their trading account from inside their Secure Client Area. From your Secure Client Area you will be able to fund your account in real time
                   using one of the instant funding methods. In certain instances, it may take up to hours for deposits to be processed into the designated trading account. If the above situation occurs, please contact our professional
                   customer service to deal with.
@@ -48,8 +48,8 @@ watchEffect(() => {
             </div>
             <div class="introduce-line2 w-full bg-white rounded-lg flex flex-row justify-center items-center gap-8 px-8 pt-24 pb-8 mt-20 memd:mt-0 mesm:flex-row-reverse relative">
               <div class="line1-left w-full memd:w-[50%]">
-                <h2 class="title text-xl text-black font-semibold mb-6">Security of Funds</h2>
-                <p class="desc text-base text-gray-700 font-normal">
+                <h2 class="title text-xl font-semibold mb-6">Security of Funds</h2>
+                <p class="desc text-base text-text-color-6 font-normal">
                   When funding your trading account, client money is held in separate and confidential account. Electronic payments are processed using SSL (Secure Socket Layer) technology and are encrypted to ensure security. All payment
                   information is confidential and used only for the purpose of funding your trading account with Guru Trade7.
                 </p>
@@ -60,8 +60,8 @@ watchEffect(() => {
             </div>
             <div class="introduce-line3 w-full bg-white rounded-lg flex flex-row justify-center items-center gap-8 px-8 pt-24 pb-8 mt-20 memd:mt-0 mesm:flex-row relative">
               <div class="line1-left w-full memd:w-[50%]">
-                <h2 class="title text-xl text-black font-semibold mb-6">Bank Fees</h2>
-                <p class="desc text-base text-gray-700 font-normal">
+                <h2 class="title text-xl font-semibold mb-6">Bank Fees</h2>
+                <p class="desc text-base text-text-color-6 font-normal">
                   Guru Trade7 does not charge any additional fees for deposits or withdrawals. You should however be aware that you may incur fees, such as intermediary fees, on payments to and from some international banking institutions.
                   Please do not trust any third party payments either for funding your account or for making a withdrawal.
                 </p>
@@ -72,8 +72,8 @@ watchEffect(() => {
             </div>
             <div class="introduce-line4 w-full bg-white rounded-lg flex flex-row justify-center items-center gap-8 px-8 pt-24 pb-8 mt-20 memd:mt-0 mesm:flex-row-reverse relative">
               <div class="line1-left w-full memd:w-[50%]">
-                <h2 class="title text-xl text-black font-semibold mb-6">Withdrawal order processing</h2>
-                <p class="desc text-base text-gray-700 font-normal">
+                <h2 class="title text-xl font-semibold mb-6">Withdrawal order processing</h2>
+                <p class="desc text-base text-text-color-6 font-normal">
                   Withdrawal requests can be submitted at any time. If you submit your withdrawal request before 9pm, it will be processed on the same day it is received. However, if your withdrawal is submitted after this time, it will be
                   processed on the next business day.
                 </p>
@@ -88,11 +88,11 @@ watchEffect(() => {
       <!-- How to deposit? -->
       <section class="suport-team w-full py-20 bg-section-bg">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
-          <h2 class="title text-black px-6 pt-4 text-2xl font-semibold mb-8 text-center">How to deposit?</h2>
+          <h2 class="title px-6 pt-4 text-2xl font-semibold mb-8 text-center">How to deposit?</h2>
           <div class="w-full flex flex-col justify-between items-start gap-12 memd:flex-row">
             <div class="w-full introduce-line1 rounded-lg flex flex-col justify-between items-center gap-12 p-4 memd:flex-row">
               <div class="line1-left">
-                <h2 class="title text-lg text-black font-semibold mb-14">Experience fast and secure deposits</h2>
+                <h2 class="title text-lg font-semibold mb-14">Experience fast and secure deposits</h2>
                 <div class="step relative">
                   <div class="line1 absolute top-0 left-[6px] w-[2px] h-full bg-gray-400"></div>
                   <div class="line2 absolute top-0 left-0"></div>
@@ -125,11 +125,11 @@ watchEffect(() => {
       <!-- How to withdrawal? -->
       <section class="suport-team w-full py-20 bg-section-bg">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
-          <h2 class="title text-black px-6 pt-4 text-2xl font-semibold mb-8 text-center">How to withdrawal?</h2>
+          <h2 class="title px-6 pt-4 text-2xl font-semibold mb-8 text-center">How to withdrawal?</h2>
           <div class="w-full flex flex-col justify-between items-start gap-12 memd:flex-row">
             <div class="w-full introduce-line1 rounded-lg flex flex-col justify-between items-center gap-12 p-4 memd:flex-row-reverse">
               <div class="line1-left">
-                <h2 class="title text-lg text-black font-semibold mb-14">Safe and secure withdrawals</h2>
+                <h2 class="title text-lg font-semibold mb-14">Safe and secure withdrawals</h2>
                 <div class="step relative">
                   <div class="line1 absolute top-0 left-[6px] w-[2px] h-full bg-gray-400"></div>
                   <div class="line2 absolute top-0 left-0"></div>

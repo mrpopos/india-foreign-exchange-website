@@ -50,20 +50,6 @@ const discoverData = ref([
     icon: cfdsIcon6,
   },
 ])
-const showAllLegal = ref(true)
-const activeLegalIndex = ref(-1)
-
-const showLegalDetail = (index: number) => {
-  if (index === activeLegalIndex.value) {
-    showAllLegal.value = true
-    activeLegalIndex.value = -1
-  } else {
-    showAllLegal.value = false
-    activeLegalIndex.value = index
-  }
-  // 滚动至顶部
-  scrollContainer.value.scrollTop = 0
-}
 </script>
 
 <template>
@@ -76,7 +62,7 @@ const showLegalDetail = (index: number) => {
             class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-center justify-center gap-12"
           >
             <h1
-              class="w-full text-white text-3xl font-bold mesm:text-4xl melg:text-5xl text-center"
+              class="w-full text-3xl font-bold mesm:text-4xl melg:text-5xl text-center"
             >
               WHAT IS CFD TRADING AND HOW DOES IT WORK?
             </h1>
@@ -102,8 +88,8 @@ const showLegalDetail = (index: number) => {
               class="introduce-line1 rounded-lg flex flex-col justify-center items-center gap-2 p-4 memd:flex-row-reverse"
             >
               <div class="line1-left flex flex-col justify-center items-start gap-8">
-                <h2 class="title text-lg text-black font-semibold">What is CFD trading?</h2>
-                <p class="desc text-base text-gray-700 font-normal">
+                <h2 class="title text-lg font-semibold">What is CFD trading?</h2>
+                <p class="desc text-base text-text-color-6 font-normal">
                   Trading CFDs, or 'contracts for difference', allows you to speculate on whether an
                   asset's price will move up or down – without having to own the asset. This
                   provides benefits, as well as potential risk to trading. Make sure you understand
@@ -118,8 +104,8 @@ const showLegalDetail = (index: number) => {
               class="introduce-line2 rounded-lg flex flex-col justify-center items-center gap-2 p-4 memd:flex-row"
             >
               <div class="line1-left flex flex-col justify-center items-start gap-8">
-                <h2 class="title text-lg text-black font-semibold">How does CFD trading work?</h2>
-                <p class="desc text-base text-gray-700 font-normal">
+                <h2 class="title text-lg font-semibold">How does CFD trading work?</h2>
+                <p class="desc text-base text-text-color-6 font-normal">
                   With CFD trading, you don't buy or sell the underlying asset (for example a
                   physical share, currency pair or commodity). Instead, you buy or sell a number of
                   units for a particular financial instrument​, depending on whether you think
@@ -144,7 +130,7 @@ const showLegalDetail = (index: number) => {
       <!-- Fees and Charges -->
       <section class="suport-team w-full py-40 memd:py-20 bg-gray-50">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
-          <h2 class="title text-black px-6 pt-4 text-2xl font-semibold mb-8 text-center">
+          <h2 class="title px-6 pt-4 text-2xl font-semibold mb-8 text-center">
             Why trade CFDs with Guru Trade7
           </h2>
           <div class="discover-list grid grid-cols-1 gap-4 mesm:grid-cols-2 memd:grid-cols-3">
@@ -152,17 +138,16 @@ const showLegalDetail = (index: number) => {
               class="discover-item py-6 px-4 flex flex-col justify-start items-center gap-8 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-100 ease-in-out"
               v-for="(item, index) in discoverData"
               :key="index"
-              @click="showLegalDetail(index)"
             >
               <div class="img">
                 <img :src="item.icon" alt="" />
               </div>
               <div
-                class="text-gray-950 font-semibold transition-all duration-100 ease-in-out text-center"
+                class="font-semibold transition-all duration-100 ease-in-out text-center"
               >
                 {{ item.title }}
               </div>
-              <div class="text-gray-600 text-center">{{ item.content }}</div>
+              <div class="text-text-color-6 text-center">{{ item.content }}</div>
             </div>
           </div>
         </div>

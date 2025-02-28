@@ -161,27 +161,27 @@ const peopleSays = [
             <div class="grid-list grid gap-4 grid-cols-2 lg:grid-cols-2">
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent">$5*</div>
-                <div class="name text-base text-text-color-1 text-center memd:text-base melg:text-lg">Minimum investment amount</div>
+                <div class="name text-base text-text-color-6 text-center memd:text-base melg:text-lg">Minimum investment amount</div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent">$1</div>
-                <div class="name text-base text-text-color-1 text-center memd:text-base melg:text-lg">Minimum trade amount</div>
+                <div class="name text-base text-text-color-6 text-center memd:text-base melg:text-lg">Minimum trade amount</div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent">$50 000</div>
-                <div class="name text-base text-text-color-1 text-center memd:text-base melg:text-lg">Virtual money on your Demo account</div>
+                <div class="name text-base text-text-color-6 text-center memd:text-base melg:text-lg">Virtual money on your Demo account</div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent">50+</div>
-                <div class="name text-base text-text-color-1 text-center memd:text-base melg:text-lg">Payment methods</div>
+                <div class="name text-base text-text-color-6 text-center memd:text-base melg:text-lg">Payment methods</div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent">$0</div>
-                <div class="name text-base text-text-color-1 text-center memd:text-base melg:text-lg">No commission on deposit and withdrawal</div>
+                <div class="name text-base text-text-color-6 text-center memd:text-base melg:text-lg">No commission on deposit and withdrawal</div>
               </div>
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent">100+</div>
-                <div class="name text-base text-text-color-1 text-center memd:text-base melg:text-lg">Assets for trading</div>
+                <div class="name text-base text-text-color-6 text-center memd:text-base melg:text-lg">Assets for trading</div>
               </div>
             </div>
             <div class="img flex items-center justify-center">
@@ -212,64 +212,64 @@ const peopleSays = [
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why1.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
-                <div class="title text-text-color-5 text-xl font-semibold my-2">Flexible Trading</div>
-                <div class="desc text-text-color-6">Latest trends: quick and digital trading, express trades, Forex MT5, pending orders, trades copying. Payouts up to 218%.</div>
+                <div class="title text-xl font-semibold my-2 text-center">Flexible Trading</div>
+                <div class="desc text-text-color-6 text-center">Latest trends: quick and digital trading, express trades, Forex MT5, pending orders, trades copying. Payouts up to 218%.</div>
               </div>
             </div>
             <div
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why2.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
-                <div class="title text-text-color-5 text-xl font-semibold my-2">Comprehensive Education</div>
-                <div class="desc text-text-color-6">Our help section contains tutorials, guides and various trading strategies.</div>
+                <div class="title text-xl font-semibold my-2 text-center">Comprehensive Education</div>
+                <div class="desc text-text-color-6 text-center">Our help section contains tutorials, guides and various trading strategies.</div>
               </div>
             </div>
             <div
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why3.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
-                <div class="title text-text-color-5 text-xl font-semibold my-2">Diverse Trading Instruments</div>
-                <div class="desc text-text-color-6">Assets suitable for any trader: currency, commodities, stocks.</div>
+                <div class="title text-xl font-semibold my-2 text-center">Diverse Trading Instruments</div>
+                <div class="desc text-text-color-6 text-center">Assets suitable for any trader: currency, commodities, stocks.</div>
               </div>
             </div>
             <div
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why4.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
-                <div class="title text-text-color-5 text-xl font-semibold my-2">Demo Account</div>
-                <div class="desc text-text-color-6">Try all platform benefits on the Demo account using virtual money. No investment needed, no risks involved.</div>
+                <div class="title text-xl font-semibold my-2 text-center">Demo Account</div>
+                <div class="desc text-text-color-6 text-center">Try all platform benefits on the Demo account using virtual money. No investment needed, no risks involved.</div>
               </div>
             </div>
             <div
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why5.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
-                <div class="title text-text-color-5 text-xl font-semibold my-2">Easy Deposits and Withdrawals</div>
-                <div class="desc text-text-color-6">Use the most convenient payment method for hassle-free deposits and withdrawals.</div>
+                <div class="title text-xl font-semibold my-2 text-center">Easy Deposits and Withdrawals</div>
+                <div class="desc text-text-color-6 text-center">Use the most convenient payment method for hassle-free deposits and withdrawals.</div>
               </div>
             </div>
             <div
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why6.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
-                <div class="title text-text-color-5 text-xl font-semibold my-2">High Customer Loyalty</div>
-                <div class="desc text-text-color-6">Trading tournaments, regular bonuses, gifts, promo codes and contests are available to any trader.</div>
+                <div class="title text-xl font-semibold my-2 text-center">High Customer Loyalty</div>
+                <div class="desc text-text-color-6 text-center">Trading tournaments, regular bonuses, gifts, promo codes and contests are available to any trader.</div>
               </div>
             </div>
             <div
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why7.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
-                <div class="title text-text-color-5 text-xl font-semibold my-2">Trading Advantages</div>
-                <div class="desc text-text-color-6">Use cashback and other advantages for a more comfortable trading experience with minimal risks.</div>
+                <div class="title text-xl font-semibold my-2 text-center">Trading Advantages</div>
+                <div class="desc text-text-color-6 text-center">Use cashback and other advantages for a more comfortable trading experience with minimal risks.</div>
               </div>
             </div>
             <div
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why8.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
-                <div class="title text-text-color-5 text-xl font-semibold my-2">Indicators and Signals</div>
-                <div class="desc text-text-color-6">Everything you need for a top-tier trading experience including popular indicators and signals.</div>
+                <div class="title text-xl font-semibold my-2 text-center">Indicators and Signals</div>
+                <div class="desc text-text-color-6 text-center">Everything you need for a top-tier trading experience including popular indicators and signals.</div>
               </div>
             </div>
           </div>
@@ -290,7 +290,7 @@ const peopleSays = [
                     <div class="avator flex flex-col justify-center items-center gap-2">
                       <img src="@/assets/images/avator01.png" alt="" />
                       <span class="name text-nowrap">{{ slide.name }}</span>
-                      <span class="text-nowrap text-base text-gray-500">UID {{ slide.uid }}</span>
+                      <span class="text-nowrap text-base text-text-color-6">UID {{ slide.uid }}</span>
                     </div>
                     <div class="right w-full flex flex-col justify-start items-start gap-6">
                       <div class="stardatetime w-full flex flex-row justify-between items-center gap-4">
@@ -301,11 +301,11 @@ const peopleSays = [
                           <span>★</span>
                           <span>★</span>
                         </div>
-                        <div class="datetime text-gray-500 text-base flex flex-row justify-start items-center gap-1 mesm:text-base">
+                        <div class="datetime text-text-color-6 text-base flex flex-row justify-start items-center gap-1 mesm:text-base">
                           <span>{{ slide.datetime }}</span>
                         </div>
                       </div>
-                      <div class="desc leading-7 text-base text-gray-400 mesm:text-base">
+                      <div class="desc leading-7 text-base text-text-color-6 mesm:text-base">
                         {{ slide.content }}
                       </div>
                     </div>

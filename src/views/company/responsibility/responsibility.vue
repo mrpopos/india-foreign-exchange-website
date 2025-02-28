@@ -202,23 +202,23 @@ const showLegalDetail = (index: number) => {
           </div>
         </section>
         <!-- Support Team from us -->
-        <section class="suport-team w-full py-20 bg-gradient-to-br from-blue-950 to-slate-900">
+        <section class="suport-team w-full py-20 bg-[#d7e1f3]">
           <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
-            <h2 class="title text-gray-100 px-6 pt-4 text-2xl font-semibold mb-8 text-center">
+            <h2 class="title px-6 pt-4 text-2xl font-semibold mb-8 text-center">
               Careers
             </h2>
-            <p class="text-gray-200 text-center py-8 font-semibold">
+            <p class="text-center py-8 font-semibold">
               We are looking for dynamic, highly energized individuals who are ready to join a
               fast-paced, leader in the financial services industry.
             </p>
             <div class="card-list grid grid-cols-1 gap-4 mexs:grid-cols-2 memd:grid-cols-3">
               <div
-                class="card-item bg-gray-100 p-2 mesm:p-7 rounded-lg flex flex-col justify-center items-center gap-2"
+                class="card-item bg-white p-2 mesm:p-7 rounded-lg flex flex-col justify-center items-center gap-2"
               >
                 <div class="flex flex-col-reverse justify-center items-center gap-2">
                   <div class="cart-left flex flex-col justify-center items-center gap-1">
                     <div class="card-value text-xl text-gray-800 font-semibold text-center">41</div>
-                    <div class="card-desc text-center text-base text-gray-700 font-normal">
+                    <div class="card-desc text-center text-base text-text-color-6 font-normal">
                       Number of countries where our employees live and work.
                     </div>
                   </div>
@@ -253,14 +253,14 @@ const showLegalDetail = (index: number) => {
                 </div>
               </div>
               <div
-                class="card-item bg-gray-100 p-2 mesm:p-7 rounded-lg flex flex-col justify-center items-center gap-2"
+                class="card-item bg-white p-2 mesm:p-7 rounded-lg flex flex-col justify-center items-center gap-2"
               >
                 <div class="flex flex-col-reverse justify-center items-center gap-2">
                   <div class="cart-left flex flex-col justify-center items-center gap-1">
                     <div class="card-value text-xl text-gray-800 font-semibold text-center">
                       73K
                     </div>
-                    <div class="card-desc text-center text-base text-gray-700 font-normal">
+                    <div class="card-desc text-center text-base text-text-color-6 font-normal">
                       Number of employees around the world.
                     </div>
                   </div>
@@ -295,12 +295,12 @@ const showLegalDetail = (index: number) => {
                 </div>
               </div>
               <div
-                class="card-item bg-gray-100 p-2 mesm:p-7 rounded-lg flex flex-col justify-center items-center gap-2"
+                class="card-item bg-white p-2 mesm:p-7 rounded-lg flex flex-col justify-center items-center gap-2"
               >
                 <div class="flex flex-col-reverse justify-center items-center gap-2">
                   <div class="cart-left flex flex-col justify-center items-center gap-1">
                     <div class="card-value text-xl text-gray-800 font-semibold text-center">36</div>
-                    <div class="card-desc text-center text-base text-gray-700 font-normal">
+                    <div class="card-desc text-center text-base text-text-color-6 font-normal">
                       Groups of employees-networking, with a combined membership of over 10,000.
                     </div>
                   </div>
@@ -335,7 +335,7 @@ const showLegalDetail = (index: number) => {
             </h2>
             <div class="discover-list grid grid-cols-1 gap-4 mesm:grid-cols-2 memd:grid-cols-3">
               <div
-                class="discover-item bg-white rounded-lg py-6 px-4 hover:cursor-pointer group"
+                class="discover-item bg-[#f3f4f6] rounded-lg py-6 px-4 hover:cursor-pointer group"
                 v-for="(item, index) in discoverData"
                 :key="index"
                 @click="showLegalDetail(index)"

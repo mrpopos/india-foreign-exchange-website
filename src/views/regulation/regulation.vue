@@ -23,7 +23,7 @@ watchEffect(() => {
             <h2 class="text-white text-3xl font-semibold md:text-4xl xl:text-5xl">
               Our Guarantees
             </h2>
-            <p class="desc text-gray-400 text-base leading-6 py-1">
+            <p class="desc text-text-color-6 text-base leading-6 py-1">
               Olymptrade is a licensed and regulated broker by the Vanuatu Financial Services
               Commission. Olymptrade is committed to providing the highest quality of service. Our
               clients are covered by deposit insurance and have access to comprehensive support and
@@ -40,12 +40,12 @@ watchEffect(() => {
                 About the International Financial Commission (FinaCom)
               </div>
               <div class="desc">
-                <p class="text-gray-400 text-base leading-6 py-1">
+                <p class="text-text-color-6 text-base leading-6 py-1">
                   The International Financial Commission is an alternative dispute resolution center
                   established to protect the interests of individual traders. It promotes
                   transparency, integrity, and client education.
                 </p>
-                <p class="text-gray-400 text-base leading-6 py-1">
+                <p class="text-text-color-6 text-base leading-6 py-1">
                   Membership with FinaCom is an honor reserved for companies that constantly and
                   faithfully adhere to these principles. Olymptrade joined the Commission on
                   February 22, 2016.
@@ -55,7 +55,7 @@ watchEffect(() => {
             <div class="block2-item">
               <div class="title text-3xl">About Financial Markets Association in Vanuatu</div>
               <div class="desc">
-                <p class="text-gray-400 text-base leading-6 py-1">
+                <p class="text-text-color-6 text-base leading-6 py-1">
                   Financial Markets Association in Vanuatu is a self-regulatory body for Vanuatu
                   Financial Dealer License holders.
                 </p>
@@ -70,7 +70,7 @@ watchEffect(() => {
               <div class="desc">
                 <p>
                   <span class="sort">1.</span>
-                  <span class="text-gray-400 text-base leading-6 py-1"
+                  <span class="text-text-color-6 text-base leading-6 py-1"
                     >Olymptrade conducts its business activity under the laws of Saint Vincent and
                     the Grenadines, because Saledo Global LLC, a company which operates the
                     Olymptrade platform, is registered in that jurisdiction. That means that laws of
@@ -83,7 +83,7 @@ watchEffect(() => {
                 </p>
                 <p>
                   <span class="sort">2.</span>
-                  <span class="text-gray-400 text-base leading-6 py-1"
+                  <span class="text-text-color-6 text-base leading-6 py-1"
                     >Olymptrade is also supervised by the Financial Commission, an independent
                     international self-regulatory organization which resolves disputes between
                     brokers and their customers. Olymptrade has reserved EUR 20,000 at the Financial
@@ -99,7 +99,7 @@ watchEffect(() => {
                 </p>
                 <p>
                   <span class="sort">3.</span>
-                  <span class="text-gray-400 text-base leading-6 py-1"
+                  <span class="text-text-color-6 text-base leading-6 py-1"
                     >The RBI alert is related only to Forex transactions. However, Olymptrade offers
                     a big variety of financial products apart from Forex (such as FTT, stocks) to
                     its customers worlwide, including those who register on the platform from India.
@@ -119,17 +119,17 @@ watchEffect(() => {
             </div>
             <div class="block3-item">
               <div class="title text-2xl font-semibold py-3">Legal Aid</div>
-              <p class="text-gray-400 text-base leading-6 py-1">
+              <p class="text-text-color-6 text-base leading-6 py-1">
                 Olymptrade clients are entitled to free legal assistance with any disputes they may
                 raise with the broker.
               </p>
               <div class="title text-2xl font-semibold py-3">Compensation</div>
-              <p class="text-gray-400 text-base leading-6 py-1">
+              <p class="text-text-color-6 text-base leading-6 py-1">
                 Should any wrongdoing be proven on the part of the broker, a trader is eligible to
                 receive up to €20,000 in compensation.
               </p>
               <div class="title text-2xl font-semibold py-3">Verifiable Quotes</div>
-              <p class="text-gray-400 text-base leading-6 py-1">
+              <p class="text-text-color-6 text-base leading-6 py-1">
                 All market prices quoted on the Olymptrade platform are third-party verified. The
                 data can be accessed at all times so the trader can ensure they are getting the best
                 trade execution.
@@ -150,7 +150,7 @@ watchEffect(() => {
               <div class="desc">
                 <p>
                   <span class="sort">1.</span>
-                  <span class="text-gray-400 text-base leading-6 py-1"
+                  <span class="text-text-color-6 text-base leading-6 py-1"
                     >First, make sure you’ve described the issue to the broker. You can do so by
                     contacting the Olymptrade Client Relations Department in writing. We’ll do our
                     absolute best to get back to you within 24 hours of receiving your
@@ -159,7 +159,7 @@ watchEffect(() => {
                 </p>
                 <p>
                   <span class="sort">2.</span>
-                  <span class="text-gray-400 text-base leading-6 py-1"
+                  <span class="text-text-color-6 text-base leading-6 py-1"
                     >If you are not fully satisfied with the solution proposed by our specialist or
                     the problem is not resolved within 14 days, you have the right to file a formal
                     complaint with the Financial Commission.</span
@@ -167,7 +167,7 @@ watchEffect(() => {
                 </p>
                 <p>
                   <span class="sort">3.</span>
-                  <span class="text-gray-400 text-base leading-6 py-1"
+                  <span class="text-text-color-6 text-base leading-6 py-1"
                     >You can describe the problem on the regulator's site or download a request form
                     in pdf and submit the completed file via the designated FinaCom email.</span
                   >
@@ -184,7 +184,7 @@ watchEffect(() => {
                   >support-en@olymptrade.com</a
                 >
               </div>
-              <p class="text-gray-400 text-base leading-6 py-1">
+              <p class="text-text-color-6 text-base leading-6 py-1">
                 The services on the Website are provided by Aollikus Limited, a licensed financial
                 dealer, company number: 40131, registered address: 1276, Govant Building, Kumul
                 Highway, Port Vila, Republic of Vanuatu. Saledo Global LLC, registered at Euro
