@@ -86,7 +86,7 @@ const handleMenuIcoClick = () => {
 </script>
 
 <template>
-  <div class="header-mobile-wrapper px-8" :class="{ 'bg-white': useAppStore().scrollTop > 80 }">
+  <div class="header-mobile-wrapper px-8" :class="[useAppStore().scrollTop > 80 ? 'bg-white' : 'bg-black']">
     <div class="header-mobile-container">
       <div
         class="menu-box flex flex-row justify-start items-center gap-2"

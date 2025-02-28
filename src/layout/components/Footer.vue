@@ -10,11 +10,13 @@
               <div class="line-box no-children-menu flex flex-col justify-start items-start gap-1">
                 <div
                   class="menu-item leading-9 underline underline-offset-2 hover:text-text-hover-color-1 group hover:cursor-pointer"
+                  @click="handleJump('/quick-start')"
                 >
                   Quick Start
                 </div>
                 <div
                   class="menu-item leading-9 underline underline-offset-2 hover:text-text-hover-color-1 group hover:cursor-pointer"
+                  @click="handleJump('/help/center')"
                 >
                   Help
                 </div>
@@ -134,21 +136,25 @@
               <h2 class="title text-white text-xl font-semibold pb-4">Company</h2>
               <div
                 class="menu-item leading-9 underline underline-offset-2 hover:text-text-hover-color-1 group hover:cursor-pointer"
+                @click="handleJump('/company/about-us')"
               >
                 About Us
               </div>
               <div
                 class="menu-item leading-9 underline underline-offset-2 hover:text-text-hover-color-1 group hover:cursor-pointer"
+                @click="handleJump('/company/legal')"
               >
                 Legal
               </div>
               <div
                 class="menu-item leading-9 underline underline-offset-2 hover:text-text-hover-color-1 group hover:cursor-pointer"
+                @click="handleJump('/company/fund-safety')"
               >
                 Fund Safety
               </div>
               <div
                 class="menu-item leading-9 underline underline-offset-2 hover:text-text-hover-color-1 group hover:cursor-pointer"
+                @click="handleJump('/company/responsibility')"
               >
                 Responsibility
               </div>
@@ -157,23 +163,15 @@
               <h2 class="title text-white text-xl font-semibold pb-4">Learn</h2>
               <div
                 class="menu-item leading-9 underline underline-offset-2 hover:text-text-hover-color-1 group hover:cursor-pointer"
-              >
-                Guides
-              </div>
-              <div
-                class="menu-item leading-9 underline underline-offset-2 hover:text-text-hover-color-1 group hover:cursor-pointer"
+                @click="handleJump('/learn/what-is-cfd')"
               >
                 Whats is CFD?
               </div>
               <div
                 class="menu-item leading-9 underline underline-offset-2 hover:text-text-hover-color-1 group hover:cursor-pointer"
+                @click="handleJump('/learn/deposits-withdrawals')"
               >
                 Deposits & Withdrawal2
-              </div>
-              <div
-                class="menu-item leading-9 underline underline-offset-2 hover:text-text-hover-color-1 group hover:cursor-pointer"
-              >
-                Glossary
               </div>
             </div>
           </div>

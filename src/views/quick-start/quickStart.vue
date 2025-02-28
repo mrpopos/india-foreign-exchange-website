@@ -137,7 +137,7 @@ const handleHideDetail = (item) => {
           <div
             class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-center justify-center gap-12"
           >
-            <h1 class="text-white text-3xl font-bold mesm:text-4xl melg:text-5xl">
+            <h1 class="text-white text-3xl font-bold mesm:text-4xl melg:text-5xl text-center">
               How to trade on financial markets
             </h1>
             <div class="desc text-base mt-4 text-[#515151]">

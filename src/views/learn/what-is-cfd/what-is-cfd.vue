@@ -62,11 +62,11 @@ const discoverData = ref([
             class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-center justify-center gap-12"
           >
             <h1
-              class="w-full text-3xl font-bold mesm:text-4xl melg:text-5xl text-center"
+              class="w-full text-3xl font-bold mesm:text-4xl melg:text-5xl text-center text-white"
             >
               WHAT IS CFD TRADING AND HOW DOES IT WORK?
             </h1>
-            <div class="desc text-base text-gray-700">
+            <div class="desc text-base text-text-color-6">
               <p class="text-gray-300 text-base md:text-xl py-1 text-center">
                 Discover a complete CFD guide, mastering diverse asset trading with essential
                 knowledge and strategies for success.

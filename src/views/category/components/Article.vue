@@ -78,7 +78,7 @@ onMounted(() => {
 
     .paragraph {
       font-size: 16px;
-      color: var(--c-white-1);
+      color: #001b48;
       line-height: 1.5;
     }
 
