@@ -26,14 +26,14 @@ export default {
         melg: '1200px'
       },
       backgroundImage: {
-        aboutbg: "url('../../../src/assets/images/aboutbg.webp')",
-        legalbg: "url('../../../src/assets/images/legalbg.webp')",
-        fundbg: "url('../../../src/assets/images/fundbg.webp')",
-        responsibilitybg: "url('../../../src/assets/images/responsibilitybg.webp')",
-        cfdbg: "url('../../../src/assets/images/cfdbg.webp')",
-        depositsbg: "url('../../../src/assets/images/depositsbg.webp')",
-        howdeposit1: "url('../../../src/assets/images/howdeposit1.webp')",
-        howdeposit6: "url('../../../src/assets/images/howdeposit6.webp')"
+        aboutbg: "url('/images/aboutbg.webp')",
+        legalbg: "url('/images/legalbg.webp')",
+        fundbg: "url('/images/fundbg.webp')",
+        responsibilitybg: "url('/images/responsibilitybg.webp')",
+        cfdbg: "url('/images/cfdbg.webp')",
+        depositsbg: "url('/images/depositsbg.webp')",
+        howdeposit1: "url('/images/howdeposit1.webp')",
+        howdeposit6: "url('/images/howdeposit6.webp')"
       },
       keyframes: {
         spin: {

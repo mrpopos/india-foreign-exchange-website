@@ -140,7 +140,6 @@ const hideSubMenu = (index: number) => {
 
 // 激活菜单项
 const menuJump = (item: MenuItem) => {
-  console.log('item', item)
   activeMenu.value = item.label
   if (item.to) {
     router.push(item.to)
