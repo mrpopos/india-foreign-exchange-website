@@ -19,7 +19,7 @@ watchEffect(() => {
       <section class="quick-banner overflow-hidden bg-depositsbg bg-cover">
         <div class="quick-banner-content w-full pt-40 pb-20">
           <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-center justify-center gap-12">
-            <h1 class="w-full text-white text-3xl font-bold mesm:text-4xl melg:text-5xl text-center text-center">DEPOSITS & WITHDRAWALS</h1>
+            <h1 class="w-full text-white text-3xl font-bold mesm:text-4xl melg:text-5xl text-center">DEPOSITS & WITHDRAWALS</h1>
             <div class="desc text-base text-text-color-6">
               <p class="text-gray-300 text-base md:text-xl py-1 text-center">Quick access to deposits & withdrawal with the most popular and secure payment methods.</p>
             </div>

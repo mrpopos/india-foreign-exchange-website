@@ -2,7 +2,6 @@
 import Header from './components/header.vue'
 import headerMobile from './components/headerMobile.vue'
 import Main from './components/main.vue'
-// import Footer from './components/Footer.vue'
 import { useWindowSize } from '@/hooks/useWindowSize'
 
 const windowSize = useWindowSize()
@@ -17,9 +16,6 @@ const windowSize = useWindowSize()
     <div class="layout-main">
       <Main />
     </div>
-    <!-- <div class="layout-footer">
-      <Footer />
-    </div> -->
   </div>
 </template>
 
