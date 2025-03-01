@@ -137,16 +137,16 @@ const peopleSays = [
         <div class="home-banner-content w-full absolute top-0 left-1/2 transform translate-y-1/3 -translate-x-1/2">
           <div class="w-full pb-20 memd:pt-20">
             <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24 flex flex-col items-start justify-center gap-12">
-              <h1 class="text-white text-3xl font-bold mesm:text-5xl melg:text-6xl melg:font-semibold melg:leading-[80px]">
+              <h1 v-animate-onscroll.once="'animate__slideInLeft'" class="text-white text-3xl font-bold mesm:text-5xl melg:text-6xl melg:font-semibold melg:leading-[80px]">
                 THE RIGHT PLACE<br />
                 FOR ONLINE TRADING<br />
                 ON FINANCIAL MARKETS
               </h1>
-              <div class="desc">
+              <div v-animate-onscroll.once="'animate__slideInLeft'" class="desc">
                 <p class="text-white text-base md:text-xl">The most user-friendly interface</p>
                 <p class="text-white text-base md:text-xl">Get access to trade over 100 global trading assets</p>
               </div>
-              <div>
+              <div v-animate-onscroll.once="'animate__slideInLeft'">
                 <a class="btn px-8 py-4 bg-white rounded-lg text-lg hover:cursor-pointer bg-gradient-to-r from-[#0099fa] to-[#002ed9] text-white hover:from-[#1d6b9c] hover:to-[#1e358a]">Start Trading Now</a>
               </div>
             </div>
@@ -158,7 +158,7 @@ const peopleSays = [
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
           <h2 class="text-text-color-4 font-semibold mb-16 text-[20px] mesm:text-[24px] memd:text-[28px] melg:text-[32px]">Place your trades on best conditions</h2>
           <div class="grid grid-cols-1 gap-12 mesm:grid-cols-2">
-            <div class="grid-list grid gap-4 grid-cols-2 lg:grid-cols-2">
+            <div v-animate-onscroll.once="'animate__slideInLeft'" class="grid-list grid gap-4 grid-cols-2 lg:grid-cols-2">
               <div class="item flex flex-col justify-start items-center gap-2">
                 <div class="value text-4xl font-bold bg-gradient-to-br from-[#0099fa] to-[#1a4dde] bg-clip-text text-transparent">$5*</div>
                 <div class="name text-base text-text-color-6 text-center memd:text-base melg:text-lg">Minimum investment amount</div>
@@ -184,7 +184,7 @@ const peopleSays = [
                 <div class="name text-base text-text-color-6 text-center memd:text-base melg:text-lg">Assets for trading</div>
               </div>
             </div>
-            <div class="img flex items-center justify-center">
+            <div v-animate-onscroll.once="'animate__slideInRight'" class="img flex items-center justify-center">
               <img src="@/assets/images/nowdata.webp" alt="" />
             </div>
           </div>
@@ -193,12 +193,12 @@ const peopleSays = [
       <!-- licensed and regulated online broker -->
       <div class="w-full py-20 bg-section-bg">
         <div class="w-full px-6 mx-auto mesm:px-12 memd:px-16 melg:max-w-[1200px] melg:px-24">
-          <div class="text-[20px] mesm:text-[24px] memd:text-[28px] melg:text-[32px] font-semibold">ForeignExchange is a licensed and regulated online broker</div>
-          <div class="content text-base text-center my-16 text-[#515151]">
+          <div v-animate-onscroll.once="'animate__bounceInUp'" class="text-[20px] mesm:text-[24px] memd:text-[28px] melg:text-[32px] font-semibold">ForeignExchange is a licensed and regulated online broker</div>
+          <div v-animate-onscroll.once="'animate__bounceInUp'" class="content text-base text-center my-16 text-[#515151]">
             ForeignExchange is a licensed and regulated broker by the Vanuatu Financial Services Commission. ForeignExchange is committed to providing the highest quality of service. Our clients are covered by deposit insurance and have
             access to comprehensive support and prompt resolution of any issues concerning their financial interactions with ForeignExchange.
           </div>
-          <div class="link group text-xl font-semibold flex flex-row justify-center items-center gap-4 hover:text-blue-500 text-[#515151]">
+          <div v-animate-onscroll.once="'animate__bounceInUp'" class="link group text-xl font-semibold flex flex-row justify-center items-center gap-4 hover:text-blue-500 text-[#515151]">
             <a class="group-hover:underline group-hover:underline-offset-2" href="/regulation">Learn more</a><span class="group-hover:animate-spin">&gt;</span>
           </div>
         </div>
@@ -209,6 +209,7 @@ const peopleSays = [
           <div class="font-semibold mb-16 text-[20px] mesm:text-[24px] memd:text-[28px] melg:text-[32px]">Why choose us?</div>
           <div class="grid-list grid grid-cols-1 gap-12 mesm:grid-cols-2 lg:grid-cols-4">
             <div
+              v-animate-onscroll.once="'animate__fadeInTopLeft'"
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why1.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -217,6 +218,7 @@ const peopleSays = [
               </div>
             </div>
             <div
+              v-animate-onscroll.once="'animate__fadeInTopLeft'"
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why2.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -225,6 +227,7 @@ const peopleSays = [
               </div>
             </div>
             <div
+              v-animate-onscroll.once="'animate__fadeInTopRight'"
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why3.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -233,6 +236,7 @@ const peopleSays = [
               </div>
             </div>
             <div
+              v-animate-onscroll.once="'animate__fadeInTopRight'"
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why4.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -241,6 +245,7 @@ const peopleSays = [
               </div>
             </div>
             <div
+              v-animate-onscroll.once="'animate__fadeInTopLeft'"
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why5.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -249,6 +254,7 @@ const peopleSays = [
               </div>
             </div>
             <div
+              v-animate-onscroll.once="'animate__fadeInTopLeft'"
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why6.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -257,6 +263,7 @@ const peopleSays = [
               </div>
             </div>
             <div
+              v-animate-onscroll.once="'animate__fadeInTopRight'"
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why7.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -265,6 +272,7 @@ const peopleSays = [
               </div>
             </div>
             <div
+              v-animate-onscroll.once="'animate__fadeInTopRight'"
               class="item flex flex-col justify-start items-center gap-2 bg-gradient-to-br from-slate-500 via-blue-300 via-50% to-gray-500 p-2 rounded-lg hover:shadow-2xl shadow-gray-700 hover:cursor-pointer hover:scale-105 hover:from-gray-500 hover:via-blue-300 hover:via-50% hover:to-slate-500 transition-all duration-300 ease-in-out">
               <img src="@/assets/svg/why8.svg" alt="" class="p-1 shadow-xl" />
               <div class="content flex flex-col justify-start items-center gap-2">
@@ -282,7 +290,7 @@ const peopleSays = [
             <h2 class="font-semibold mb-4 text-[20px] mesm:text-[24px] memd:text-[28px] melg:text-[32px]">What people say about us</h2>
             <p class="text-base mb-8 md:text-lg mesm:mb-16">More than 10 million customers worldwide trust us and earn daily.</p>
           </div>
-          <div class="my-carousel shadow-lg shadow-indigo-500/40 rounded-xl boeder-4 border-indigo-500">
+          <div v-animate-onscroll.once="'animate__jackInTheBox'" class="my-carousel shadow-lg shadow-indigo-500/40 rounded-xl boeder-4 border-indigo-500">
             <Carousel v-bind="carouselConfig" class="px-8 py-6">
               <Slide v-for="(slide, index) in peopleSays" :key="index">
                 <div class="carousel__item w-full">
