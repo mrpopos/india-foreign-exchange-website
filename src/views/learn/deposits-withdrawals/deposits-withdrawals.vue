@@ -51,7 +51,7 @@ watchEffect(() => {
                 <h2 class="title text-xl font-semibold mb-6">Security of Funds</h2>
                 <p class="desc text-base text-text-color-6 font-normal">
                   When funding your trading account, client money is held in separate and confidential account. Electronic payments are processed using SSL (Secure Socket Layer) technology and are encrypted to ensure security. All payment
-                  information is confidential and used only for the purpose of funding your trading account with Guru Trade7.
+                  information is confidential and used only for the purpose of funding your trading account with ABC Private Limited.
                 </p>
               </div>
               <div class="line1-right absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 memd:static memd:w-[50%] memd:translate-x-0 memd:translate-y-0 flex justify-center items-center memd:bg-white rounded-lg">
@@ -62,8 +62,8 @@ watchEffect(() => {
               <div class="line1-left w-full memd:w-[50%]">
                 <h2 class="title text-xl font-semibold mb-6">Bank Fees</h2>
                 <p class="desc text-base text-text-color-6 font-normal">
-                  Guru Trade7 does not charge any additional fees for deposits or withdrawals. You should however be aware that you may incur fees, such as intermediary fees, on payments to and from some international banking institutions.
-                  Please do not trust any third party payments either for funding your account or for making a withdrawal.
+                  ABC Private Limited does not charge any additional fees for deposits or withdrawals. You should however be aware that you may incur fees, such as intermediary fees, on payments to and from some international banking
+                  institutions. Please do not trust any third party payments either for funding your account or for making a withdrawal.
                 </p>
               </div>
               <div class="line1-right absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 memd:static memd:w-[50%] memd:translate-x-0 memd:translate-y-0 flex justify-center items-center memd:bg-white rounded-lg">

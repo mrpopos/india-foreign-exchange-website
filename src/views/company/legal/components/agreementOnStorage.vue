@@ -6,96 +6,28 @@
       <a href="/company/legal">&lt; BACK</a>
     </h2>
     <h3>Agreement on the Storage of the Cardholder’s Credentials</h3>
-    <p>
-      <span class="sort">1.</span
-      ><span
-        >This Agreement on the Storage of the Cardholder’s Credentials (hereinafter – the
-        “Agreement”) is entered into between you (hereinafter also referred to as – the
-        “Cardholder”) and GURUTRADE7 LIMITED, having its registered address at: First Floor, First
-        St Vincent Bank Ltd Building, James Street, Kingstown, St. Vincent and the Grenadines.
-        (hereinafter – the “Merchant”).</span
-      >
-    </p>
-    <p>
-      <span class="sort">2.</span
-      ><span
-        >By ticking the relevant tick-box you express full consent to this Agreement and authorize
-        the Merchant and its payment processing service provider to store your name, surname, card
-        expiry date, and PAN number (hereinafter – the Credentials on File (COF)) and to initiate
-        transactions on your behalf (hereinafter – Merchant-Initiated COF Transactions) and/or to
-        process transactions initiated by you (hereinafter – Cardholder-Initiated COF Transactions),
-        both by using the Credentials of File, as indicated below.</span
-      >
-    </p>
-    <p>
-      <span>Disclosures of the Merchant:</span>
-    </p>
-    <div>
-      <div>
-        <ul>
-          <li>
-            <span
-              >Your Credentials will be used for: Cardholder-Initiated COF Transactions and
-              Merchant-Initiated COF Transactions.</span
-            >
-          </li>
-          <li>
-            <span
-              >Description of services: Fixed Time Trades services as described in the Service
-              Agreement on our website.</span
-            >
-          </li>
-          <li><span>Fixed date or interval of the Transaction: N/A</span></li>
-          <li>
-            <span
-              >Event that will prompt the Transaction: Cardholder’s request to replenish client
-              balance.</span
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-    <p>
-      <span class="sort">4.</span
-      ><span
-        >The following details in relation to this Agreement shall be included in the transaction
-        confirmation: card number, transaction amount, surcharges (if applicable), transaction
-        currency, transaction date, authorization code, the Merchant’s location.</span
-      >
-    </p>
-    <p>
-      <span class="sort">5.</span
-      ><span
-        >You will be notified of any changes to the present Agreement 7 (seven) business days before
-        such changes become effective in relation to scheduled (with fixed, regular intervals)
-        Merchant-Initiated COF Transactions, and 2 (two) business days before such changes become
-        effective in relation to Merchant-Initiated COF Transactions which are unscheduled or in
-        relation to Cardholder-Initiated COF Transactions.</span
-      >
-    </p>
-    <p>
-      <span class="sort">6.</span
-      ><span
-        >The Agreement shall enter into force after successful authorization (or account
-        verification) by your card issuer and receipt of your consent to this Agreement by the
-        Merchant, and shall be valid until terminated by you or by the Merchant according to the
-        Cancellation policy.</span
-      >
-    </p>
-    <p>
-      <span class="sort">7.</span
-      ><span
-        >The Cancellation and refund policies of the Merchant are accessible are available in clause
-        8 of the Non-trading Transactions Regulation and KYC/AML Policy.</span
-      >
-    </p>
-    <p>
-      <span class="sort">8.</span
-      ><span
-        >In case of any inquiries related to this Agreement, please contact:
-        support@gurutrade7.com</span
-      >
-    </p>
+    <h5>1. Introduction</h5>
+    <p>This Agreement is made between you (the "Cardholder") and ABC (the "Merchant"). By agreeing to this, you authorize ABC and its payment provider to store your card details and process transactions on your behalf.</p>
+    <h5>2. Stored Card Details</h5>
+    <p>The following card credentials will be stored:</p>
+    <p>- Cardholder’s name and surname</p>
+    <p>- Card expiration date</p>
+    <p>- PAN (Primary Account Number)</p>
+    <p>These details will be used for:</p>
+    <p>- Cardholder-Initiated Transactions (when you manually make a payment).</p>
+    <p>- Merchant-Initiated Transactions (when ABC processes a payment based on prior authorization).</p>
+    <h5>3. Payment Terms</h5>
+    <p>- Purpose: Used for funding your trading account.</p>
+    <p>- Transaction Frequency: No fixed interval (processed only upon request).</p>
+    <p>- Confirmation Details: Each transaction confirmation will include the card number (masked), amount, currency, date, authorization code, and merchant location.</p>
+    <h5>4. Agreement Updates</h5>
+    <p>- You will be notified 7 days in advance for changes to scheduled payments.</p>
+    <p>- You will be notified 2 days in advance for changes to unscheduled or manual payments.</p>
+    <h5>5. Agreement Validity & Cancellation</h5>
+    <p>- This Agreement is valid until canceled by you or ABC, following the Cancellation Policy.</p>
+    <p>- Refund and cancellation policies are detailed in Clause 8 of the Non-Trading Transactions Regulation and KYC/AML Policy.</p>
+    <h5>6. Contact Information</h5>
+    <p>For inquiries related to this Agreement, contact ABC Support at: [support@abc.com].</p>
   </div>
 </template>
 
@@ -116,17 +48,28 @@
     font-size: 18px;
     font-weight: 600;
   }
-  p {
+  h4 {
+    font-size: 17px;
+    font-weight: 600;
     padding: 10px 0;
+  }
+  h5 {
+    color: #0856dd;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 25px 0 5px 0;
+  }
+  p {
+    padding: 6px 0;
     b {
       span {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 600;
       }
     }
-    .sort {
-      font-weight: 600;
-      padding-right: 5px;
+    a {
+      color: #001b48;
+      text-decoration: underline;
     }
   }
   ul {
